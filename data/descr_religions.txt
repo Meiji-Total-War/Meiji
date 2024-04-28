@@ -1,0 +1,57 @@
+religions
+{
+	catholic
+	orthodox
+	sunni
+	confucian
+	buddhism
+	pagan
+	heretic
+	liberal
+	islam
+}
+
+religion catholic
+{
+	pip_path	ui/pips/pip_shinto.tga
+}
+
+religion orthodox
+{
+	pip_path	ui/pips/pip_orthodox.tga
+}
+
+religion sunni
+{
+	pip_path	ui/pips/pip_islam.tga
+}
+
+religion confucian
+{
+	pip_path	ui/pips/pip_daoism.tga
+}
+
+religion buddhism
+{
+	pip_path	ui/pips/pip_buddhist.tga
+}
+
+religion pagan
+{
+	pip_path	ui/pips/pip_shamanism.tga
+}
+
+religion heretic
+{
+	pip_path	ui/pips/pip_heretic.tga
+}
+
+religion liberal
+{
+	pip_path	ui/pips/pip_liberal.tga
+}
+
+religion islam
+{
+	pip_path	ui/pips/pip_fish.tga
+}

@@ -1,0 +1,174 @@
+england
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+france
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+hre
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 20
+
+spain
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 20
+
+venice
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+sicily
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+milan
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+scotland
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 20
+
+byzantium
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+russia
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+moors
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 20
+
+turks
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 10
+
+egypt
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 20
+
+denmark
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 20
+
+portugal
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 10
+
+poland
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 20
+
+hungary
+hold_regions
+take_regions 38
+short_campaign hold_regions
+take_regions 10
+
+papal_states
+hold_regions
+take_regions 30
+short_campaign hold_regions
+take_regions 10
+
+aztecs
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+mongols
+hold_regions
+take_regions 40
+short_campaign hold_regions
+take_regions 20
+
+timurids
+hold_regions
+take_regions 38
+short_campaign hold_regions
+take_regions 25
+
+normans
+hold_regions
+take_regions 35
+short_campaign hold_regions
+take_regions 20
+
+slave
+hold_regions
+take_regions 33
+short_campaign hold_regions
+take_regions 30
+
+ezo
+hold_regions
+take_regions 33
+short_campaign hold_regions
+take_regions 30
+
+ryukyu
+hold_regions
+take_regions 33
+short_campaign hold_regions
+take_regions 30
+
+nepal
+hold_regions
+take_regions 33
+short_campaign hold_regions
+take_regions 30
+
+burma
+hold_regions
+take_regions 33
+short_campaign hold_regions
+take_regions 30
+
+india
+hold_regions
+take_regions 33
+short_campaign hold_regions
+take_regions 30
+
+malaya
+hold_regions
+take_regions 33
+short_campaign hold_regions
+take_regions 30
+

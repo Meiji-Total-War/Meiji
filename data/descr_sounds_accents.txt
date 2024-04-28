@@ -1,0 +1,26 @@
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;
+
+accent English
+    factions england, saxons
+
+accent Scottish
+    factions 
+
+accent French
+    factions france
+
+accent German
+    factions hre, denmark
+
+accent Mediterranean
+    factions spain, portugal, slave
+
+accent East_European
+    factions russia, milan, sicily, normans, ryukyu, nepal, burma
+
+accent Arabic
+    factions byzantium, poland, turks, moors, india, malaya
+
+accent Mongolian
+    factions venice, hungary, scotland, egypt, papal_states, mongols, timurids, aztecs, ezo, china
