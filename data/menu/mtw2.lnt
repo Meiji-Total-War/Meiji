@@ -1,13 +1,4 @@
 <version>1.01</version>
-<texture>textures\gigversion.tga
-  <path>textures</path>
-  <region>gigversion
-    <left>0</left>
-    <top>0</top>
-    <right>160</right>
-    <bottom>40</bottom>
-  </region>
-</texture>
 <texture>M2_Border.tga
   <path>textures</path>
   <region>Border_Main_L
@@ -851,33 +842,6 @@
     <bottom>486</bottom>
   </region>
 </texture>
-<texture>_M2_Historical_Battle_Armies_PANELS.tga
-  <path>textures</path>
-  <region>_M2_Hist_Battle_Armies_PANELS
-    <left>0</left>
-    <top>0</top>
-    <right>822</right>
-    <bottom>400</bottom>
-  </region>
-</texture>
-<texture>_M2_Historical_Battle_Armies_PANELS_V2.tga
-  <path>textures</path>
-  <region>_M2_Hist_Bat_Armies_PANELS_V2
-    <left>0</left>
-    <top>0</top>
-    <right>831</right>
-    <bottom>322</bottom>
-  </region>
-</texture>
-<texture>_M2_Historical_Battle_PANELS.tga
-  <path>textures</path>
-  <region>_M2_Historical_Battle_PANELS
-    <left>0</left>
-    <top>0</top>
-    <right>966</right>
-    <bottom>382</bottom>
-  </region>
-</texture>
 <texture>_M2_Host_Game_PANELS.tga
   <path>textures</path>
   <region>_M2_Host_Game_PANELS
@@ -966,24 +930,6 @@
     <top>0</top>
     <right>996</right>
     <bottom>461</bottom>
-  </region>
-</texture>
-<texture>_M2_MP_Historical_Battle_Choose_Teams.tga
-  <path>textures</path>
-  <region>_M2_MP_Hist_Battle_Choose_Teams
-    <left>0</left>
-    <top>0</top>
-    <right>1024</right>
-    <bottom>768</bottom>
-  </region>
-</texture>
-<texture>_M2_MP_Historical_Battle_Choose_Teams_PANELS.tga
-  <path>textures</path>
-  <region>_M2_MPHistBatChooseTeamsPANELS
-    <left>0</left>
-    <top>0</top>
-    <right>989</right>
-    <bottom>463</bottom>
   </region>
 </texture>
 <texture>_M2_MP_Player_Waiting_PANELS.tga
@@ -2345,15 +2291,6 @@
     <bottom>768</bottom>
   </region>
 </texture>
-<texture>textures\historical_battle_pic.tga
-  <path>textures</path>
-  <region>historical_battle
-    <left>0</left>
-    <top>0</top>
-    <right>896</right>
-    <bottom>320</bottom>
-  </region>
-</texture>
 <texture>textures\imperial_campaign_pic.tga
   <path>textures</path>
   <region>imperial_campaign_pic
@@ -2407,13 +2344,6 @@
   <right>1024</right>
   <bottom>768</bottom>
 </fmv>
-<UI object>gigversion
-  <type>art</type>
-  <UI region>art
-    <page>textures\gigversion.tga</page>
-    <region>gigversion</region>
-  </UI region>
-</UI object>
 <UI object>gold_bar
   <type>art</type>
   <UI region>art
@@ -2440,13 +2370,6 @@
   <UI region>art
     <page>textures\imperial_campaign_pic.tga</page>
     <region>imperial_campaign_pic</region>
-  </UI region>
-</UI object>
-<UI object>historical_battle
-  <type>art</type>
-  <UI region>art
-    <page>textures\historical_battle_pic.tga</page>
-    <region>historical_battle</region>
   </UI region>
 </UI object>
 <UI object>progress_bar
@@ -3438,13 +3361,6 @@
     <region>_M2_Options_Video_PANEL</region>
   </UI region>
 </UI object>
-<UI object>_M2_MP_Hist_Battle_Choose_Teams
-  <type>art</type>
-  <UI region>art
-    <page>_M2_MP_Historical_Battle_Choose_Teams.tga</page>
-    <region>_M2_MP_Hist_Battle_Choose_Teams</region>
-  </UI region>
-</UI object>
 <UI object>save
   <type>push_button</type>
   <UI region>enabled
@@ -3567,13 +3483,6 @@
     <region>_M2_MP_CustBatChooseTeamsPANELS</region>
   </UI region>
 </UI object>
-<UI object>_M2_MPHistBatChooseTeamsPANELS
-  <type>art</type>
-  <UI region>art
-    <page>_M2_MP_Historical_Battle_Choose_Teams_PANELS.tga</page>
-    <region>_M2_MPHistBatChooseTeamsPANELS</region>
-  </UI region>
-</UI object>
 <UI object>_M2_MP_Choose_Conditions_PANELS
   <type>art</type>
   <UI region>art
@@ -3588,13 +3497,6 @@
     <region>_M2_MPCustBatChooseTroopsPANELS</region>
   </UI region>
 </UI object>
-<UI object>_M2_Historical_Battle_PANELS
-  <type>art</type>
-  <UI region>art
-    <page>_M2_Historical_Battle_PANELS.tga</page>
-    <region>_M2_Historical_Battle_PANELS</region>
-  </UI region>
-</UI object>
 <UI object>_M2_Host_Game_PANELS
   <type>art</type>
   <UI region>art
@@ -3607,13 +3509,6 @@
   <UI region>art
     <page>_M2_Lobby_PANELS.tga</page>
     <region>_M2_Lobby_PANELS</region>
-  </UI region>
-</UI object>
-<UI object>_M2_Hist_Battle_Armies_PANELS
-  <type>art</type>
-  <UI region>art
-    <page>_M2_Historical_Battle_Armies_PANELS.tga</page>
-    <region>_M2_Hist_Battle_Armies_PANELS</region>
   </UI region>
 </UI object>
 <UI object>_M2_Grand_Campaign_PANELS
@@ -3693,13 +3588,6 @@
   <UI region>art
     <page>_M2_MP_Player_Waiting_PANELS.tga</page>
     <region>_M2_MP_Player_Waiting_PANELS</region>
-  </UI region>
-</UI object>
-<UI object>_M2_Hist_Bat_Armies_PANELS_V2
-  <type>art</type>
-  <UI region>art
-    <page>_M2_Historical_Battle_Armies_PANELS_V2.tga</page>
-    <region>_M2_Hist_Bat_Armies_PANELS_V2</region>
   </UI region>
 </UI object>
 <UI object>Player_Status
@@ -3944,17 +3832,6 @@
       </Parameters>
       <object_data></object_data>
       <object_id>_M2_Border_frontend</object_id>
-    </UI piece>
-    <UI piece>gigversion
-      <identifier>UIP_EMPTY_ART</identifier>
-      <Parameters>
-        <x>200</x>
-        <y>715</y>
-        <width>160</width>
-        <height>40</height>
-        <locked>true</locked>
-      </Parameters>
-      <object_id>gigversion</object_id>
     </UI piece>
     <UI piece>_M2_Main_Menu_PANELS
       <identifier>UIP_EMPTY_ART</identifier>
@@ -4222,24 +4099,6 @@
       <object_data></object_data>
       <object_id>empty_push_button</object_id>
     </UI piece>
-    <UI piece>new_game_historical_battles
-      <identifier>UIP_HISTORICAL_BATTLES</identifier>
-      <Parameters>
-        <x>79</x>
-        <y>376</y>
-        <width>320</width>
-        <height>38</height>
-        <menu_id>historical_battle</menu_id>
-        <UI text>UI_NEW_GAME_HISTORICAL_BATTLE
-          <font_id>verdana</font_id>
-          <align>centre</align>
-        </UI text>
-        <tool_tip_id>UI_NEW_GAME_HISTORICAL_BATTLE_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_push_button</object_id>
-    </UI piece>
     <UI piece>new_game_info
       <identifier>UIP_STATIC_TOOLTIP</identifier>
       <Parameters>
@@ -4420,8 +4279,6 @@
       <object_data></object_data>
       <object_id>arrow_return</object_id>
     </UI piece>
-  </lpage>
-  <lpage>historical_battle
     <UI piece>_M2_Border_HB
       <identifier>UIP_EMPTY_ART</identifier>
       <Parameters>
@@ -4433,111 +4290,6 @@
       </Parameters>
       <object_data></object_data>
       <object_id>_M2_Border</object_id>
-    </UI piece>
-    <UI piece>_M2_Historical_PANELS
-      <identifier>UIP_EMPTY_ART</identifier>
-      <Parameters>
-        <x>30</x>
-        <y>195</y>
-        <width>966</width>
-        <height>382</height>
-        <locked>true</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>_M2_Historical_Battle_PANELS</object_id>
-    </UI piece>
-    <UI piece>historical_battle_title
-      <identifier>UIP_EMPTY_ART</identifier>
-      <Parameters>
-        <x>0</x>
-        <y>44</y>
-        <width>1023</width>
-        <height>90</height>
-        <UI text>UI_HISTORICAL_BATTLE_TITLE
-          <font_id>kpl_60</font_id>
-          <align>centre</align>
-        </UI text>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>imperial_campaign_description
-      <identifier>UIP_HISTORICAL_BATTLE_LIST</identifier>
-      <Parameters>
-        <x>40</x>
-        <y>251</y>
-        <width>277</width>
-        <height>314</height>
-        <UI text>UI__DUMMY_TEXT
-          <font_id>verdana_sml</font_id>
-          <align>left</align>
-        </UI text>
-        <tool_tip_id>UI_HISTORICAL_SELECT_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_select_battle_title
-      <identifier>UIP_STATIC_TEXT</identifier>
-      <Parameters>
-        <x>54</x>
-        <y>210</y>
-        <width>249</width>
-        <height>26</height>
-        <UI text>UI_HISTORICAL_BATTLE_SELECT_TITLE
-          <font_id>verdana</font_id>
-          <align>centre</align>
-        </UI text>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_description
-      <identifier>UIP_HISTORICAL_BATTLE_DESCRIPTION</identifier>
-      <Parameters>
-        <x>704</x>
-        <y>273</y>
-        <width>262</width>
-        <height>273</height>
-        <UI text>UI__DUMMY_TEXT
-          <font_id>verdana_sml</font_id>
-          <align>left</align>
-        </UI text>
-        <tool_tip_id>UI_HISTORICAL_DESCR_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_arrow_continue
-      <identifier>UIP_VERIFY_MENU_BUTTON</identifier>
-      <Parameters>
-        <x>887</x>
-        <y>738</y>
-        <width>136</width>
-        <height>29</height>
-        <menu_id>historical_battle_details_M2</menu_id>
-        <tool_tip_id>UI_HISTORICAL_BATTLE_CHOOSE_ARMY</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_continue</object_id>
-    </UI piece>
-    <UI piece>historical_battle_arrow_return
-      <identifier>UIP_BACK_BUTTON</identifier>
-      <Parameters>
-        <x>0</x>
-        <y>738</y>
-        <width>136</width>
-        <height>29</height>
-        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_return</object_id>
     </UI piece>
     <UI piece>back_text
       <identifier>UIP_STATIC_TEXT</identifier>
@@ -5482,8 +5234,8 @@
     <UI piece>eax_logo
       <identifier>UIP_EMPTY_ART</identifier>
       <Parameters>
-        <x>16</x>
-        <y>14</y>
+        <x>18</x>
+        <y>17</y>
         <width>150</width>
         <height>66</height>
         <locked>false</locked>
@@ -8669,7 +8421,7 @@
       <identifier>UIP_EMPTY_ART</identifier>
       <Parameters>
         <x>0</x>
-        <y>24</y>
+        <y>1</y>
         <width>1023</width>
         <height>90</height>
         <UI text>UI_FACTION_SELECT_TITLE
@@ -8831,10 +8583,10 @@
     <UI piece>CFP_symbol48_1
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>2</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>162</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8845,10 +8597,10 @@
     <UI piece>CFP_symbol48_2
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>62</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>212</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8859,10 +8611,10 @@
     <UI piece>CFP_symbol48_3
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>122</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>262</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8873,10 +8625,10 @@
     <UI piece>CFP_symbol48_4
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>182</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>312</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8887,10 +8639,10 @@
     <UI piece>CFP_symbol48_5
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>242</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>362</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8901,10 +8653,10 @@
     <UI piece>CFP_symbol48_6
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>302</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>412</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8915,10 +8667,10 @@
     <UI piece>CFP_symbol48_7
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>362</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>462</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8929,10 +8681,10 @@
     <UI piece>CFP_symbol48_8
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>422</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>512</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8943,10 +8695,10 @@
     <UI piece>CFP_symbol48_9
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>482</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>562</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8957,10 +8709,10 @@
     <UI piece>CFP_symbol48_10
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>542</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>612</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8971,10 +8723,10 @@
     <UI piece>CFP_symbol48_11
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>602</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>662</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8985,10 +8737,10 @@
     <UI piece>CFP_symbol48_12
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>662</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>712</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -8999,10 +8751,10 @@
     <UI piece>CFP_symbol48_13
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>722</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>762</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9013,10 +8765,10 @@
     <UI piece>CFP_symbol48_14
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>782</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>812</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9027,10 +8779,10 @@
     <UI piece>CFP_symbol48_15
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>842</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>162</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9041,10 +8793,10 @@
     <UI piece>CFP_symbol48_16
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>902</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>212</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9055,10 +8807,10 @@
     <UI piece>CFP_symbol48_17
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>962</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>262</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9069,10 +8821,10 @@
     <UI piece>CFP_symbol48_18
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>2</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>312</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9083,10 +8835,10 @@
     <UI piece>CFP_symbol48_19
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>62</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>362</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9097,10 +8849,10 @@
     <UI piece>CFP_symbol48_20
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>122</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>412</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9111,10 +8863,10 @@
     <UI piece>CFP_symbol48_21
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>182</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>462</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9125,10 +8877,10 @@
     <UI piece>CFP_symbol48_22
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>242</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>512</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9139,10 +8891,10 @@
     <UI piece>CFP_symbol48_23
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>302</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>562</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9153,10 +8905,10 @@
     <UI piece>CFP_symbol48_24
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>662</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>612</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9167,10 +8919,10 @@
     <UI piece>CFP_symbol48_25
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>722</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>662</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9181,10 +8933,10 @@
     <UI piece>CFP_symbol48_26
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>782</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>712</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9195,10 +8947,10 @@
     <UI piece>CFP_symbol48_27
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>842</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>762</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9209,10 +8961,10 @@
     <UI piece>CFP_symbol48_28
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>902</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>812</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -9223,10 +8975,38 @@
     <UI piece>CFP_symbol48_29
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
+        <x>912</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_30
+      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <Parameters>
         <x>962</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_31
+      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>938</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -10590,6 +10370,146 @@
       <edit_group_id>factions</edit_group_id>
     </UI piece>
     <UI piece>symbol48_21
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_22
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_23
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_24
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_25
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_26
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_27
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_28
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_29
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_30
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>959</x>
+        <y>328</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_31
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
         <x>959</x>
@@ -12523,24 +12443,6 @@
       <object_data></object_data>
       <object_id>empty_push_button</object_id>
     </UI piece>
-    <UI piece>host_historical_battle
-      <identifier>UIP_VALIDATE_GAME_NAME</identifier>
-      <Parameters>
-        <x>79</x>
-        <y>268</y>
-        <width>320</width>
-        <height>36</height>
-        <menu_id>gs_historical_M2</menu_id>
-        <UI text>UI_SCENARIOS
-          <font_id>verdana</font_id>
-          <align>centre</align>
-        </UI text>
-        <tool_tip_id>UI_SCENARIOS_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_push_button</object_id>
-    </UI piece>
     <UI piece>powered_by_gamespy_web2
       <identifier>UIP_GAMESPY_LOGO</identifier>
       <Parameters>
@@ -13853,10 +13755,10 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_18
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>2</x>
-        <y>50</y>
+        <x>803</x>
+        <y>374</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -13867,10 +13769,10 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_19
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>62</x>
-        <y>50</y>
+        <x>861</x>
+        <y>374</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -13881,136 +13783,10 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_20
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>122</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_21
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>182</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_22
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>242</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_23
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>302</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_24
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>662</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_25
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>722</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_26
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>782</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_27
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>842</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_28
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>902</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-      <edit_group_id>symbols</edit_group_id>
-    </UI piece>
-    <UI piece>CFP_symbol48_29
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>962</x>
-        <y>50</y>
+        <x>919</x>
+        <y>374</y>
         <width>59</width>
         <height>59</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
@@ -15730,18 +15506,6 @@
       <object_data></object_data>
       <object_id>_M2_Border</object_id>
     </UI piece>
-    <UI piece>_M2_Historical_Battle_PANELS
-      <identifier>UIP_EMPTY_ART</identifier>
-      <Parameters>
-        <x>30</x>
-        <y>195</y>
-        <width>966</width>
-        <height>382</height>
-        <locked>true</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>_M2_Historical_Battle_PANELS</object_id>
-    </UI piece>
     <UI piece>chat_window
       <identifier>UIP_CHAT_WINDOW</identifier>
       <Parameters>
@@ -15757,99 +15521,6 @@
       </Parameters>
       <object_data></object_data>
       <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_title
-      <identifier>UIP_MP_HISTORICAL_BATTLE_TITLE</identifier>
-      <Parameters>
-        <x>0</x>
-        <y>44</y>
-        <width>1023</width>
-        <height>90</height>
-        <UI text>UI_HISTORICAL_BATTLE_TITLE
-          <font_id>kpl_60</font_id>
-          <align>centre</align>
-        </UI text>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>imperial_campaign_description
-      <identifier>UIP_HISTORICAL_BATTLE_LIST</identifier>
-      <Parameters>
-        <x>40</x>
-        <y>251</y>
-        <width>277</width>
-        <height>314</height>
-        <UI text>UI__DUMMY_TEXT
-          <font_id>verdana_sml</font_id>
-          <align>left</align>
-        </UI text>
-        <tool_tip_id>UI_HISTORICAL_SELECT_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_select_battle_title
-      <identifier>UIP_STATIC_TEXT</identifier>
-      <Parameters>
-        <x>54</x>
-        <y>210</y>
-        <width>249</width>
-        <height>26</height>
-        <UI text>UI_HISTORICAL_BATTLE_SELECT_TITLE
-          <font_id>verdana</font_id>
-          <align>centre</align>
-        </UI text>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_description
-      <identifier>UIP_HISTORICAL_BATTLE_DESCRIPTION</identifier>
-      <Parameters>
-        <x>704</x>
-        <y>273</y>
-        <width>263</width>
-        <height>273</height>
-        <UI text>UI__DUMMY_TEXT
-          <font_id>verdana_sml</font_id>
-          <align>left</align>
-        </UI text>
-        <tool_tip_id>UI_HISTORICAL_DESCR_TOOLTIP</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_arrow_continue
-      <identifier>UIP_VERIFY_MENU_BUTTON</identifier>
-      <Parameters>
-        <x>887</x>
-        <y>738</y>
-        <width>136</width>
-        <height>29</height>
-        <menu_id>gs_choose_army</menu_id>
-        <tool_tip_id>UI_HISTORICAL_BATTLE_CHOOSE_ARMY</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_continue</object_id>
-    </UI piece>
-    <UI piece>historical_battle_arrow_return
-      <identifier>UIP_BACK_BUTTON</identifier>
-      <Parameters>
-        <x>0</x>
-        <y>738</y>
-        <width>136</width>
-        <height>29</height>
-        <tool_tip_id>UI_MAIN_MENU_BACK_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_return</object_id>
     </UI piece>
     <UI piece>back_text
       <identifier>UIP_STATIC_TEXT</identifier>
@@ -15882,18 +15553,6 @@
       </Parameters>
       <object_data></object_data>
       <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>MP_HB_sword
-      <identifier>UIP_HISTORICAL_BATTLE_ARMY_SELECT</identifier>
-      <Parameters>
-        <x>618</x>
-        <y>205</y>
-        <width>67</width>
-        <height>65</height>
-        <locked>false</locked>
-      </Parameters>
-      <object_data>display</object_data>
-      <object_id>sword</object_id>
     </UI piece>
     <UI piece>battle_pic
       <identifier>UIP_CUSTOM_TERRAIN_PIC</identifier>
@@ -16229,20 +15888,6 @@
       </Parameters>
       <object_data></object_data>
       <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>cb_arrow_continue
-      <identifier>UIP_START_HISTORICAL_BATTLE</identifier>
-      <Parameters>
-        <x>887</x>
-        <y>738</y>
-        <width>136</width>
-        <height>29</height>
-        <menu_id>player_waiting_M2</menu_id>
-        <tool_tip_id>UI_HISTORICAL_START</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>arrow_continue</object_id>
     </UI piece>
     <UI piece>available_unit_array
       <identifier>UIP_SELECT_FACTION_AVAILABLE_UNITS</identifier>
@@ -18524,7 +18169,6 @@
         <locked>true</locked>
       </Parameters>
       <object_data></object_data>
-      <object_id>_M2_Historical_Battle_PANELS</object_id>
     </UI piece>
     <UI piece>historical_battle_title
       <identifier>UIP_STATIC_TEXT</identifier>
@@ -19122,9 +18766,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_18
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>2</x>
+        <x>33</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19136,9 +18780,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_19
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>62</x>
+        <x>93</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19150,9 +18794,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_20
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>122</x>
+        <x>872</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19164,9 +18808,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_21
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>182</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19178,9 +18822,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_22
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>242</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19192,9 +18836,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_23
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>302</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19206,9 +18850,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_24
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>662</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19220,9 +18864,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_25
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>722</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19234,9 +18878,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_26
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>782</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19248,9 +18892,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_27
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>842</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19262,9 +18906,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_28
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>902</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -19276,9 +18920,37 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_29
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>962</x>
+        <x>932</x>
+        <y>50</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_30
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+      <Parameters>
+        <x>932</x>
+        <y>50</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_31
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+      <Parameters>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -20185,7 +19857,7 @@
       <Parameters>
         <x>304</x>
         <y>225</y>
-        <width>170</width>
+        <width>172</width>
         <height>13</height>
         <UI text>UI_CUSTOM_BATTLE_HUMAN_PLAYER
           <font_id>verdana_sml</font_id>
@@ -20215,7 +19887,7 @@
       <Parameters>
         <x>304</x>
         <y>272</y>
-        <width>170</width>
+        <width>171</width>
         <height>13</height>
         <UI text>UI_CUSTOM_BATTLE_CPU_PLAYER1
           <font_id>verdana_sml</font_id>
@@ -20249,7 +19921,7 @@
       <Parameters>
         <x>304</x>
         <y>366</y>
-        <width>170</width>
+        <width>171</width>
         <height>13</height>
         <UI text>UI_CUSTOM_BATTLE_CPU_PLAYER3
           <font_id>verdana_sml</font_id>
@@ -20266,7 +19938,7 @@
       <Parameters>
         <x>304</x>
         <y>413</y>
-        <width>170</width>
+        <width>171</width>
         <height>13</height>
         <UI text>UI_CUSTOM_BATTLE_CPU_PLAYER4
           <font_id>verdana_sml</font_id>
@@ -20283,7 +19955,7 @@
       <Parameters>
         <x>304</x>
         <y>460</y>
-        <width>170</width>
+        <width>169</width>
         <height>13</height>
         <UI text>UI_CUSTOM_BATTLE_CPU_PLAYER5
           <font_id>verdana_sml</font_id>
@@ -20300,7 +19972,7 @@
       <Parameters>
         <x>304</x>
         <y>507</y>
-        <width>170</width>
+        <width>169</width>
         <height>13</height>
         <UI text>UI_CUSTOM_BATTLE_CPU_PLAYER6
           <font_id>verdana_sml</font_id>
@@ -20317,7 +19989,7 @@
       <Parameters>
         <x>304</x>
         <y>554</y>
-        <width>170</width>
+        <width>169</width>
         <height>13</height>
         <UI text>UI_CUSTOM_BATTLE_CPU_PLAYER7
           <font_id>verdana_sml</font_id>
@@ -20481,7 +20153,7 @@
       <identifier>UIP_ARMY_FACTION_SYMBOL_DISPLAY</identifier>
       <Parameters>
         <x>655</x>
-        <y>445</y>
+        <y>446</y>
         <width>90</width>
         <height>90</height>
         <locked>false</locked>
@@ -20522,10 +20194,10 @@
     <UI piece>symbol48_1
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>641</x>
+        <x>646</x>
         <y>220</y>
-        <width>59</width>
-        <height>59</height>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20536,10 +20208,10 @@
     <UI piece>symbol48_2
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>694</x>
+        <x>691</x>
         <y>220</y>
-        <width>59</width>
-        <height>59</height>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20550,10 +20222,10 @@
     <UI piece>symbol48_3
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>747</x>
+        <x>736</x>
         <y>220</y>
-        <width>59</width>
-        <height>59</height>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20564,10 +20236,10 @@
     <UI piece>symbol48_4
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>800</x>
+        <x>781</x>
         <y>220</y>
-        <width>59</width>
-        <height>59</height>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20578,10 +20250,10 @@
     <UI piece>symbol48_5
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>853</x>
+        <x>826</x>
         <y>220</y>
-        <width>59</width>
-        <height>59</height>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20592,10 +20264,10 @@
     <UI piece>symbol48_6
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>906</x>
+        <x>871</x>
         <y>220</y>
-        <width>59</width>
-        <height>59</height>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20606,10 +20278,10 @@
     <UI piece>symbol48_7
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>959</x>
+        <x>916</x>
         <y>220</y>
-        <width>59</width>
-        <height>59</height>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20620,10 +20292,10 @@
     <UI piece>symbol48_8
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>641</x>
-        <y>274</y>
-        <width>59</width>
-        <height>59</height>
+        <x>961</x>
+        <y>220</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20634,10 +20306,10 @@
     <UI piece>symbol48_9
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>694</x>
-        <y>274</y>
-        <width>59</width>
-        <height>59</height>
+        <x>646</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20648,10 +20320,10 @@
     <UI piece>symbol48_10
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>747</x>
-        <y>274</y>
-        <width>59</width>
-        <height>59</height>
+        <x>691</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20662,10 +20334,10 @@
     <UI piece>symbol48_11
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>800</x>
-        <y>274</y>
-        <width>59</width>
-        <height>59</height>
+        <x>736</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20676,10 +20348,10 @@
     <UI piece>symbol48_12
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>853</x>
-        <y>274</y>
-        <width>59</width>
-        <height>59</height>
+        <x>781</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20690,10 +20362,10 @@
     <UI piece>symbol48_13
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>906</x>
-        <y>274</y>
-        <width>59</width>
-        <height>59</height>
+        <x>826</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20704,10 +20376,10 @@
     <UI piece>symbol48_14
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>959</x>
-        <y>274</y>
-        <width>59</width>
-        <height>59</height>
+        <x>871</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20718,10 +20390,10 @@
     <UI piece>symbol48_15
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>641</x>
-        <y>328</y>
-        <width>59</width>
-        <height>59</height>
+        <x>916</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20732,10 +20404,10 @@
     <UI piece>symbol48_16
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>694</x>
-        <y>328</y>
-        <width>59</width>
-        <height>59</height>
+        <x>961</x>
+        <y>265</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20746,10 +20418,10 @@
     <UI piece>symbol48_17
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>747</x>
-        <y>328</y>
-        <width>59</width>
-        <height>59</height>
+        <x>646</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20760,10 +20432,10 @@
     <UI piece>symbol48_18
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>800</x>
-        <y>328</y>
-        <width>59</width>
-        <height>59</height>
+        <x>691</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20774,10 +20446,10 @@
     <UI piece>symbol48_19
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>853</x>
-        <y>328</y>
-        <width>59</width>
-        <height>59</height>
+        <x>736</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20788,10 +20460,10 @@
     <UI piece>symbol48_20
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>906</x>
-        <y>328</y>
-        <width>59</width>
-        <height>59</height>
+        <x>781</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -20802,10 +20474,150 @@
     <UI piece>symbol48_21
       <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
       <Parameters>
-        <x>959</x>
-        <y>328</y>
-        <width>59</width>
-        <height>59</height>
+        <x>826</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_22
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>871</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_23
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>916</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_24
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>961</x>
+        <y>310</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_25
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>646</x>
+        <y>355</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_26
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>691</x>
+        <y>355</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_27
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>736</x>
+        <y>355</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_28
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>781</x>
+        <y>355</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_29
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>826</x>
+        <y>355</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_30
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>871</x>
+        <y>355</y>
+        <width>45</width>
+        <height>45</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_toggle_button</object_id>
+      <edit_group_id>factions</edit_group_id>
+    </UI piece>
+    <UI piece>symbol48_31
+      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>916</x>
+        <y>355</y>
+        <width>45</width>
+        <height>45</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -21515,10 +21327,10 @@
     <UI piece>strengths_text
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
-        <x>794</x>
-        <y>446</y>
-        <width>171</width>
-        <height>22</height>
+        <x>800</x>
+        <y>447</y>
+        <width>158</width>
+        <height>18</height>
         <UI text>UI_CUSTOM_BATTLE_STRENGTHS
           <font_id>verdana_med</font_id>
           <align>centre</align>
@@ -21531,10 +21343,10 @@
     <UI piece>weaknesses_text
       <identifier>UIP_STATIC_TEXT</identifier>
       <Parameters>
-        <x>791</x>
+        <x>798</x>
         <y>511</y>
-        <width>179</width>
-        <height>20</height>
+        <width>162</width>
+        <height>18</height>
         <UI text>UI_CUSTOM_BATTLE_WEAKNESSES
           <font_id>verdana_med</font_id>
           <align>centre</align>
@@ -21912,9 +21724,9 @@
       <identifier>UIP_ARMY_FACTION_STRENGTHS</identifier>
       <Parameters>
         <x>762</x>
-        <y>463</y>
+        <y>465</y>
         <width>238</width>
-        <height>43</height>
+        <height>41</height>
         <UI text>UI__DUMMY_TEXT
           <font_id>verdana_sml</font_id>
           <align>centre</align>
@@ -21928,9 +21740,9 @@
       <identifier>UIP_ARMY_FACTION_WEAKNESSES</identifier>
       <Parameters>
         <x>762</x>
-        <y>530</y>
+        <y>529</y>
         <width>238</width>
-        <height>38</height>
+        <height>41</height>
         <UI text>UI__DUMMY_TEXT
           <font_id>verdana_sml</font_id>
           <align>centre</align>
@@ -21943,8 +21755,8 @@
     <UI piece>Faction_Name
       <identifier>UIP_ARMY_FACTION_NAME</identifier>
       <Parameters>
-        <x>648</x>
-        <y>539</y>
+        <x>647</x>
+        <y>542</y>
         <width>106</width>
         <height>21</height>
         <UI text>UI__DUMMY_TEXT
@@ -22059,118 +21871,6 @@
       </Parameters>
       <object_data></object_data>
       <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>symbol48_22
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>641</x>
-        <y>382</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
-    </UI piece>
-    <UI piece>symbol48_23
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>694</x>
-        <y>382</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
-    </UI piece>
-    <UI piece>symbol48_24
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>747</x>
-        <y>382</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
-    </UI piece>
-    <UI piece>symbol48_25
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>800</x>
-        <y>382</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
-    </UI piece>
-    <UI piece>symbol48_26
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>852</x>
-        <y>382</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
-    </UI piece>
-    <UI piece>symbol48_27
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>906</x>
-        <y>382</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
-    </UI piece>
-    <UI piece>symbol48_28
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>960</x>
-        <y>382</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
-    </UI piece>
-    <UI piece>symbol48_29
-      <identifier>UIP_CUSTOM_FACTION_SELECT</identifier>
-      <Parameters>
-        <x>960</x>
-        <y>436</y>
-        <width>59</width>
-        <height>59</height>
-        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_toggle_button</object_id>
-      <edit_group_id>factions</edit_group_id>
     </UI piece>
     <UI piece>AISA_off_1
       <identifier>UIP_AISA_ON_OFF</identifier>
@@ -22444,17 +22144,12 @@
         <y>219</y>
         <width>462</width>
         <height>26</height>
-        <UI text>UI_HISTORICAL_BATTLE_CHOOSE_ARMY
-          <font_id>verdana</font_id>
-          <align>centre</align>
-        </UI text>
         <locked>false</locked>
       </Parameters>
       <object_data></object_data>
       <object_id>empty_art</object_id>
     </UI piece>
     <UI piece>_sword
-      <identifier>UIP_HISTORICAL_BATTLE_ARMY_SELECT</identifier>
       <Parameters>
         <x>473</x>
         <y>260</y>
@@ -23438,7 +23133,6 @@
         <locked>true</locked>
       </Parameters>
       <object_data></object_data>
-      <object_id>_M2_Historical_Battle_PANELS</object_id>
     </UI piece>
     <UI piece>provincial_campaign_title
       <identifier>UIP_EMPTY_ART</identifier>
@@ -23483,38 +23177,6 @@
         <UI text>UI_PROVINCIAL_CAMPAIGN_SELECT
           <font_id>verdana</font_id>
           <align>centre</align>
-        </UI text>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_description_title
-      <identifier>UIP_STATIC_TEXT</identifier>
-      <Parameters>
-        <x>493</x>
-        <y>213</y>
-        <width>352</width>
-        <height>26</height>
-        <UI text>UI_PROVINCIAL_CAMPAIGN_DESCRIPTION
-          <font_id>verdana</font_id>
-          <align>centre</align>
-        </UI text>
-        <locked>false</locked>
-      </Parameters>
-      <object_data></object_data>
-      <object_id>empty_art</object_id>
-    </UI piece>
-    <UI piece>historical_battle_description
-      <identifier>UIP_PROVINCIAL_CAMPAIGN_DESCRIPTION</identifier>
-      <Parameters>
-        <x>704</x>
-        <y>273</y>
-        <width>261</width>
-        <height>271</height>
-        <UI text>UI__DUMMY_TEXT
-          <font_id>verdana_sml</font_id>
-          <align>left</align>
         </UI text>
         <locked>false</locked>
       </Parameters>
@@ -23996,9 +23658,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_18
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>2</x>
+        <x>33</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24010,9 +23672,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_19
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>62</x>
+        <x>93</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24024,9 +23686,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_20
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>122</x>
+        <x>872</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24038,9 +23700,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_21
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>182</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24052,9 +23714,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_22
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>242</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24066,9 +23728,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_23
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>302</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24080,9 +23742,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_24
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>662</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24094,9 +23756,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_25
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>722</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24108,9 +23770,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_26
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>782</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24122,9 +23784,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_27
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>842</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24136,9 +23798,9 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_28
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>902</x>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24150,9 +23812,37 @@
       <edit_group_id>symbols</edit_group_id>
     </UI piece>
     <UI piece>CFP_symbol48_29
-      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
       <Parameters>
-        <x>962</x>
+        <x>932</x>
+        <y>50</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_30
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+      <Parameters>
+        <x>932</x>
+        <y>50</y>
+        <width>59</width>
+        <height>59</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_31
+      <identifier>UIP_SELECT_FACTION_BUTTON</identifier>
+      <Parameters>
+        <x>932</x>
         <y>50</y>
         <width>59</width>
         <height>59</height>
@@ -24597,7 +24287,7 @@
       <identifier>UIP_EMPTY_ART</identifier>
       <Parameters>
         <x>0</x>
-        <y>24</y>
+        <y>2</y>
         <width>1023</width>
         <height>90</height>
         <UI text>UI_HOTSEAT_FACTION_SELECT_TITLE
@@ -24759,10 +24449,10 @@
     <UI piece>CFP_symbol48_1
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>2</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>192</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24773,10 +24463,10 @@
     <UI piece>CFP_symbol48_2
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>62</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>242</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24787,10 +24477,10 @@
     <UI piece>CFP_symbol48_3
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>122</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>292</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24801,10 +24491,10 @@
     <UI piece>CFP_symbol48_4
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>182</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>342</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24815,10 +24505,10 @@
     <UI piece>CFP_symbol48_5
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>242</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>392</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24829,10 +24519,10 @@
     <UI piece>CFP_symbol48_6
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>302</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>442</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24843,10 +24533,10 @@
     <UI piece>CFP_symbol48_7
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>362</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>492</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24857,10 +24547,10 @@
     <UI piece>CFP_symbol48_8
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>422</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>542</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24871,10 +24561,10 @@
     <UI piece>CFP_symbol48_9
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>482</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>592</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24885,10 +24575,10 @@
     <UI piece>CFP_symbol48_10
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>542</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>642</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24899,10 +24589,10 @@
     <UI piece>CFP_symbol48_11
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>602</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>692</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24913,10 +24603,10 @@
     <UI piece>CFP_symbol48_12
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>662</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>742</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24927,10 +24617,10 @@
     <UI piece>CFP_symbol48_13
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>722</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>792</x>
+        <y>75</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24941,10 +24631,10 @@
     <UI piece>CFP_symbol48_14
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>782</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>192</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24955,10 +24645,10 @@
     <UI piece>CFP_symbol48_15
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>842</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>242</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24969,10 +24659,10 @@
     <UI piece>CFP_symbol48_16
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>902</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>292</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24983,10 +24673,10 @@
     <UI piece>CFP_symbol48_17
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>962</x>
-        <y>110</y>
-        <width>59</width>
-        <height>59</height>
+        <x>342</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -24997,10 +24687,10 @@
     <UI piece>CFP_symbol48_18
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>2</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>392</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25011,10 +24701,10 @@
     <UI piece>CFP_symbol48_19
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>62</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>442</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25025,10 +24715,10 @@
     <UI piece>CFP_symbol48_20
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>122</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>492</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25039,10 +24729,10 @@
     <UI piece>CFP_symbol48_21
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>182</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>542</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25053,10 +24743,10 @@
     <UI piece>CFP_symbol48_22
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>242</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>592</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25067,10 +24757,10 @@
     <UI piece>CFP_symbol48_23
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>302</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>642</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25081,10 +24771,10 @@
     <UI piece>CFP_symbol48_24
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>662</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>692</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25095,10 +24785,10 @@
     <UI piece>CFP_symbol48_25
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>722</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>742</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25109,10 +24799,10 @@
     <UI piece>CFP_symbol48_26
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>782</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>792</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25124,9 +24814,9 @@
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
         <x>842</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25137,10 +24827,10 @@
     <UI piece>CFP_symbol48_28
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>902</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>892</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>
@@ -25151,10 +24841,38 @@
     <UI piece>CFP_symbol48_29
       <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
       <Parameters>
-        <x>962</x>
-        <y>50</y>
-        <width>59</width>
-        <height>59</height>
+        <x>942</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_30
+      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>992</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
+        <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
+        <locked>false</locked>
+      </Parameters>
+      <object_data></object_data>
+      <object_id>empty_art</object_id>
+      <edit_group_id>symbols</edit_group_id>
+    </UI piece>
+    <UI piece>CFP_symbol48_31
+      <identifier>UIP_CAMPAIGN_FACTION_SELECT</identifier>
+      <Parameters>
+        <x>1042</x>
+        <y>125</y>
+        <width>50</width>
+        <height>50</height>
         <tool_tip_id>UI_FACTIONS_SELECT_FACTION_INFO</tool_tip_id>
         <locked>false</locked>
       </Parameters>

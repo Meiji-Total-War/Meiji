@@ -554,7 +554,7 @@ standard_index					6
 logo_index					FACTION_LOGO_SCOTLAND
 small_logo_index				SMALL_FACTION_LOGO_SCOTLAND
 triumph_value					5
-custom_battle_availability			no
+custom_battle_availability			yes
 can_sap						yes
 prefers_naval_invasions				yes
 can_have_princess				no
