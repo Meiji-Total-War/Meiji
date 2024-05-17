@@ -1056,6 +1056,39 @@ era 1            venice
 era 2            venice
 
 
+type             Japan Karasugumi
+dictionary       Japan_Karasugumi
+category         infantry
+class            skirmish
+voice_type       Light
+accent           English
+banner faction   main_missile
+banner holy      crusade
+soldier          Karasugumi, 48, 0, 1.0
+attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, start_not_skirmishing, hide_anywhere
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         12, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri_attr    ap
+stat_sec         10, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  2, 11, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, disciplined, untrained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 840, 180, 80, 60, 840, 2, 120
+armour_ug_levels 0
+armour_ug_models Karasugumi
+ownership        ezo, slave
+era 0            ezo
+era 1            ezo
+era 2            ezo
+
+
 type             Japan Shinsengumi
 dictionary       Japan_Shinsengumi
 category         infantry
@@ -1197,8 +1230,8 @@ stat_cost        1, 680, 250, 120, 95, 680, 4, 170
 armour_ug_levels 2, 3
 armour_ug_models Mailed_Knights, Mailed_Knights_ug1
 ownership        england, scotland, france, hre, spain, portugal, milan, venice, papal_states, sicily, slave, normans
-era 0            england, scotland, france, hre, spain, portugal, milan, venice, papal_states, sicily,
-era 1            england, scotland, france, hre, spain, portugal, milan, venice, papal_states, sicily,
+era 0            england, scotland, france, hre, spain, portugal, milan, papal_states, sicily,
+era 1            england, scotland, france, hre, spain, portugal, milan, papal_states, sicily,
 era 2            scotland
 ;unit_info        10, 0, 14
  
@@ -1235,7 +1268,7 @@ stat_cost        1, 730, 250, 120, 95, 730, 4, 180
 armour_ug_levels 3, 4
 armour_ug_models Feudal_Knights, Feudal_Knights_ug1
 ownership        england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary, slave
-era 0            england, france, hre, denmark, spain, portugal, milan, venice,  hungary
+era 0            england, france, hre, denmark, spain, portugal, milan,  hungary
 era 1            scotland
 ;unit_info        10, 0, 16
  
@@ -1637,7 +1670,7 @@ stat_cost        1, 580, 250, 100, 75, 580, 4, 140
 armour_ug_levels 4, 5, 6
 armour_ug_models Italian_MAA, Italian_MAA_ug1, Italian_MAA_ug2
 ownership        milan, venice, papal_states, slave
-era 1            milan, venice, papal_states
+era 1            milan, papal_states
 ;unit_info        8, 0, 15
  
  
@@ -1673,7 +1706,7 @@ stat_cost        1, 730, 320, 120, 95, 730, 4, 180
 armour_ug_levels 5, 6
 armour_ug_models Broken_Lances, Broken_Lances_ug1
 ownership        milan, venice, papal_states
-era 2            milan, venice, papal_states
+era 2            milan, papal_states
 ;unit_info        10, 0, 13
  
  
@@ -1746,8 +1779,8 @@ stat_cost        1, 540, 150, 100, 75, 540, 4, 130
 armour_ug_levels 3, 4
 armour_ug_models Italian_Cavalry_Militia, Italian_Cavalry_Militia_ug1
 ownership        milan, venice, papal_states, sicily
-era 0            milan, venice, papal_states, sicily
-era 1            milan, venice, papal_states, sicily
+era 0            milan, papal_states, sicily
+era 1            milan, papal_states, sicily
 ;unit_info        8, 0, 15
  
  
@@ -2408,8 +2441,8 @@ stat_cost        1, 820, 250, 120, 95, 820, 1, 200
 armour_ug_levels 3, 4
 armour_ug_models SE_Bodyguard, SE_Bodyguard_ug1
 ownership        spain, portugal, milan, venice, papal_states, ryukyu, sicily, ezo
-era 0            spain, portugal, milan, venice, papal_states, ryukyu, sicily, ezo
-era 1            spain, portugal, milan, venice, papal_states, ryukyu, sicily, ezo
+era 0            spain, portugal, milan, papal_states, ryukyu, sicily, ezo
+era 1            spain, portugal, milan, papal_states, ryukyu, sicily, ezo
 ;unit_info        13, 0, 32
  
  
@@ -2445,7 +2478,7 @@ stat_cost        1, 870, 250, 120, 95, 870, 1, 210
 armour_ug_levels 5, 6
 armour_ug_models SE_Late_Bodyguard, SE_Late_Bodyguard_ug1
 ownership        spain, portugal, milan, venice, papal_states, ryukyu, sicily, ezo
-era 2            spain, portugal, milan, venice, papal_states, ryukyu, sicily, ezo
+era 2            spain, portugal, milan, papal_states, ryukyu, sicily, ezo
 ;unit_info        13, 0, 34
  
  
@@ -3024,8 +3057,8 @@ stat_cost        1, 470, 175, 100, 75, 470, 4, 110
 armour_ug_levels 1, 2
 armour_ug_models Mounted_Sergeants, Mounted_Sergeants_ug1
 ownership        france, hre, milan, venice, papal_states, sicily, normans
-era 0            france, hre, milan, venice, papal_states, sicily, normans
-era 1            france, hre, milan, venice, papal_states, sicily, normans
+era 0            france, hre, milan, papal_states, sicily, normans
+era 1            france, hre, milan, papal_states, sicily, normans
 ;unit_info        9, 0, 13
  
  
@@ -3172,7 +3205,6 @@ stat_cost        1, 610, 210, 120, 95, 610, 4, 150
 armour_ug_levels 1, 2
 armour_ug_models Stradiots, Stradiots_ug1
 ownership        venice
-era 2            venice
 ;unit_info        11, 0, 10
  
  
@@ -3429,8 +3461,8 @@ stat_cost        1, 470, 175, 90, 70, 470, 4, 110
 armour_ug_levels 2, 3
 armour_ug_models Mounted_Crossbowmen, Mounted_Crossbowmen_ug1
 ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily
-era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily
-era 2            hre, denmark, spain, portugal, milan, venice, papal_states, sicily
+era 1            hre, denmark, spain, portugal, milan, papal_states, sicily
+era 2            hre, denmark, spain, portugal, milan, papal_states, sicily
 ;unit_info        7, 5, 10
  
  
@@ -3984,9 +4016,9 @@ stat_cost        1, 220, 100, 65, 50, 220, 4, 50
 armour_ug_levels 0, 1, 2
 armour_ug_models Peasant_Archers, Peasant_Archers_ug1, Peasant_Archers_ug2
 ownership        england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, slave, normans, saxons
-era 0            england,  france, hre, denmark, spain, portugal, milan, venice, papal_states, scotland
-era 1            england,  france, hre, denmark, spain, portugal, milan, venice, papal_states, scotland
-era 2            england,  france, hre, denmark, spain, portugal, milan, venice, papal_states, scotland
+era 0            england,  france, hre, denmark, spain, portugal, milan, papal_states, scotland
+era 1            england,  france, hre, denmark, spain, portugal, milan, papal_states, scotland
+era 2            england,  france, hre, denmark, spain, portugal, milan, papal_states, scotland
 ;unit_info        2, 5, 1
  
  
@@ -4263,9 +4295,9 @@ stat_cost        1, 220, 100, 65, 50, 220, 4, 50
 armour_ug_levels 0, 1, 2
 armour_ug_models Peasant_Crossbowmen, Peasant_Crossbowmen_ug1, Peasant_Crossbowmen_ug2
 ownership        france, hre, spain, portugal, milan, venice, papal_states, slave
-era 0            france, hre, spain, portugal, milan, venice, papal_states
-era 1            france, hre, spain, portugal, milan, venice, papal_states
-era 2            france, hre, spain, portugal, milan, venice, papal_states
+era 0            france, hre, spain, portugal, milan, papal_states
+era 1            france, hre, spain, portugal, milan, papal_states
+era 2            france, hre, spain, portugal, milan, papal_states
 ;unit_info        2, 9, 1
  
  
@@ -4403,8 +4435,6 @@ stat_cost        1, 490, 100, 65, 50, 490, 4, 120
 armour_ug_levels 2, 3
 armour_ug_models Pavise_Crossbow_Militia, Pavise_Crossbow_Militia_ug1
 ownership        venice, papal_states, sicily, hungary, slave
-era 1            venice
-era 2            venice
 ;unit_info        6, 12, 14
  
  
@@ -4642,8 +4672,6 @@ stat_cost        1, 610, 150, 75, 55, 610, 4, 150
 armour_ug_levels 3, 4
 armour_ug_models Venetian_Archers, Venetian_Archers_ug1
 ownership        venice
-era 1            venice
-era 2            venice
 ;unit_info        11, 9, 13
  
  
@@ -4814,7 +4842,7 @@ stat_cost        1, 460, 125, 65, 50, 460, 4, 110
 armour_ug_levels 0, 2
 armour_ug_models Arquebusiers, Arquebusiers_ug1
 ownership        england, france, hre, denmark, spain, milan, venice, papal_states, sicily, poland, russia, hungary
-era 2            england, france, hre, denmark, spain, milan, venice, papal_states, sicily, poland, russia, hungary
+era 2            england, france, hre, denmark, spain, milan, papal_states, sicily, poland, russia, hungary
 ;unit_info        6, 14, 3
  
  
@@ -4848,7 +4876,7 @@ stat_cost        1, 540, 150, 65, 50, 540, 4, 130
 armour_ug_levels 0, 2
 armour_ug_models Musketeers, Musketeers_ug1
 ownership        spain, portugal, milan, venice
-era 2            spain, portugal, milan, venice
+era 2            spain, portugal, milan
 ;unit_info        6, 14, 3
  
  
@@ -5025,8 +5053,8 @@ stat_cost        1, 650, 150, 75, 55, 650, 4, 160
 armour_ug_levels 3, 4
 armour_ug_models Hand_Gunners, Hand_Gunners_ug1
 ownership        hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland
-era 1            hre, denmark, spain, portugal, milan, venice, papal_states, sicily, poland
-era 2            hre, denmark, spain, portugal, venice, papal_states, sicily, poland
+era 1            hre, denmark, spain, portugal, milan, papal_states, sicily, poland
+era 2            hre, denmark, spain, portugal, papal_states, sicily, poland
 ;unit_info        11, 13, 13
  
  
@@ -5472,9 +5500,9 @@ stat_cost        1, 110, 90, 65, 50, 110, 4, 20
 armour_ug_levels 0, 1
 armour_ug_models Peasants, Peasants_ug1
 ownership        england, france, hre, denmark, spain, portugal, milan, venice, papal_states, slave, normans, saxons
-era 0            england, france, hre, denmark, spain, portugal, milan, venice, papal_states, normans, saxons
-era 1            england, france, hre, denmark, spain, portugal, milan, venice, papal_states, normans, saxons
-era 2            england, france, hre, denmark, spain, portugal, milan, venice, papal_states, normans, saxons
+era 0            england, france, hre, denmark, spain, portugal, milan, papal_states, normans, saxons
+era 1            england, france, hre, denmark, spain, portugal, milan, papal_states, normans, saxons
+era 2            england, france, hre, denmark, spain, portugal, milan, papal_states, normans, saxons
 ;unit_info        4, 0, 3
  
  
@@ -6356,8 +6384,8 @@ stat_cost        1, 420, 155, 85, 65, 420, 4, 100
 armour_ug_levels 0, 1, 2
 armour_ug_models Sergeant_Spearmen, Sergeant_Spearmen_ug1, Sergeant_Spearmen_ug2
 ownership        france, hre, milan, venice, papal_states, sicily, slave, normans
-era 0            france, hre, milan, venice, papal_states, sicily, normans
-era 1            france, hre, milan, venice, papal_states, sicily, normans
+era 0            france, hre, milan, papal_states, sicily, normans
+era 1            france, hre, milan, papal_states, sicily, normans
 ;unit_info        7, 0, 9
  
  
@@ -6391,9 +6419,9 @@ stat_cost        1, 540, 155, 85, 65, 540, 4, 130
 armour_ug_levels 2, 3
 armour_ug_models Armored_Sergeants, Armored_Sergeants_ug1
 ownership        england, france, hre, milan, venice, papal_states, sicily, slave, normans
-era 0            england, france, hre, milan, venice, papal_states, sicily, slave, normans
-era 1            england, france, hre, milan, venice, papal_states, sicily, slave, normans
-era 2            england, france, hre, venice, papal_states, sicily, slave, normans
+era 0            england, france, hre, milan, papal_states, sicily, slave, normans
+era 1            england, france, hre, milan, papal_states, sicily, slave, normans
+era 2            england, france, hre, papal_states, sicily, slave, normans
 ;unit_info        7, 0, 14
  
  
@@ -6908,8 +6936,8 @@ stat_cost        1, 370, 125, 85, 65, 370, 4, 90
 armour_ug_levels 0, 1, 2, 3
 armour_ug_models Italian_Militia, Italian_Militia_ug1, Italian_Militia_ug2, Italian_Militia_ug3
 ownership        milan, venice, papal_states, sicily, slave
-era 0            milan, venice, papal_states, sicily
-era 1            milan, venice, papal_states, sicily
+era 0            milan, papal_states, sicily
+era 1            milan, papal_states, sicily
 era 2            milan 
 ;unit_info        7, 0, 9
  
@@ -6944,9 +6972,9 @@ stat_cost        1, 460, 125, 85, 65, 460, 4, 110
 armour_ug_levels 1, 2, 3
 armour_ug_models Italian_Spear_Militia, Italian_Spear_Militia_ug1, Italian_Spear_Militia_ug2
 ownership        milan, venice, papal_states, sicily, slave
-era 0            milan, venice, papal_states, sicily
-era 1            milan, venice, papal_states, sicily
-era 2            venice, papal_states, sicily, milan
+era 0            milan, papal_states, sicily
+era 1            milan, papal_states, sicily
+era 2            papal_states, sicily, milan
 ;unit_info        7, 0, 13
  
  
@@ -7696,7 +7724,6 @@ stat_cost        1, 640, 150, 75, 55, 640, 4, 160
 armour_ug_levels 3, 4
 armour_ug_models Venetian_Heavy_Infantry, Venetian_Heavy_Infantry_ug1
 ownership        venice
-era 2            venice
 ;unit_info        16, 0, 16
  
  
@@ -7976,7 +8003,7 @@ stat_cost        1, 570, 225, 90, 70, 570, 4, 140
 armour_ug_levels 3, 4
 armour_ug_models Dismounted_Feudal_Knights, Dismounted_Feudal_Knights_ug1
 ownership        england, scotland, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary
-era 0            england, france, hre, denmark, spain, portugal, milan, venice, papal_states, hungary
+era 0            england, france, hre, denmark, spain, portugal, milan, papal_states, hungary
 era 1            scotland
 ;unit_info        13, 0, 21
  
@@ -8359,7 +8386,7 @@ stat_cost        1, 460, 225, 75, 55, 460, 4, 110
 armour_ug_levels 4, 5, 6
 armour_ug_models Dismounted_Italian_MAA, Dismounted_Italian_MAA_ug1, Dismounted_Italian_MAA_ug2
 ownership        milan, venice, papal_states, sicily
-era 1            milan, venice, papal_states, sicily
+era 1            milan, papal_states, sicily
 era 2            sicily
 ;unit_info        11, 0, 21
  
@@ -8394,7 +8421,7 @@ stat_cost        1, 490, 225, 75, 55, 490, 4, 120
 armour_ug_levels 5, 6
 armour_ug_models Dismounted_Broken_Lances, Dismounted_Broken_Lances_ug1
 ownership        milan, venice, papal_states, sicily
-era 2            milan, venice, papal_states, sicily
+era 2            milan, papal_states, sicily
 ;unit_info        11, 0, 22
  
  
@@ -13216,8 +13243,8 @@ stat_cost        1, 520, 250, 90, 70, 520, 4, 130
 armour_ug_levels 1
 armour_ug_models NE_Mortar_Crew
 ownership        england, scotland, venice, papal_states, sicily
-era 1            england, scotland, venice, papal_states, sicily
-era 2            england, scotland, venice, papal_states, sicily
+era 1            england, scotland, papal_states, sicily
+era 2            england, scotland, papal_states, sicily
 ;unit_info        6, 0, 8
  
  
@@ -13252,7 +13279,7 @@ stat_cost        1, 400, 250, 90, 70, 400, 4, 100
 armour_ug_levels 1
 armour_ug_models NE_Ribault_Crew
 ownership        england, scotland, denmark, spain, portugal, venice, milan, papal_states, sicily
-era 2            england, scotland, denmark, spain, portugal, venice, milan, papal_states, sicily
+era 2            england, scotland, denmark, spain, portugal, milan, papal_states, sicily
 ;unit_info        6, 0, 8
  
  
@@ -13322,7 +13349,7 @@ stat_cost        1, 800, 250, 90, 70, 800, 4, 200
 armour_ug_levels 1
 armour_ug_models NE_Culverin_Crew
 ownership        england, scotland, france, spain, portugal, venice, milan, papal_states
-era 2            england, scotland, france, spain, portugal, venice, milan, papal_states
+era 2            england, scotland, france, spain, portugal, milan, papal_states
 ;unit_info        6, 0, 8
  
  
@@ -13637,7 +13664,7 @@ stat_cost        1, 910, 400, 100, 75, 910, 4, 220
 armour_ug_levels 1
 armour_ug_models NE_Monster_Ribault_Crew
 ownership        milan, venice
-era 2            milan, venice
+era 2            milan
 ;unit_info        9, 0, 9
  
  
@@ -13779,8 +13806,6 @@ stat_stl        4
 armour_ug_levels 2
 armour_ug_models Carroccio_Standard
 ownership        venice
-era 0            venice
-era 1            venice
 ;unit_info        12, 0, 16
  
  

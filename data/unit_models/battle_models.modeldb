@@ -8815,6 +8815,44 @@
 1 
 24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+10 Karasugumi 
+1 4 
+52 unit_models/_units/japan_shogun/karasugumi_lod0.mesh 121 
+52 unit_models/_units/japan_shogun/karasugumi_lod0.mesh 900 
+52 unit_models/_units/japan_shogun/karasugumi_lod0.mesh 2500 
+52 unit_models/_units/japan_shogun/karasugumi_lod0.mesh 6400 
+3 
+3 ezo 
+59 unit_models/_units/japan_shogun/textures/karasugumi.texture 
+64 unit_models/_units/japan_shogun/textures/karasugumi_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+4 merc 
+59 unit_models/_units/japan_shogun/textures/karasugumi.texture 
+64 unit_models/_units/japan_shogun/textures/karasugumi_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+59 unit_models/_units/japan_shogun/textures/karasugumi.texture 
+64 unit_models/_units/japan_shogun/textures/karasugumi_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+3 
+3 ezo 
+67 unit_models/_units/japan_shogun/attachments/karasugumi_gear.texture 
+72 unit_models/_units/japan_shogun/attachments/karasugumi_gear_norm.texture 0 
+4 merc 
+67 unit_models/_units/japan_shogun/attachments/karasugumi_gear.texture 
+72 unit_models/_units/japan_shogun/attachments/karasugumi_gear_norm.texture 0 
+5 slave 
+67 unit_models/_units/japan_shogun/attachments/karasugumi_gear.texture 
+72 unit_models/_units/japan_shogun/attachments/karasugumi_gear_norm.texture 0 
+1 
+4 None 
+11 MTW2_Musket 
+16 MTW2_2HSwordsman 
+1 
+19 MTW2_Musket_Primary 
+1 
+24 MTW2_2HSwordsman_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 9 Denshutai 
 1 4 
 51 unit_models/_units/japan_shogun/denshutai_lod0.mesh 121 
