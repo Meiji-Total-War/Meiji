@@ -53,7 +53,6 @@ faction: ryukyu
 		Hayashi
 		Hiroda
 		Kato
-		Kiyotaka
 		Kiyoura
 		Kobayashi
 		Miyamoto
@@ -90,6 +89,7 @@ faction: ryukyu
 faction: venice
 
 	characters
+		Kiyotaka
 		Mora
 		Takamori
 		Tomomi
@@ -106,7 +106,6 @@ faction: venice
 		Hiroda
 		Iwakura
 		Kato
-		Kiyotaka
 		Kiyoura
 		Kobayashi
 		Kuroda
