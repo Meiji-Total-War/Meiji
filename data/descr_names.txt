@@ -44,8 +44,42 @@ faction: ryukyu
 		Mora
 
 	surnames
-		Sho
+		Ando
 		Bon
+		Endo
+		Fujita
+		Hara
+		Harada
+		Hayashi
+		Hiroda
+		Kato
+		Kiyotaka
+		Kiyoura
+		Kobayashi
+		Miyamoto
+		Murakami
+		Murata
+		Nakata
+		Nozaki
+		Sato
+		Sawada
+		Sho
+		Shohei
+		Sugimoto
+		Suzuki
+		Suzumiya
+		Tachibana
+		Takahashi
+		Takasugi
+		Tanaka
+		Toyota
+		Watabe
+		Watanabe
+		Yamauchi
+		Yamamoto
+		Yamamura
+		Yoshida
+		Yoshimura
 ;;bynames
 		Sho
 
@@ -56,278 +90,62 @@ faction: ryukyu
 faction: venice
 
 	characters
-		Alberto
-		Alessandro
-		Almerico
-		Aluysio
-		Andrea
-		Anechino
-		Angelo
-		Antonio
-		Aureo
-		Baiamonte
-		Baldasera
-		Balsamo
-		Barbus
-		Bartolomeo
-		Benasuto
-		Benghi
-		Benintendi
-		Benvenuto
-		Bernabas
-		Bernardo
-		Bertuccio
-		Blasio
-		Bucello
-		Cataldo
-		Clario
-		Cristiano
-		Cristoforo
-		Daniele
-		Dardi
-		Dionisio
-		Domenico
-		Donato
-		Dragano
-		Enrico
-		Ermolao
-		Facio
-		Federico
-		Felle
-		Francesco
-		Frangibus
-		Galaxio
-		Gasparo
-		Geminiano
-		Geragio
-		Gerardo
-		Giorgio
-		Giovanni
-		Giuliano
-		Gregorio
-		Guido
-		Guilelmo
-		Gurian
-		Jacobo
-		Kiyotaka
-		Lenuzo
-		Leonardo
-		Lorenzo
-		Luca
-		Mafeo
-		Marco
-		Marino
-		Martino
-		Michael
 		Mora
-		Morosino
-		Nicolo
-		Oliverio
-		Paladin
-		Palmerio
-		Panelo
-		Pangratio
-		Pantaleone
-		Paolo
-		Pascal
-		Phylipo
-		Pietro
-		Poluccia
-		Prelatus
-		Raffiano
-		Rambaldo
-		Raynucio
-		Rigi
-		Rizardo
-		Rolandino
-		Romaso
-		Saraceno
-		Sclavo
-		Semelino
-		Simon
-		Tarvixio
 		Takamori
-		Thadeo
-		Tomaso
 		Tomomi
 		Toshimichi
-		Triadano
-		Tusco
-		Uberto
-		Vendramino
-		Victor
-		Vitaliano
-		Vito
-		Zilio
-		Zonta
-		Zusto
+
 
 	surnames
-		Aglietti
-		Barbarigo
-		Barberini
-		Baseggio
-		Basilio
-		Batlle
-		Bettiza
-		Biacchi
-		Bianchetti
-		Bon
-		Calza
-		Calzaghe
-		Calzolai
-		Carmelengo
-		Carnazza
-		Cesaresco
-		Cesti
-		Cestini
-		Clareno
-		Della Volpe
-		Delmonico
-		Delogu
-		Delvecchio
-		Deodato
-		Destefani
-		Detillo
-		Dettori
-		Dolfin
-		Donatello
-		Farinelli
-		Farnese
-		Fasanaro
-		Foscari
-		Fugosi
-		Funicello
-		Furillo
-		Furlano
-		Galilei
-		Gradenigo
-		Gusti
+		Ando
+		Endo
+		Fujita
+		Hara
+		Harada
+		Hayashi
+		Hiroda
 		Iwakura
-		Lazzarini
+		Kato
+		Kiyotaka
+		Kiyoura
+		Kobayashi
 		Kuroda
-		Martinella
-		Martinengo
-		Memo
-		Menegi
-		Mocenigo
-		Molin
-		Natale
-		Nesti
-		Niccoli
-		Nichetti
+		Miyamoto
+		Mora
+		Murakami
+		Murata
+		Nakata
+		Nozaki
 		Okubo
-		Pasqualigo
-		Pedercini
-		Pedrazzolli
-		Piovani
-		Premarin
-		Priuli
-		Ricco
-		Richelmi
-		Ricordi
 		Saigo
-		Sanuto
-		Sardini
-		Sartor
-		Selvo
-		Soranzo
-		Tasso
-		Tauretto
-		Tedaldo
-		Tomado
-		Toscanelli
-		Venier
-		Zancani
-		Zane
-		Zanotti
-		Zaretti
+		Sato
+		Sawada
+		Shohei
+		Sugimoto
+		Suzuki
+		Suzumiya
+		Tachibana
+		Takahasi
+		Takamori
+		Takasugi
+		Tanaka
+		Tomomi
+		Toshimichi
+		Toyota
+		Watabe
+		Watanabe
+		Yamauchi
+		Yamamoto
+		Yamamura
+		Yoshida
+		Yoshimura
 		Zen
-		Zeno
-		Zorzi
+
 ;;bynames
-		de Venice
-		de Crete
-		de Dalmatia
-		de Baza
-		de Chiara
-		de Giemona
-		de Ponteba
-		de Tolmezo
-		de Concordia
-		de Costoa
-		de Draga
-		de Fiume
-		de Montona
-		de Parenzo
-		de Pola
-		de Ronigno
-		de Serso
-		de Vela
-		de Vinago
-		de Andura
-		de Castinous
-		de Clue foni
-		de Feun
-		de Finale
-		de Finiza
-		de Luca
-		de Monaco
-		de Torilia
-		de Lisano
-		de Pistoia
-		de Recho
-		da Canal
-		da Molin
-		de Marchi
-		de Martino
-		de Mauro
-		de Meo
-		de Michelis
-		de Negri
-		de Niro
-		de Rosa
-		de Ruggiero
-		de Sanctis
-		de Vesci
-		de Vito
-		di Biagio
-		di Caprio
-		di Centa
-		di Giovine
-		di Grande
-		di Iasio
 
 	women
-		Agnesina
-		Alegreza
-		Anna
-		Benevenuta
-		Besina
-		Bianca
-		Campagnola
-		Catarina
-		Colleta
-		Cristina
-		Donata
-		Elizabeta
-		Florentia
-		Flos
-		Francesca
-		Gerita
-		Helena
-		Luca
-		Lucia
-		Magdalena
-		Maria
-		Marte
-		Micola
-		Pasqualina
-		Pencina
-		Penina
-		Richa
-		Thomisina
-		Zaneta
+		Chikako
+		Sumiko
 
 
 
@@ -2655,248 +2473,62 @@ faction: malaya
 faction: aztecs
 
 	characters
-		Acacitli
-		Acamapichtli
-		Acampichtli
-		Acapipilotzin
-		Acatlotzin
-		Achicauhtli
-		Achitometl
-		Acolmiztli
-		Acxotecatl
-		Ahcambal
-		Ahexotl
-		Ahuitzotl
-		Amacui-Xolotl
-		Apanacatl
-		Atlixcatzin
-		Atonal
-		Atzauatzin
-		Auellitoctsin
-		Axayaca
-		Axayacatl
-		Axayactaztin
-		Axoacatzin
-		Axolohua
-		Axoquentzin
-		Cacama
-		Cacamatzin
-		Camargo
-		Cenyaotl
-		Chimalpahin
-		Chimalpopoca
-		Cihaucu
-		Cipactli
-		Citlacoatl
-		Coanacoch
-		Coatl
-		Coatzontli
-		Cocozca
-		Copil
-		Cuaucoatl
-		Cuauhtemoc
-		Cuauhtlecoatl
-		Cuautemoc
-		Cuetzpalli
-		Cuitlahuac
-		Cuitlalpitoc
-		Cuitlauac
-		Cuixtli
-		Ecatzin
-		Eyahue
-		Huemac
-		Huetzin
-		Huicton
-		Huitzilihuitl
-		Ilhuicamina
-		Itzcoatl
-		Itzquauatzin
-		Itzquemitl
-		Ixtlilxochitl
-		Iztahuatzin
-		Macuilmalinal
-		Mamexi
-		Matlal
-		Matlalihuitl
-		Maxixcatzin
-		Maxtla
-		Mayeuatzin
-		Mazatl
-		Meconetzin
-		Miahuaxochitl
-		Moctezuma
-		Montezuma
-		Moquihuix
-		Motecuhzoma
-		Motecuma
-		Motelchiuh
-		Nauyotl
-		Nezahualpilli
-		Nochehuatl
-		Nopaltzin
-		Ocelopan
-		Ocuitecatl
-		Olintecke
-		Ollin
-		Ometochtl
-		Opochtli
-		Opochtzin
-		Oquitzin
-		Panitzin
-		Pimotl
-		Pizotzin
-		Pochotl
-		Popopoyotl
-		Quahcoatl
-		Quahtlatoa
-		Qualpopoca
-		Quauhpopoca
-		Quauhtli
-		Quilaztli
-		Quimichetl
-		Quinatzin
-		Tangaxoan
-		Tayauh
-		Tecocoitzin
-		Temictzin
-		Temilotecatl
-		Temilotzin
-		Tenoch
-		Tenzacatetl
-		Teoctlamazqui
-		Teputzitoloc
-		Teuch
-		Teudile
-		Texcoyo
-		Tezozomoc
-		Tezozomoctzin
-		Thlohtzin
-		Tilicuetzpal
-		Tilmatzin
-		Timas
-		Tizoc
-		Tizoc
-		Tlacaelel
-		Tlacahuepan
-		Tlacateotl
-		Tlacochcalcatl
-		Tlacoteotzin
-		Tlacotzin
-		Tlacyelel
-		Tlahuicoli
-		Tlalchiac
-		Tlaltececatzin
-		Tlapaltecatl
-		Tlapanecatzin
-		Tlaquiach
-		Tlilpopoctazin
-		Tlilpotonqui
-		Tlotzin
-		Tochel
-		Tochintecuhtli
-		Tochtli
-		Topiltzin
-		Tototl
-		Tzompan
-		Tzompantli
-		Tzotzomatzin
-		Tzuitecatl
-		Xiconocatzin
-		Xicotencatl
-		Xilotzin
-		Xiucaque
-		Xiucozcatl
-		Xiuhcozcatl
-		Xochipanitzin
-		Xochipepe
-		Xochitl
-		Xocoyol
-		Xolotl
-		Xomimitl
-		Yaotl
-		Yaztachimal
-		Zincicha
-		Zolin
-		Zolton
+		Mora
+		Takamori
+		Tomomi
+		Toshimichi
 
 	surnames
+		Ando
+		Endo
+		Fujita
+		Hara
+		Harada
+		Hayashi
+		Hiroda
+		Iwakura
+		Kato
+		Kiyotaka
+		Kiyoura
+		Kobayashi
+		Kuroda
+		Miyamoto
+		Mora
+		Murakami
+		Murata
+		Nakata
+		Nozaki
+		Okubo
+		Saigo
+		Sato
+		Sawada
+		Shohei
+		Sugimoto
+		Suzuki
+		Suzumiya
+		Tachibana
+		Takahasi
+		Takamori
+		Takasugi
+		Tanaka
+		Tomomi
+		Toshimichi
+		Toyota
+		Watabe
+		Watanabe
+		Yamauchi
+		Yamamoto
+		Yamamura
+		Yoshida
+		Yoshimura
+		Zen
+
 ;; City Names
-		of Azcapotzalco
-		of Capilico
-		of Chalcatzingo
-		of Cholula
-		of Cuernavaca
-		of Cuexcomate
-		of Cuicuilco
-		of Otumba
-		of Pachuca
-		of Tenochtitlan
-		of Teotihuacan
-		of Tepexpan
-		of Texcoco
-		of Tlacopan
-		of Tlapacoya
-		of Tlatelolco
-		of Tlatilco
-		of Toluca
-		of Tula
-		of Valsequillo
-		of Xochicalco
-		of Yautepec
+
 
 	women
-		Acaxochitl
-		Anacaona
-		Atototl
-		Atotoztli
-		Ayauhcihuatl
-		Azcalxochitzin
-		Azcalxochizin
-		Cacauaxochitl
-		Centehua
-		Chimalman
-		Cihuaton
-		Cuetlaxochitl
-		Eloxochitl
-		Iczoxochitl
-		Ilancueitl
-		Izquixochitl
-		Malinal
-		Malinche
-		Malintzin
-		Matlacihuatl
-		Miahuaxiuitl
-		Miyaoaxochitl
-		Mizquixaual
-		Necahual
-		Nopalxochitl
-		Omixochitl
-		Papan
-		Papantzin
-		Quauhxochitl
-		Quiauhxochitl
-		Tacapantzin
-		Tecuelhuatzin
-		Tecuichpo
-		Teicuih
-		Teotalco
-		Tepin
-		Teuicui
-		Teyacapan
-		Tiacapan
-		Tiacapantzin
-		Tlacahuepan
-		Tlaco
-		Tlacoehua
-		Tlacotl
-		Tlacoxochitl
-		Tlillocapantin
-		Uacalxochitl
-		Xiloxoch
-		Xiloxochitl
-		Xochitl
-		Xoco
-		Xocoyotl
+		Chikako
+		Sumiko
 
 faction: hre
 
@@ -6003,26 +5635,31 @@ faction: ezo
 		Yves
 		
 	surnames
-		Alacoque
-		Amyot
+		Ando
 		Arnaud
-		Becot
-		Bliaud
 		Borain
 		Brunet
-		Brunius
 		Chanteur
 		Clement
 		Coeur
-		Cottaz
 		Douie
+		Endo
 		Enomoto
-		Febre
 		Fouinon
+		Fujita
 		Gassou
+		Hara
+		Harada
+		Hayashi
 		Hijikata
+		Hiroda
+		Iwakura
 		Jeannin
-		Karembeu
+		Kato
+		Kiyotaka
+		Kiyoura
+		Kobayashi
+		Kuroda
 		le Brun
 		le Gris
 		le Maingre
@@ -6034,6 +5671,13 @@ faction: ezo
 		Mauclerc
 		Mauvoisin
 		Meurent
+		Miyamoto
+		Mora
+		Murakami
+		Murata
+		Nakata
+		Nozaki
+		Okubo
 		Otori
 		Oudet
 		Philibert
@@ -6041,69 +5685,36 @@ faction: ezo
 		Poitevin
 		Richelieu
 		Robert
-		Saisset
+		Saigo
 		Sarrasin
+		Sato
+		Sawada
+		Shohei
 		Sorel
-		Tanlay
+		Sugimoto
+		Suzuki
+		Suzumiya
+		Tachibana
+		Takahasi
+		Takamori
+		Takasugi
+		Tanaka
+		Tomomi
+		Toshimichi
 		Touchet
-		Tristram
+		Toyota
 		Veron
+		Watabe
+		Watanabe
+		Yamauchi
+		Yamamoto
+		Yamamura
+		Yoshida
+		Yoshimura
 		Xavier
+
 ;;bynames
-		de Paris
-		de Provence
-		de Toulouse
-		de Champagne
-		d_Angers
-		d_Arles
-		de Bordeaux
-		de Bourges
-		de Bouillon
-		de Calais
-		de Dijon
-		de Foix
-		de Grasse
-		de Loches
-		de Lyon
-		de Marseille
-		de Nevers
-		de Poitiers
-		de Reims
-		de Valence
-		d_Albret
-		d_Artois
-		de Balliol
-		de Bethune
-		de Blois
-		de Bourbon
-		de Brabant
-		de Breze
-		de Brienne
-		de Chabannes
-		de Cleves
-		de Coligny
-		de Dampierre
-		de Lusignan
-		de Luynes
-		de Marigny
-		de Mauchaut
-		de Montfort
-		de Molay
-		de Neufville
-		de Nogaret
-		de Plaisians
-		de Plater
-		de Poitiers
-		de Richemont
-		de Tarante
-		de Toulouse
-		de Valois
-		de Vendome
-		de Vesc
-		des Roches
-		d_Orleans
-		du Guesclin
-		du Lac
+
 
 	women
 		Agnes
