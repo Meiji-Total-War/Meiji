@@ -20,3 +20,6 @@ data/unit_models/mounts/medium_horse_marka/textures/rus_horse_light_nov.dds
 data/unit_models/mounts/medium_horse_marka/textures/medium_horse_marka.dds
 data/unit_models/mounts/heavy_horse_marka/textures/rus_horse_heavy_nov.tga
 data/unit_models/_units/japan_shogun/torso_lod0.mesh
+custom/previous battle.cbx
+*.mtl
+*.obj
