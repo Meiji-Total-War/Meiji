@@ -124,12 +124,10 @@ faction: venice
 		Suzuki
 		Suzumiya
 		Tachibana
-		Takahasi
-		Takamori
+		Takahashi
 		Takasugi
 		Tanaka
 		Tomomi
-		Toshimichi
 		Toyota
 		Watabe
 		Watanabe
