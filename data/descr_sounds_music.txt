@@ -395,7 +395,7 @@ BANK: music_bank
 
 
 
-;;;;;;;;;;;;;;;;;;;;; SOUTHERN EUROPEAN MUSIC (MEDITERREANEAN) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;; JAPANESE MUSIC (Imperial) ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
 
@@ -417,9 +417,7 @@ BANK: music_bank
 		state MUSIC_BATTLE_MOBILIZE
 			event 
 				folder data/sounds/music
-				(Mediterranean_Mobilize_1)_Mare_Nostrum.mp3
-				(Mediterranean_Mobilize_2)_Song_For_Toomba.mp3
-                (Mediterranean_Mobilize_2)_Death_Lullaby.mp3
+				抜刀隊.mp3
 			end
 			
 		state MUSIC_BATTLE_BATTLE
@@ -479,7 +477,8 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				古澤巌-鹿鳴館SLOW.mp3			
+				古澤巌-鹿鳴館SLOW.mp3	
+				シェルブールの雨傘.mp3		
 			end	
 			
 		state MUSIC_CAMPAIGN_LOADING
@@ -978,14 +977,8 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				ChineseEmpireCupofSolidGold.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
-              
+				スピラの情景.mp3
+              			ビサイドの島.mp3
 			end			
 
 
@@ -1064,7 +1057,7 @@ BANK: music_bank
 
 
 
-;;;;;;;;;;;;;;;;;;;;; AZTEC MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;			
+;;;;;;;;;;;;;;;;;;;;; EZOCHI MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;			
 	
 					
 	music_type mesoamerican
@@ -1150,8 +1143,8 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
+				極北の民.mp3
+				アシタカの伝説.mp3
 			end			
 
 
