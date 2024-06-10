@@ -26,7 +26,7 @@ regions Jeju Seoul Pyongyang NorthKorea Tsushima
 regions Hakodate Nagasaki Fukushima Aomori Kyoto
 regions Kanazawa Niigata Okinawa Manila
 
-factions venice sicily portugal papal_states slave ezo
+factions venice papal_states slave
 
 music_type middle_eastern
 
@@ -48,7 +48,7 @@ regions Yunnan Xian Linxia Xining Hunan
 regions Hubei Guangzhou Hainan Fujian Jiangxi
 regions Inner_Mongolia
 
-factions scotland mongols timurids normans china ryukyu
+factions portugal normans china ryukyu
 
 music_type southeast_asian
 
@@ -67,3 +67,15 @@ music_type mesoamerican
 regions Asahigawa Yuzhnosakhalinsk Nivkh
 
 factions hungary aztecs
+
+music_type tokugawa
+
+factions ezo
+
+music_type qing
+
+factions scotland mongols timurids
+
+music_type korean
+
+factions sicily
