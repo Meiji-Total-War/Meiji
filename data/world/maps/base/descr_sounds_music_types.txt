@@ -36,7 +36,7 @@ regions Shan Rangoon Sikkim Bhutan Assam
 regions Chittagong Manipur Kashmir Awadh Kobdo
 regions Turpan
 
-factions turks egypt nepal india
+factions turks egypt
 
 music_type chinese
 
@@ -79,3 +79,7 @@ factions scotland mongols timurids
 music_type korean
 
 factions sicily
+
+music_type south_asian
+
+factions nepal india
