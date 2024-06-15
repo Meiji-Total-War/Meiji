@@ -828,10 +828,10 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Sampeitai, 64, 0, 1.0
 officer			 Sampeitai_Officer
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, cannot_skirmish
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         10, 1, hand_gun_bullet, 100, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         10, 1, hand_gun_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         9, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -839,11 +839,11 @@ stat_pri_armour  2, 10, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      6, disciplined, highly_trained
+stat_mental      6, normal, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 540, 130, 80, 60, 540, 4, 80
+stat_cost        1, 580, 130, 80, 60, 580, 4, 80
 armour_ug_levels 0
 armour_ug_models Sampeitai
 ownership        ezo, slave
@@ -907,11 +907,11 @@ stat_pri_armour  2, 10, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      7, disciplined, highly_trained
+stat_mental      6, normal, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 600, 140, 80, 60, 600, 4, 100
+stat_cost        2, 800, 155, 80, 60, 800, 4, 100
 armour_ug_levels 0
 armour_ug_models Nagaoka_Hoheitai
 ownership        ezo, slave
@@ -930,7 +930,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Suzakutai, 64, 0, 1.0
 officer			 Suzakutai_Officer
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
 stat_pri         10, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
@@ -941,7 +941,7 @@ stat_pri_armour  2, 11, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      8, disciplined, highly_trained
+stat_mental      9, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -1013,7 +1013,7 @@ stat_mental      8, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 960, 185, 80, 60, 960, 2, 120
+stat_cost        3, 920, 190, 80, 60, 920, 2, 120
 armour_ug_levels 0
 armour_ug_models Gakuheitai
 ownership        ezo, slave
@@ -1032,10 +1032,10 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Yamagunitai, 64, 0, 1.0
 officer			 Yamagunitai_Officer
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         15, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         16, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         11, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -1047,7 +1047,7 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1100, 255, 80, 60, 1100, 2, 120
+stat_cost        3, 1080, 255, 80, 60, 1080, 2, 120
 armour_ug_levels 0
 armour_ug_models Yamagunitai
 ownership        venice, slave
@@ -1066,10 +1066,10 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Denshutai, 64, 0, 1.0
 officer			 Denshutai_Officer
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         16, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         16, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         14, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_sec_attr    spear, spear_bonus_8
@@ -1081,7 +1081,7 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1240, 260, 80, 60, 1240, 2, 140
+stat_cost        3, 1360, 265, 80, 60, 1360, 2, 140
 armour_ug_levels 0
 armour_ug_models Denshutai
 ownership        ezo, slave
@@ -1103,7 +1103,7 @@ officer			 Shotai_Officer1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         11, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         11, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         9, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -1111,7 +1111,7 @@ stat_pri_armour  2, 10, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      6, disciplined, highly_trained
+stat_mental      7, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -1132,16 +1132,16 @@ voice_type       Light
 accent           English
 banner faction   main_missile
 banner holy      crusade
-soldier          Karasugumi, 48, 0, 1.0
+soldier          Karasugumi, 32, 0, 1.0
 officer			 Karasugumi_Officer
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, start_not_skirmishing, hide_anywhere
-formation        1.2, 1.2, 2.4, 2.4, 4, square
+formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
 stat_pri         12, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         10, 7, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         10, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  2, 11, 0, flesh
+stat_pri_armour  2, 12, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
@@ -1149,7 +1149,7 @@ stat_mental      7, disciplined, untrained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 840, 180, 80, 60, 840, 2, 120
+stat_cost        2, 840, 180, 80, 60, 840, 2, 120
 armour_ug_levels 0
 armour_ug_models Karasugumi
 ownership        ezo, slave
@@ -1171,7 +1171,7 @@ officer			 Shinsengumi_Officer
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, frighten_foot, frighten_mounted, start_not_skirmishing
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
-stat_pri         12, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         12, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         13, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -1183,7 +1183,7 @@ stat_mental      12, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1140, 235, 80, 60, 1140, 2, 100
+stat_cost        3, 1140, 235, 80, 60, 1140, 2, 100
 armour_ug_levels 0
 armour_ug_models Shinsengumi
 ownership        ezo, slave
@@ -1200,7 +1200,7 @@ voice_type       Light
 accent           English
 banner faction   main_missile
 banner holy      crusade
-soldier          Jinshotai, 48, 0, 1.0
+soldier          Jinshotai, 32, 0, 1.0
 officer			 Jinshotai_Officer
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, very_hardy
 formation        1.2, 1.2, 2.4, 2.4, 4, square
@@ -1213,7 +1213,7 @@ stat_pri_armour  2, 11, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      9, disciplined, highly_trained
+stat_mental      10, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -1224,6 +1224,42 @@ ownership        venice, slave
 era 0            venice
 era 1            venice
 era 2            venice
+
+
+type             Japan Revolver Kihei
+dictionary       Japan_Revolver_Kihei
+category         cavalry
+class            missile
+voice_type       Heavy
+accent           French
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Revolver_Cavalry, 32, 0, 1
+officer			 Denshutai_Officer
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
+formation        2, 4.4, 3, 6, 3, square, wedge
+stat_health      1, 0
+stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec_attr    no
+stat_pri_armour  2, 7, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 740, 140, 80, 60, 740, 4, 100
+armour_ug_levels 0
+armour_ug_models Revolver_Cavalry
+ownership        ezo, venice, slave
+era 0            ezo, venice
+era 1            ezo, venice
+era 2            ezo, venice
 
 
 type             Japan Denshutai Kihei
@@ -1241,7 +1277,7 @@ mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
 formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
-stat_pri         14, 3, arquebus_bullet, 100, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         14, 3, arquebus_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         6, 9, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_sec_attr    no
