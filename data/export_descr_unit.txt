@@ -1135,9 +1135,9 @@ banner holy      crusade
 soldier          Karasugumi, 32, 0, 1.0
 officer			 Karasugumi_Officer
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, start_not_skirmishing, hide_anywhere
-formation        1.2, 1.2, 2.4, 2.4, 3, square
+formation        1.2, 1.2, 2.4, 2.4, 2, square
 stat_health      1, 0
-stat_pri         12, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         14, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         10, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -1203,7 +1203,7 @@ banner holy      crusade
 soldier          Jinshotai, 32, 0, 1.0
 officer			 Jinshotai_Officer
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, very_hardy
-formation        1.2, 1.2, 2.4, 2.4, 4, square
+formation        1.2, 1.2, 2.4, 2.4, 2, square
 stat_health      1, 0
 stat_pri         6, 1, hand_gun_bullet, 120, 30, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
@@ -1256,10 +1256,46 @@ stat_food        60, 300
 stat_cost        2, 740, 140, 80, 60, 740, 4, 100
 armour_ug_levels 0
 armour_ug_models Revolver_Cavalry
-ownership        ezo, venice, slave
-era 0            ezo, venice
-era 1            ezo, venice
-era 2            ezo, venice
+ownership        ezo, slave
+era 0            ezo
+era 1            ezo
+era 2            ezo
+
+
+type             Japan Revolver Kihei Han
+dictionary       Japan_Revolver_Kihei_Han
+category         cavalry
+class            missile
+voice_type       Heavy
+accent           French
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Revolver_Cavalry_Han, 32, 0, 1
+officer			 Shotai_Officer1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
+formation        2, 4.4, 3, 6, 3, square, wedge
+stat_health      1, 0
+stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri_attr    ap
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec_attr    no
+stat_pri_armour  2, 7, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      6, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 740, 140, 80, 60, 740, 4, 100
+armour_ug_levels 0
+armour_ug_models Revolver_Cavalry_Han
+ownership        venice, slave
+era 0            venice
+era 1            venice
+era 2            venice
 
 
 type             Japan Denshutai Kihei
