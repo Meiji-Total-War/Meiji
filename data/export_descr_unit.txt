@@ -899,7 +899,7 @@ officer			 Suzakutai_Officer
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         11, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         12, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         9, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -945,7 +945,7 @@ stat_mental      9, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 740, 150, 80, 60, 740, 4, 100
+stat_cost        2, 680, 150, 80, 60, 680, 4, 100
 armour_ug_levels 0
 armour_ug_models Suzakutai
 ownership        ezo, slave
@@ -1071,9 +1071,9 @@ formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
 stat_pri         16, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         14, 7, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec         12, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_sec_attr    spear, spear_bonus_8
-stat_pri_armour  2, 12, 0, flesh
+stat_pri_armour  2, 10, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
@@ -1229,23 +1229,23 @@ era 2            venice
 type             Japan Revolver Kihei
 dictionary       Japan_Revolver_Kihei
 category         cavalry
-class            missile
+class            light
 voice_type       Heavy
 accent           French
 banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          Revolver_Cavalry, 32, 0, 1
-officer			 Denshutai_Officer
+officer			 Sampeitai_Officer_Cav
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry, cannot_skirmish
 formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
 stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec         5, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, flesh
+stat_pri_armour  2, 5, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
@@ -1265,7 +1265,7 @@ era 2            ezo
 type             Japan Revolver Kihei Han
 dictionary       Japan_Revolver_Kihei_Han
 category         cavalry
-class            missile
+class            light
 voice_type       Heavy
 accent           French
 banner faction   main_cavalry
@@ -1274,14 +1274,14 @@ soldier          Revolver_Cavalry_Han, 32, 0, 1
 officer			 Shotai_Officer1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry, cannot_skirmish
 formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
 stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec         5, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, flesh
+stat_pri_armour  2, 5, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
@@ -1315,9 +1315,9 @@ formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
 stat_pri         14, 3, arquebus_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         6, 9, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec         6, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_sec_attr    no
-stat_pri_armour  2, 10, 0, flesh
+stat_pri_armour  2, 7, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
