@@ -27,7 +27,42 @@ faction: papal_states
 		Ninko
 
 	surnames
+		Ando
+		Bon
+		Endo
+		Fujita
+		Hara
+		Harada
+		Hayashi
+		Hiroda
+		Kato
+		Kiyoura
+		Kobayashi
+		Miyamoto
+		Murakami
+		Murata
+		Nakata
+		Nozaki
+		Sato
+		Sawada
+		Sho
+		Shohei
+		Sugimoto
+		Suzuki
+		Suzumiya
+		Tachibana
+		Takahashi
+		Takasugi
+		Tanaka
+		Toyota
+		Watabe
+		Watanabe
+		Yamauchi
+		Yamamoto
+		Yamamura
 		Yamato
+		Yoshida
+		Yoshimura
 ;;bynames
 		Yamato
 

@@ -5502,3 +5502,102 @@ building buddha
     {
     }
 }
+building industry
+{
+    religion islam
+    levels local_industry small_factory factory large_factory huge_factory
+    {
+        local_industry city requires factions { northern_european, middle_eastern, asian, eastern_european, greek, southern_european, } 
+        {
+            convert_to 0
+            capability
+            {
+                income_bonus bonus 150
+                happiness_bonus bonus 1
+            }
+            material wooden
+            construction  1 
+            cost  800 
+            settlement_min town
+            upgrades
+            {
+                small_factory
+            }
+        }
+        small_factory city requires factions { northern_european, middle_eastern, asian, eastern_european, greek, southern_european, } 
+        {
+            convert_to 1
+            capability
+            {
+                income_bonus bonus 300
+		construction_cost_bonus_stone bonus 5
+                religion_level bonus 1
+                population_health_bonus bonus -1
+            }
+            material wooden
+            construction  2 
+            cost  1600 
+            settlement_min large_town
+            upgrades
+            {
+                factory
+            }
+        }
+        factory city requires factions { northern_european, middle_eastern, asian, eastern_european, greek, southern_european, } 
+        {
+            capability
+            {
+                income_bonus bonus 750
+		construction_cost_bonus_stone bonus 10
+                religion_level bonus 4
+                population_health_bonus bonus -2
+            }
+            material wooden
+            construction  3 
+            cost  3200 
+            settlement_min city
+            upgrades
+            {
+                large_factory
+            }
+        }
+        large_factory city requires factions { northern_european, middle_eastern, asian, eastern_european, greek, southern_european, } 
+        {
+            capability
+            {
+                income_bonus bonus 1500
+		construction_cost_bonus_stone bonus 20
+                religion_level bonus 6
+                population_health_bonus bonus -3
+            }
+            material wooden
+            construction  4 
+            cost  6400 
+            settlement_min large_city
+            upgrades
+            {
+                huge_factory
+            }
+        }
+        huge_factory city requires factions { northern_european, middle_eastern, asian, eastern_european, greek, southern_european, } 
+        {
+            capability
+            {
+                income_bonus bonus 3000
+		construction_cost_bonus_stone bonus 30
+                religion_level bonus 9
+                population_health_bonus bonus -4
+            }
+            material wooden
+            construction  6 
+            cost  10000 
+            settlement_min huge_city
+            upgrades
+            {
+            }
+        }
+    }
+    plugins 
+    {
+    }
+}
