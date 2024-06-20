@@ -967,7 +967,7 @@ officer			 Satsuma_Hoheitai_Officer1
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         13, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         12, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         10, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -1035,7 +1035,7 @@ officer			 Yamagunitai_Officer
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
-stat_pri         16, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri         15, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
 stat_sec         11, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
@@ -1132,10 +1132,10 @@ voice_type       Light
 accent           English
 banner faction   main_missile
 banner holy      crusade
-soldier          Karasugumi, 32, 0, 1.0
+soldier          Karasugumi, 40, 0, 1.0
 officer			 Karasugumi_Officer
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, start_not_skirmishing, hide_anywhere
-formation        1.2, 1.2, 2.4, 2.4, 2, square
+formation        1.2, 1.2, 2.4, 2.4, 3, square
 stat_health      1, 0
 stat_pri         14, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
@@ -1200,7 +1200,7 @@ voice_type       Light
 accent           English
 banner faction   main_missile
 banner holy      crusade
-soldier          Jinshotai, 32, 0, 1.0
+soldier          Jinshotai, 40, 0, 1.0
 officer			 Jinshotai_Officer
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, very_hardy
 formation        1.2, 1.2, 2.4, 2.4, 2, square
@@ -1234,7 +1234,7 @@ voice_type       Heavy
 accent           French
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Revolver_Cavalry, 32, 0, 1
+soldier          Revolver_Cavalry, 24, 0, 1
 officer			 Sampeitai_Officer_Cav
 mount            heavy horse
 mount_effect     elephant -4, camel -4
@@ -1243,9 +1243,9 @@ formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
 stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         5, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  2, 5, 0, flesh
+stat_pri_armour  2, 6, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
@@ -1270,7 +1270,7 @@ voice_type       Heavy
 accent           French
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Revolver_Cavalry_Han, 32, 0, 1
+soldier          Revolver_Cavalry_Han, 24, 0, 1
 officer			 Shotai_Officer1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
@@ -1279,9 +1279,9 @@ formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
 stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         5, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
-stat_pri_armour  2, 5, 0, flesh
+stat_pri_armour  2, 6, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
@@ -1306,7 +1306,7 @@ voice_type       Heavy
 accent           French
 banner faction   main_cavalry
 banner holy      crusade_cavalry
-soldier          Denshutai_Cavalry, 32, 0, 1
+soldier          Denshutai_Cavalry, 24, 0, 1
 officer			 Denshutai_Officer
 mount            heavy horse
 mount_effect     elephant -4, camel -4
@@ -1317,7 +1317,7 @@ stat_pri         14, 3, arquebus_bullet, 120, 20, missile, missile_gunpowder, pi
 stat_pri_attr    ap
 stat_sec         6, 8, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_sec_attr    no
-stat_pri_armour  2, 7, 0, flesh
+stat_pri_armour  2, 8, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
@@ -1325,13 +1325,49 @@ stat_mental      10, disciplined, highly_trained
 stat_charge_dist 45
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        2, 1280, 275, 80, 60, 1280, 2, 160
+stat_cost        2, 1400, 290, 80, 60, 1280, 2, 160
 armour_ug_levels 0
 armour_ug_models Denshutai_Cavalry
 ownership        ezo, slave
 era 0            ezo
 era 1            ezo
 era 2            ezo
+
+type             Japan Basilisk Shogun
+dictionary       Japan_Basilisk_Shogun      ; Basilisk
+category         siege
+class            missile
+voice_type       Heavy
+banner faction   main_missile
+banner holy      crusade
+soldier          Arty_Shogun, 16, 2, 1
+engine           basilisk
+attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
+formation        1.5, 1.5, 3, 3, 3, square
+stat_health      1, 0
+stat_pri         6, 3, no, 0, 0, melee, artillery_gunpowder, slashing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         65, 3, basilisk_shot, 450, 30, siege_missile, artillery_gunpowder, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, bp, area, launching
+stat_pri_armour  2, 6, 0, flesh
+;stat_armour_ex   4, 0, 0, 0, 4, 0, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, 0, 0, 0
+stat_mental      8, disciplined, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1080, 400, 90, 70, 1080, 2, 260
+armour_ug_levels 1
+armour_ug_models Arty_Shogun
+ownership        ezo, slave
+era 0            ezo
+era 1            ezo
+era 2            ezo
+;unit_info        6, 0, 8
 
 
 ;##################################################################################################################################################
@@ -12477,8 +12513,6 @@ stat_cost        1, 370, 150, 90, 70, 370, 4, 90
 armour_ug_levels 1
 armour_ug_models NE_Ballista_Crew
 ownership        england, scotland, hre, france, denmark, portugal, spain, venice, milan, sicily, papal_states, normans
-era 0            northern_european, southern_european
-era 1            northern_european, southern_european
 ;unit_info        6, 0, 8
  
  
@@ -12659,8 +12693,6 @@ stat_cost        1, 400, 150, 90, 70, 400, 4, 100
 armour_ug_levels 1
 armour_ug_models NE_Catapult_Crew
 ownership        england, scotland, hre, france, denmark, portugal, spain, venice, milan, sicily, papal_states, normans
-era 0            northern_european, southern_european, normans
-era 1            northern_european, southern_european, normans
 ;unit_info        6, 0, 8
  
  
