@@ -407,6 +407,49 @@ settlement
 	}
 }
 
+settlement
+{
+	level city
+	region Pondicherry
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator france
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type sea_trade warehouse
+	}
+	building
+	{
+		type market fairground
+	}
+	building
+	{
+		type hinterland_roads paved_roads
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
+}
+
 character	Philip, named character, male, leader, age 40, x 216, y 65 
 traits Factionleader 1 , GoodCommander 2 , Intelligent 2 , Austere 1 , PublicFaith 1 , BattleChivalry 1 , StrategyChivalry 3 , ReligionStarter 1 
 army
@@ -468,6 +511,14 @@ settlement
 	{
 		type core_building wooden_pallisade
 	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
 }
 
 settlement
@@ -483,6 +534,14 @@ settlement
 	{
 		type core_building wooden_pallisade
 	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
 }
 
 settlement
@@ -494,6 +553,10 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator spain
+	building
+	{
+		type temple_orthodox small_church_o
+	}
 }
 
 settlement
@@ -825,13 +888,40 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Niigata
 
 	year_founded 0
-	population 400
+	population 3000
 	plan_set default_set
 	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Akita
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks town_guard
+	}
 }
 
 character	Toshimichi Okubo, named character, male, leader, age 38, x 469, y 320, portrait ToshimichiOkubo 
@@ -1093,6 +1183,17 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Tibet
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator scotland
+}
+
 character	Aed Boyd, named character, male, leader, age 20, x 105, y 248 
 traits Factionleader 1 , LoyaltyStarter 1 , ReligionStarter 1 
 army
@@ -1117,6 +1218,10 @@ settlement
 	{
 		type core_building wooden_wall
 	}
+	building
+	{
+		type port port
+	}
 }
 
 settlement
@@ -1131,6 +1236,10 @@ settlement
 	building
 	{
 		type core_building wooden_pallisade
+	}
+	building
+	{
+		type port port
 	}
 }
 
@@ -1212,31 +1321,55 @@ settlement castle
 
 settlement
 {
-	level village
+	level large_town
 	region Nerchinsk
 
 	year_founded 0
-	population 400
+	population 1200
 	plan_set default_set
 	faction_creator russia
 	building
 	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
 		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type city_hall town_hall
 	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Albazin
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator russia
 	building
 	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
 		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type barracks town_watch
 	}
 }
 
@@ -1246,7 +1379,7 @@ settlement
 	region Tugur
 
 	year_founded 0
-	population 700
+	population 900
 	plan_set default_set
 	faction_creator russia
 	building
@@ -1265,7 +1398,7 @@ settlement
 	region Belogorsk
 
 	year_founded 0
-	population 400
+	population 700
 	plan_set default_set
 	faction_creator russia
 }
@@ -1276,7 +1409,7 @@ settlement
 	region Khabarovsk
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator russia
 }
@@ -1287,7 +1420,7 @@ settlement castle
 	region Komsomolsk
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator russia
 	building
@@ -1306,57 +1439,137 @@ settlement
 	region Chita
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator russia
 	building
 	{
 		type temple_orthodox small_church_o
 	}
+	building
+	{
+		type barracks town_watch
+	}
 }
 
 settlement
 {
-	level village
+	level large_town
 	region Irkutsk
 
 	year_founded 0
-	population 400
+	population 1400
 	plan_set default_set
 	faction_creator russia
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type city_hall council_chambers
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Barginsk
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator russia
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type city_hall town_hall
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Mednoi
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator russia
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type taverns inn
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Verniy
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator russia
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_orthodox church_o
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
+	building
+	{
+		type city_hall town_hall
+	}
+	building
+	{
+		type barracks town_watch
+	}
 }
 
 settlement
@@ -1365,12 +1578,59 @@ settlement
 	region Ili
 
 	year_founded 0
-	population 400
+	population 900
 	plan_set default_set
 	faction_creator turks
 	building
 	{
 		type core_building wooden_pallisade
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type barracks town_watch
+	}
+}
+
+settlement
+{
+	level large_city
+	region Omsk
+
+	year_founded 0
+	population 5000
+	plan_set default_set
+	faction_creator russia
+	building
+	{
+		type core_building large_stone_wall
+	}
+	building
+	{
+		type barracks militia_barracks
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type temple_orthodox cathedral_o
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type city_hall city_hall
+	}
+	building
+	{
+		type market market
 	}
 }
 
@@ -1393,13 +1653,21 @@ denari	9000
 denari_kings_purse	2000
 settlement
 {
-	level village
+	level large_town
 	region Manguindanao
 
 	year_founded 0
-	population 400
+	population 4000
 	plan_set default_set
 	faction_creator moors
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type temple_muslim small_masjid
+	}
 }
 
 settlement
@@ -1430,20 +1698,32 @@ denari	12000
 denari_kings_purse	2000
 settlement
 {
-	level large_town
+	level city
 	region Kashgar
 
 	year_founded 0
-	population 2300
+	population 4300
 	plan_set default_set
 	faction_creator turks
 	building
 	{
-		type core_building wooden_wall
+		type core_building stone_wall
+	}
+	building
+	{
+		type temple_muslim minareted_masjid
 	}
 	building
 	{
 		type hinterland_roads roads
+	}
+	building
+	{
+		type barracks city_watch
+	}
+	building
+	{
+		type city_hall council_chambers
 	}
 }
 
@@ -1478,6 +1758,33 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Khotan
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator turks
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type temple_muslim masjid
+	}
+	building
+	{
+		type city_hall town_hall
 	}
 }
 
@@ -1795,13 +2102,17 @@ denari	10000
 denari_kings_purse	2000
 settlement
 {
-	level village
+	level large_city
 	region Kyoto
 
 	year_founded 0
-	population 400
+	population 4000
 	plan_set default_set
 	faction_creator papal_states
+	building
+	{
+		type core_building large_stone_wall
+	}
 }
 
 character	Meiji Yamato, named character, male, leader, age 16, x 466, y 318, portrait Meiji 
@@ -1838,7 +2149,7 @@ settlement
 	faction_creator aztecs
 }
 
-character	Eyahue of Otumba, named character, male, leader, age 20, x 490, y 403 
+character	Tomomi Sugimoto, named character, male, leader, age 20, x 490, y 403 
 army
 unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
 
@@ -1895,13 +2206,25 @@ denari	12000
 denari_kings_purse	2000
 settlement
 {
-	level village
+	level huge_city
 	region Peking
 
 	year_founded 0
-	population 400
+	population 9000
 	plan_set default_set
 	faction_creator timurids
+	building
+	{
+		type core_building huge_stone_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
 }
 
 settlement
@@ -1928,24 +2251,44 @@ settlement
 
 settlement
 {
-	level village
+	level large_town
 	region Harbin
 
 	year_founded 0
-	population 400
+	population 2500
 	plan_set default_set
 	faction_creator timurids
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type barracks town_guard
+	}
+	building
+	{
+		type city_hall town_hall
+	}
 }
 
 settlement
 {
-	level village
+	level town
 	region Aigun
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator timurids
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
 }
 
 settlement
@@ -1961,13 +2304,21 @@ settlement
 
 settlement
 {
-	level village
+	level town
 	region Chanchung
 
 	year_founded 0
-	population 400
+	population 800
 	plan_set default_set
 	faction_creator timurids
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type barracks town_watch
+	}
 }
 
 settlement
@@ -2276,6 +2627,63 @@ settlement
 	faction_creator timurids
 }
 
+settlement
+{
+	level large_town
+	region Guangzhouwan
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type port port
+	}
+}
+
+settlement
+{
+	level city
+	region Henan
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Hebei
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	Gong Aisin_Gioro, named character, male, age 36, x 304, y 359 
 army
 unit		Khan's Guard				exp 0 armour 0 weapon_lvl 0
@@ -2320,24 +2728,32 @@ denari	12000
 denari_kings_purse	2000
 settlement
 {
-	level village
+	level city
 	region Hanoi
 
 	year_founded 0
-	population 400
+	population 4000
 	plan_set default_set
 	faction_creator normans
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 settlement
 {
-	level village
+	level city
 	region Annam
 
 	year_founded 0
-	population 400
+	population 4000
 	plan_set default_set
 	faction_creator normans
+	building
+	{
+		type core_building stone_wall
+	}
 }
 
 character	Aston Canton, named character, male, leader, age 20, x 221, y 161 
@@ -2489,6 +2905,17 @@ settlement
 	population 400
 	plan_set default_set
 	faction_creator nepal
+}
+
+settlement
+{
+	level village
+	region Laos
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator milan
 }
 
 
@@ -2659,7 +3086,7 @@ settlement
 	region Burma
 
 	year_founded 0
-	population 400
+	population 4000
 	plan_set default_set
 	faction_creator burma
 	building
