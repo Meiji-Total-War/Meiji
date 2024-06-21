@@ -2824,19 +2824,14 @@ building admiralty
 }
 building market
 {
+    religion liberal
     levels corn_exchange market fairground great_market merchants_quarter 
     {
         corn_exchange city requires factions { northern_european, middle_eastern, asian, eastern_european, greek, southern_european, } 
         {
             capability
             {
-                agent merchant  0  requires factions { northern_european, } 
-                agent merchant  0  requires factions { middle_eastern, asian, } 
-                agent merchant  0  requires factions { eastern_european, } 
-                agent merchant  0  requires factions { greek, } 
-                agent merchant  0  requires factions { southern_european, } 
                 trade_base_income_bonus bonus 2
-                agent_limit merchant 1
             }
             material wooden
             construction  2 
@@ -2856,8 +2851,8 @@ building market
                 agent merchant  0  requires factions { eastern_european, } 
                 agent merchant  0  requires factions { greek, } 
                 agent merchant  0  requires factions { southern_european, } 
-                trade_base_income_bonus bonus 3
-                agent_limit merchant 1
+                trade_base_income_bonus bonus 4
+                religion_level bonus 1
             }
             material wooden
             construction  3 
@@ -2877,8 +2872,9 @@ building market
                 agent merchant  0  requires factions { eastern_european, } 
                 agent merchant  0  requires factions { greek, } 
                 agent merchant  0  requires factions { southern_european, } 
-                trade_base_income_bonus bonus 4
+                trade_base_income_bonus bonus 8
                 agent_limit merchant 1
+                religion_level bonus 3
             }
             material wooden
             construction  4 
@@ -2898,8 +2894,9 @@ building market
                 agent merchant  0  requires factions { eastern_european, } 
                 agent merchant  0  requires factions { greek, } 
                 agent merchant  0  requires factions { southern_european, } 
-                trade_base_income_bonus bonus 5
+                trade_base_income_bonus bonus 16
                 agent_limit merchant 1
+                religion_level bonus 6
             }
             material wooden
             construction  6 
@@ -2919,8 +2916,9 @@ building market
                 agent merchant  0  requires factions { eastern_european, } 
                 agent merchant  0  requires factions { greek, } 
                 agent merchant  0  requires factions { southern_european, } 
-                trade_base_income_bonus bonus 6
+                trade_base_income_bonus bonus 24
                 agent_limit merchant 1
+                religion_level bonus 9
             }
             material wooden
             construction  7 
