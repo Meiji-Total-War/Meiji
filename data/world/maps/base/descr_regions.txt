@@ -191,7 +191,7 @@ Hallar
 	none
 	5
 	1
-	religions { catholic 0 orthodox 10 sunni 10 confucian 0 buddhism 0 pagan 80 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 10 sunni 0 confucian 50 buddhism 5 pagan 35 heretic 0 liberal 0 islam 0 }
 Nerchinsk
 	Nerchinsk
 	russia
@@ -209,7 +209,7 @@ Tsitsihar
 	none
 	5
 	1
-	religions { catholic 0 orthodox 10 sunni 10 confucian 0 buddhism 0 pagan 80 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 10 sunni 0 confucian 50 buddhism 0 pagan 40 heretic 0 liberal 0 islam 0 }
 Harbin
 	Harbin
 	timurids
@@ -218,7 +218,7 @@ Harbin
 	none
 	5
 	3
-	religions { catholic 0 orthodox 5 sunni 5 confucian 0 buddhism 0 pagan 90 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 5 sunni 5 confucian 80 buddhism 0 pagan 20 heretic 0 liberal 0 islam 0 }
 Albazin
 	Albazin
 	russia
@@ -254,7 +254,7 @@ Aigun
 	none
 	5
 	1
-	religions { catholic 0 orthodox 5 sunni 0 confucian 0 buddhism 0 pagan 95 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 10 sunni 0 confucian 45 buddhism 0 pagan 45 heretic 0 liberal 0 islam 0 }
 Chiamussu
 	Chiamussu
 	timurids
@@ -263,7 +263,7 @@ Chiamussu
 	none
 	5
 	1
-	religions { catholic 0 orthodox 10 sunni 0 confucian 0 buddhism 0 pagan 90 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 10 sunni 0 confucian 50 buddhism 5 pagan 35 heretic 0 liberal 0 islam 0 }
 Khabarovsk
 	Khabarovsk
 	russia
@@ -299,7 +299,7 @@ Chanchung
 	none
 	5
 	1
-	religions { catholic 0 orthodox 0 sunni 10 confucian 0 buddhism 0 pagan 90 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 0 sunni 5 confucian 75 buddhism 0 pagan 20 heretic 0 liberal 0 islam 0 }
 Tsushima
 	Tsushima
 	venice
@@ -1155,3 +1155,84 @@ Turpan
 	5
 	2
 	religions { catholic 0 orthodox 5 sunni 65 confucian 20 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
+Pondicherry
+	Pondicherry
+	france
+	Livonian_Rebels
+	120 42 177
+	none
+	5
+	2
+	religions { catholic 0 orthodox 10 sunni 20 confucian 5 buddhism 65 pagan 0 heretic 0 liberal 0 islam 0 }
+Omsk
+	Omsk
+	russia
+	Rus_Rebels
+	43 135 68
+	none
+	5
+	1
+	religions { catholic 0 orthodox 55 sunni 30 confucian 5 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
+Guangzhouwan
+	Guangzhouwan
+	timurids
+	Livonian_Rebels
+	125 226 241
+	none
+	5
+	2
+	religions { catholic 0 orthodox 5 sunni 10 confucian 65 buddhism 20 pagan 0 heretic 0 liberal 0 islam 0 }
+Khotan
+	Khotan
+	turks
+	Seljuk_Rebels
+	236 255 143
+	none
+	5
+	1
+	religions { catholic 0 orthodox 0 sunni 80 confucian 10 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
+Tibet
+	TibetC
+	scotland
+	Steppe_Rebels
+	139 109 44
+	none
+	5
+	1
+	religions { catholic 0 orthodox 0 sunni 10 confucian 10 buddhism 80 pagan 0 heretic 0 liberal 0 islam 0 }
+Laos
+	Laos
+	milan
+	Livonian_Rebels
+	98 210 25
+	none
+	5
+	1
+	religions { catholic 0 orthodox 0 sunni 5 confucian 30 buddhism 60 pagan 5 heretic 0 liberal 0 islam 0 }
+Henan
+	Kaifeng
+	timurids
+	Livonian_Rebels
+	102 99 239
+	none
+	5
+	3
+	religions { catholic 0 orthodox 5 sunni 10 confucian 75 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
+Hebei
+	Shijiazhuang
+	timurids
+	Livonian_Rebels
+	255 255 103
+	none
+	5
+	3
+	religions { catholic 0 orthodox 0 sunni 15 confucian 75 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
+Akita
+	Akita
+	venice
+	Livonian_Rebels
+	40 224 68
+	none
+	5
+	3
+	religions { catholic 70 orthodox 0 sunni 0 confucian 10 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
