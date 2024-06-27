@@ -1369,6 +1369,42 @@ era 1            ezo
 era 2            ezo
 ;unit_info        6, 0, 8
 
+type             Japan Basilisk Satcho
+dictionary       Japan_Basilisk_Satcho      ; Basilisk
+category         siege
+class            missile
+voice_type       Heavy
+banner faction   main_missile
+banner holy      crusade
+soldier          Arty_Satcho, 16, 2, 1
+engine           basilisk
+attributes       sea_faring, hardy, can_withdraw, gunpowder_unit, cannon, artillery, explode
+formation        1.5, 1.5, 3, 3, 3, square
+stat_health      1, 0
+stat_pri         6, 3, no, 0, 0, melee, artillery_gunpowder, slashing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         65, 3, basilisk_shot, 450, 30, siege_missile, artillery_gunpowder, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    ap, bp, area, launching
+stat_pri_armour  2, 6, 0, flesh
+;stat_armour_ex   4, 0, 0, 0, 4, 0, 0, leather
+stat_sec_armour  0, 0, flesh
+stat_heat        1
+stat_ground      0, 0, 0, 0
+stat_mental      8, disciplined, untrained
+stat_charge_dist 30
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 1080, 400, 90, 70, 1080, 2, 260
+armour_ug_levels 1
+armour_ug_models Arty_Satcho
+ownership        venice, slave
+era 0            venice
+era 1            venice
+era 2            venice
+;unit_info        6, 0, 8
+
 
 ;##################################################################################################################################################
 ;################################################################ END OF NEW UNITS ################################################################
