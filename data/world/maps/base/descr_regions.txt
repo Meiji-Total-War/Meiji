@@ -559,7 +559,7 @@ Guam
 	209 140 178
 	none
 	5
-	1
+	2
 	religions { catholic 10 orthodox 80 sunni 0 confucian 0 buddhism 0 pagan 10 heretic 0 liberal 0 islam 0 }
 Marianas
 	Saipan
@@ -1158,7 +1158,7 @@ Turpan
 Pondicherry
 	Pondicherry
 	france
-	Livonian_Rebels
+	French_Rebels
 	120 42 177
 	none
 	5

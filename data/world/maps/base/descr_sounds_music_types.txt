@@ -20,28 +20,25 @@ factions russia
 music_type southern_european
 
 regions Tokyo Sendai Osaka Shikoku Hiroshima
-regions Kagoshima Aichi Sapporo Kanagawa Busan
-regions Jeju Seoul Pyongyang NorthKorea Tsushima
+regions Kagoshima Aichi Sapporo Kanagawa Tsushima
 regions Hakodate Nagasaki Fukushima Aomori Kyoto
-regions Kanazawa Niigata Okinawa Manila Akita
+regions Kanazawa Niigata Manila Akita
 
 factions venice papal_states slave
 
 music_type middle_eastern
 
-regions Bengal Kashgar Burma Ili Urumchi
-regions Nepal Haiderabad Ceylon Madras Dzungaria
-regions Shan Rangoon Darjeeling Sikkim Bhutan
-regions Assam Chittagong Manipur Kashmir Awadh
-regions Kobdo Turpan Pondicherry Khotan Tibet
+regions Kashgar Lhasa Burma Ili Urumchi
+regions Nepal Dzungaria Shan Rangoon Kobdo
+regions Turpan Khotan Tibet
 
 factions turks egypt
 
 music_type chinese
 
 regions Peking Hallar Tsitsihar Harbin Aigun
-regions Chiamussu Chanchung Taipei Tainan Tsingtao
-regions Hong_Kong Lhasa Macau Urga Dalian
+regions Chiamussu Chanchung Okinawa Taipei Tainan
+regions Tsingtao Hong_Kong Macau Urga Dalian
 regions Hanoi Shanghai Nanking Sichuan Lanzhou
 regions Yunnan Xian Linxia Xining Hunan
 regions Hubei Guangzhou Hainan Fujian Jiangxi
@@ -80,10 +77,14 @@ factions scotland mongols timurids
 
 music_type korean
 
+regions Busan Jeju Seoul Pyongyang NorthKorea
 
 factions sicily
 
 music_type south_asian
 
+regions Bengal Haiderabad Ceylon Madras Darjeeling
+regions Sikkim Bhutan Assam Chittagong Manipur
+regions Kashmir Awadh Pondicherry
 
 factions nepal india
