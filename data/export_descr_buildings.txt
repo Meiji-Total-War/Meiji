@@ -2440,7 +2440,7 @@ building port
             convert_to 0
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "dhow"  1   1   3  0  requires factions { middle_eastern, asian, } 
                 recruit_pool "cog"  1   1   3  0  requires factions { hungary, poland, } 
@@ -2464,9 +2464,9 @@ building port
             convert_to 1
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, } 
+                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, saxons, } 
                 recruit_pool "dragon boat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "dhow"  1   1   3  0  requires factions { middle_eastern, asian, } 
                 recruit_pool "war galley"  1   1   3  0  requires factions { egypt, moors, turks, } 
@@ -2495,9 +2495,9 @@ building port
             convert_to 2
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, } 
+                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, saxons, } 
                 recruit_pool "dragon boat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "gun holk"  1   1   3  0  requires factions { northern_european, } 
                 recruit_pool "dhow"  1   1   3  0  requires factions { middle_eastern, asian, } 
@@ -2534,9 +2534,9 @@ building port
             convert_to 3
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, } 
+                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, saxons, } 
                 recruit_pool "dragon boat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "gun holk"  1   1   3  0  requires factions { northern_european, } 
                 recruit_pool "carrack"  1   1   3  0  requires factions { northern_european, } 
@@ -2588,7 +2588,7 @@ building castle_port
             convert_to 0
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "dhow"  1   1   3  0  requires factions { middle_eastern, asian, } 
                 recruit_pool "cog"  1   1   3  0  requires factions { hungary, poland, } 
@@ -2612,9 +2612,9 @@ building castle_port
             convert_to 1
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, } 
+                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, saxons, } 
                 recruit_pool "dragon boat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "dhow"  1   1   3  0  requires factions { middle_eastern, asian, } 
                 recruit_pool "war galley"  1   1   3  0  requires factions { egypt, moors, turks, } 
@@ -2643,9 +2643,9 @@ building castle_port
             convert_to 2
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, } 
+                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, saxons, } 
                 recruit_pool "dragon boat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "gun holk"  1   1   3  0  requires factions { northern_european, } 
                 recruit_pool "dhow"  1   1   3  0  requires factions { middle_eastern, asian, } 
@@ -2682,9 +2682,9 @@ building castle_port
             convert_to 3
             capability
             {
-                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, } 
+                recruit_pool "cog"  1   1   3  0  requires factions { hre, france, scotland, england, saxons, } 
                 recruit_pool "longboat"  1   1   3  0  requires factions { denmark, } 
-                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, } 
+                recruit_pool "holk"  1   1   3  0  requires factions { hre, scotland, france, england, saxons, } 
                 recruit_pool "dragon boat"  1   1   3  0  requires factions { denmark, } 
                 recruit_pool "gun holk"  1   1   3  0  requires factions { northern_european, } 
                 recruit_pool "carrack"  1   1   3  0  requires factions { northern_european, } 
