@@ -2,10 +2,10 @@
 ;
 
 accent English
-    factions england, saxons
+    factions england
 
 accent Scottish
-    factions 
+    factions saxons
 
 accent French
     factions france
