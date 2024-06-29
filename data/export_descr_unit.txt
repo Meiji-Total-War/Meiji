@@ -261,7 +261,7 @@ stat_food        60, 300
 stat_cost        1, 500, 150, 100, 100, 500, 4, 120
 armour_ug_levels 0
 armour_ug_models Peasants
-ownership        england, hre, france, scotland, hungary, poland, portugal, spain
+ownership        england, hre, france, scotland, hungary, poland, portugal, spain, saxons
 ;unit_info        5, 0, 8
  
  
@@ -549,7 +549,7 @@ stat_food        60, 300
 stat_cost        1, 670, 200, 150, 150, 670, 4, 160
 armour_ug_levels 0
 armour_ug_models Peasants
-ownership        poland, russia, england, france, ezo, hre, scotland
+ownership        poland, russia, england, france, ezo, hre, scotland, saxons
 ;unit_info        10, 0, 12
  
  
