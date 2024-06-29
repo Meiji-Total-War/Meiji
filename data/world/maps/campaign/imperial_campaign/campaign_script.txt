@@ -1,13 +1,124 @@
 ;
-; Campaign script by gigantus
+; Campaign script
 ;
 script
 
+;	monitor_event PreFactionTurnStart FactionIsLocal
+;		restrict_strat_radar false
+;	end_monitor
 
-	restrict_strat_radar false
-;	console_command toggle_fow
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;			Seasons		;;;;;;;;;;;;;;;;;;;;;;;
+;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+
+
+;	 Seasonal Turn Script
+
+;	declare_counter seasonal_turn
+;	set_counter seasonal_turn 1
+
+;	monitor_event PreFactionTurnStart FactionIsLocal
+;	if I_CompareCounter seasonal_turn == 1
+;	console_command season winter
+;	end_if
+
+;	if I_CompareCounter seasonal_turn == 2
+;	console_command season summer
+;	end_if
+
+;	if I_CompareCounter seasonal_turn == 3
+;	console_command season summer
+;	end_if
+
+;	if I_CompareCounter seasonal_turn == 4
+;	console_command season summer
+;	end_if
+
+;	inc_counter seasonal_turn 1
+;	if I_CompareCounter seasonal_turn == 5
+;	set_counter seasonal_turn 1
+;	end_if
+;	end_monitor
 
 
 
+
+;___________________________________________________________________________________________________________________________
+;
+;	USA OFF MAP
+;___________________________________________________________________________________________________________________________
+
+
+	monitor_event PreFactionTurnStart FactionIsLocal
+		if I_TurnNumber < 2
+		and I_IsFactionAIControlled saxons
+		and I_LocalFaction spain
+			give_everything_to_faction saxons spain false
+		end_if
+		terminate_monitor
+	end_monitor
+
+;___________________________________________________________________________________________________________________________
+;
+;	USA Invasion
+;___________________________________________________________________________________________________________________________
+
+
+;	monitor_event FactionTurnStart FactionType slave
+;
+;		; spawn armies
+;		if I_TurnNumber = 2
+;		if I_IsFactionAIControlled saxons
+;			spawn_army
+;				faction saxons
+;				character	Karl, named character, male, leader, age 43, x 2, y 40, family
+;				traits Factionleader 1, LoyaltyStarter 1, ReligionStarter 1 
+;				unit	Saxon_Bodyguard			exp 3 armour 1 weapon_lvl 1
+;		end_if
+;	end_monitor
+
+
+
+;___________________________________________________________________________________________________________________________
+;
+;	Germans OFF MAP
+;___________________________________________________________________________________________________________________________
+
+
+	monitor_event PreFactionTurnStart FactionIsLocal
+		if I_TurnNumber < 2
+		and I_IsFactionAIControlled hre
+		and I_LocalFaction timurids
+			give_everything_to_faction hre timurids false
+		end_if
+		terminate_monitor
+	end_monitor
+
+;___________________________________________________________________________________________________________________________
+;
+;	German Invasion
+;___________________________________________________________________________________________________________________________
+
+
+;	monitor_event FactionTurnStart FactionType slave
+;
+;		; spawn armies
+;		if I_TurnNumber = 2
+;		if I_IsFactionAIControlled hre
+;			spawn_army
+;				faction hre
+;				character	Gunther, named character, male, leader age 43, x 337, y 331, family
+;				traits Factionleader 1, LoyaltyStarter 1, ReligionStarter 1 
+;				unit	NE_Bodyguard			exp 3 armour 1 weapon_lvl 1
+;		end_if
+;	end_monitor
+
+
+
+
+
+
+    ; === DO NOT ADD ANYTHING BELOW THIS LINE! ===
+
+    wait_monitors
 end_script
-

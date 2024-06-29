@@ -23,6 +23,7 @@ playable
 	mongols
 	timurids
 	normans
+	saxons
 	ezo
 	ryukyu
 	nepal
@@ -40,7 +41,7 @@ end
 
 start_date	1869 summer
 end_date	1921 winter
-timescale	0.50
+timescale	0.25
 
 
 marian_reforms_disabled
@@ -495,29 +496,6 @@ settlement
 	building
 	{
 		type core_building wooden_wall
-	}
-}
-
-settlement
-{
-	level town
-	region Guam
-
-	year_founded 0
-	population 400
-	plan_set default_set
-	faction_creator spain
-	building
-	{
-		type core_building wooden_pallisade
-	}
-	building
-	{
-		type port port
-	}
-	building
-	{
-		type temple_orthodox small_church_o
 	}
 }
 
@@ -2763,6 +2741,40 @@ unit		NE Bodyguard				exp 0 armour 0 weapon_lvl 0
 
 
 
+faction	saxons,  
+ai_label		
+denari	10000
+denari_kings_purse	2000
+settlement
+{
+	level town
+	region Guam
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator spain
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type port port
+	}
+	building
+	{
+		type temple_orthodox small_church_o
+	}
+}
+
+character	Arnold Becker, named character, male, leader, age 20, x 500, y 93 
+traits Factionleader 1 , ReligionStarter 1 
+army
+unit		Saxon Bodyguard				exp 0 armour 0 weapon_lvl 0
+
+
+
 faction	slave,  
 ai_label		
 denari	0
@@ -2963,8 +2975,8 @@ settlement castle
 	}
 }
 
-character	Jules Brunet, named character, male, leader, age 31, x 473, y 382, portrait JulesBrunet 
-traits Factionleader 1 , Brave 3 , StrategicSkill 1 , Disciplinarian 1 , DeceiverVirtue 1 , HaleAndHearty 1 , LoyaltyStarter 1 , Scout 1 , AcademyTrained 1 
+character	Jules Brunet, named character, male, age 31, x 473, y 382, portrait JulesBrunet 
+traits Brave 3 , StrategicSkill 1 , Disciplinarian 1 , DeceiverVirtue 1 , HaleAndHearty 1 , LoyaltyStarter 1 , Scout 1 , AcademyTrained 1 
 army
 unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
 
@@ -3296,7 +3308,8 @@ faction_relationships 	mongols, at_war_with 	slave
 faction_relationships 	timurids, allied_to 	mongols, ryukyu, scotland, sicily
 faction_relationships 	timurids, at_war_with 	slave, turks, egypt
 faction_relationships 	normans, at_war_with 	slave
-faction_relationships 	slave, at_war_with 	sicily, milan, timurids, ezo, normans, france, burma, byzantium, spain, venice, hre, egypt, turks, denmark, russia, mongols, moors, papal_states, hungary, aztecs, portugal, england
+faction_relationships 	saxons, at_war_with 	slave
+faction_relationships 	slave, at_war_with 	sicily, saxons, timurids, ezo, normans, france, burma, mongols, spain, venice, hre, turks, moors, egypt, byzantium, aztecs, russia, papal_states, hungary, milan, portugal, denmark, england
 faction_relationships 	ezo, allied_to 	france
 faction_relationships 	ezo, at_war_with 	slave, venice
 faction_relationships 	ryukyu, allied_to 	timurids, venice
