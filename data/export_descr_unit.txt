@@ -786,9 +786,9 @@ ownership        slave
 
 
 type             Japan Kachi
-dictionary       Japan_Kachi
+dictionary       Japan_Kachi      ; Japanese Kachi / Japanese Samurai Spearmen / Japanese Yari Samurai / Japanese Yari Kachi
 category         infantry
-class            heavy
+class            spearmen
 voice_type       Heavy
 accent         French
 banner faction   main_infantry
@@ -797,13 +797,13 @@ soldier          Kachi, 80, 0, 1.2
 attributes       sea_faring, hide_forest, hardy, can_withdraw, frighten_mounted
 formation        1.2, 1.2, 2.4, 2.4, 5, square, schiltrom
 stat_health      1, 0
-stat_pri         9, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_pri         8, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 ;stat_pri_ex      0, 0, 0
 stat_pri_attr    spear, spear_bonus_8
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  6, 11, 0, metal
+stat_pri_armour  6, 9, 0, metal
 ;stat_armour_ex   7, 0, 0, 0, 5, 0, 0, metal
 stat_sec_armour  0, 0, leather
 stat_heat        2
@@ -822,10 +822,46 @@ era 2            ezo, venice
 ;unit_info        12, 0, 12
 
 
-type             Japan Teppotai
-dictionary       Japan_Teppotai
+type             Japan Yumitai
+dictionary       Japan_Yumitai      ; Japanese Yumitai / Japanese Samurai Archers / Japanese Yumi Samurai / Japanese Yumi Kachi
 category         infantry
 class            missile
+voice_type       Light
+banner faction   main_missile
+banner holy      crusade
+soldier          Yumitai, 64, 0, 1.1
+attributes       sea_faring, hide_forest, hardy, can_withdraw, stakes, stakes, start_not_skirmishing
+formation        1.2, 1.2, 2.4, 2.4, 4, square
+stat_health      1, 0
+stat_pri         7, 2, bodkin_arrow, 120, 30, missile, missile_mechanical, piercing, none, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         9, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  5, 9, 0, metal
+;stat_armour_ex   5, 6, 8, 0, 6, 3, 3, metal
+stat_sec_armour  0, 0, leather
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      7, normal, trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 540, 125, 80, 60, 540, 4, 100
+armour_ug_levels 0
+armour_ug_models Yumitai
+ownership        ezo, venice, slave
+era 0            ezo, venice
+era 1            ezo, venice
+era 2            ezo, venice
+;unit_info        11, 8, 14
+
+
+type             Japan Teppotai
+dictionary       Japan_Teppotai      ; Japanese Teppotai / Japanese Musketeers
+category         infantry
+class            skirmish
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -847,7 +883,7 @@ stat_mental      5, normal, trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
-stat_cost        1, 420, 125, 80, 60, 420, 4, 100
+stat_cost        1, 420, 120, 80, 60, 420, 4, 100
 armour_ug_levels 0
 armour_ug_models Teppotai
 ownership        ezo, venice, slave
@@ -857,9 +893,9 @@ era 2            ezo, venice
 
 
 type             Japan Sampeitai
-dictionary       Japan_Sampeitai
+dictionary       Japan_Sampeitai      ; Japanese Sampeitai / Tokugawa Sampeitai / Shogunate Sampeitai / Tokugawa Infantry / Shogunate Infantry
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -891,9 +927,9 @@ era 2            ezo
 
 
 type             Japan Shotai
-dictionary       Japan_Shotai
+dictionary       Japan_Shotai      ; Japanese Shotai / Ishin Shotai / Satcho Shotai / Choshu Shotai / Choshu Infantry
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           English
 banner faction   main_missile
@@ -925,9 +961,9 @@ era 2            venice
 
 
 type             Japan Nagaoka Hoheitai
-dictionary       Japan_Nagaoka_Hoheitai
+dictionary       Japan_Nagaoka_Hoheitai      ; Japanese Nagaoka Hoheitai / Tokugawa Nagaoka Hoheitai / Shogunate Nagaoka Hoheitai / Nagaoka Infantry
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -959,9 +995,9 @@ era 2            ezo
 
 
 type             Japan Suzakutai
-dictionary       Japan_Suzakutai
+dictionary       Japan_Suzakutai      ; Japanese Suzakutai / Tokugawa Suzakutai / Shogunate Suzakutai / Aizu Infantry / Aizu Vermilion Bird Force
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -995,7 +1031,7 @@ era 2            ezo
 type             Japan Satsuma Hoheitai
 dictionary       Japan_Satsuma_Hoheitai
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           English
 banner faction   main_missile
@@ -1029,7 +1065,7 @@ era 2            venice
 type             Japan Gakuheitai
 dictionary       Japan_Gakuheitai
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -1063,7 +1099,7 @@ era 2            ezo
 type             Japan Yamagunitai
 dictionary       Japan_Yamagunitai
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -1097,7 +1133,7 @@ era 2            venice
 type             Japan Denshutai
 dictionary       Japan_Denshutai
 category         infantry
-class            missile
+class            skirmish
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -1109,7 +1145,7 @@ formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
 stat_pri         16, 1, musket_bullet, 140, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         12, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+stat_sec         8, 6, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
 stat_sec_attr    spear, spear_bonus_8
 stat_pri_armour  2, 10, 0, flesh
 stat_sec_armour  0, 0, flesh
@@ -1131,7 +1167,7 @@ era 2            ezo
 type             Japan Kiheitai
 dictionary       Japan_Kiheitai
 category         infantry
-class            skirmish
+class            missile
 voice_type       Light
 accent           English
 banner faction   main_missile
@@ -1165,7 +1201,7 @@ era 2            venice
 type             Japan Karasugumi
 dictionary       Japan_Karasugumi
 category         infantry
-class            skirmish
+class            missile
 voice_type       Light
 accent           English
 banner faction   main_missile
@@ -1199,7 +1235,7 @@ era 2            ezo
 type             Japan Shinsengumi
 dictionary       Japan_Shinsengumi
 category         infantry
-class            skirmish
+class            missile
 voice_type       Light
 accent           French
 banner faction   main_missile
@@ -1233,7 +1269,7 @@ era 2            ezo
 type             Japan Jinshotai
 dictionary       Japan_Jinshotai
 category         infantry
-class            skirmish
+class            missile
 voice_type       Light
 accent           English
 banner faction   main_missile
