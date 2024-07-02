@@ -969,7 +969,7 @@ accent           French
 banner faction   main_missile
 banner holy      crusade
 soldier          Nagaoka_Hoheitai, 64, 0, 1.0
-officer			 Suzakutai_Officer
+officer			 Nagaoka_Hoheitai_Officer
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0

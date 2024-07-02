@@ -8994,35 +8994,35 @@
 1 
 24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
-25 Nagaoka_Hoheitai_Officer1 
+24 Nagaoka_Hoheitai_Officer 
 1 4 
-66 unit_models/_units/japan_ishin/satsuma_hoheitai_officer1_lod0.mesh 121 
-66 unit_models/_units/japan_ishin/satsuma_hoheitai_officer1_lod0.mesh 900 
-66 unit_models/_units/japan_ishin/satsuma_hoheitai_officer1_lod0.mesh 2500 
-66 unit_models/_units/japan_ishin/satsuma_hoheitai_officer1_lod0.mesh 6400 
+66 unit_models/_units/japan_shogun/nagaoka_hoheitai_officer_lod0.mesh 121 
+66 unit_models/_units/japan_shogun/nagaoka_hoheitai_officer_lod0.mesh 900 
+66 unit_models/_units/japan_shogun/nagaoka_hoheitai_officer_lod0.mesh 2500 
+66 unit_models/_units/japan_shogun/nagaoka_hoheitai_officer_lod0.mesh 6400 
 3 
-6 venice 
-73 unit_models/_units/japan_ishin/textures/satsuma_hoheitai_officer1.texture 
-78 unit_models/_units/japan_ishin/textures/satsuma_hoheitai_officer1_norm.texture 
+3 ezo 
+64 unit_models/_units/japan_shogun/textures/nagaoka_officer.texture 
+69 unit_models/_units/japan_shogun/textures/nagaoka_officer_norm.texture 
 40 unit_sprites/spain_Musketeers_sprite.spr 
 4 merc 
-73 unit_models/_units/japan_ishin/textures/satsuma_hoheitai_officer1.texture 
-78 unit_models/_units/japan_ishin/textures/satsuma_hoheitai_officer1_norm.texture 
+64 unit_models/_units/japan_shogun/textures/nagaoka_officer.texture 
+69 unit_models/_units/japan_shogun/textures/nagaoka_officer_norm.texture 
 43 unit_sprites/portugal_Musketeers_sprite.spr 
 5 slave 
-73 unit_models/_units/japan_ishin/textures/satsuma_hoheitai_officer1.texture 
-78 unit_models/_units/japan_ishin/textures/satsuma_hoheitai_officer1_norm.texture 
+64 unit_models/_units/japan_shogun/textures/nagaoka_officer.texture 
+69 unit_models/_units/japan_shogun/textures/nagaoka_officer_norm.texture 
 40 unit_sprites/milan_Musketeers_sprite.spr 
 3 
-6 venice 
-72 unit_models/_units/japan_ishin/attachments/satsuma_hoheitai_gear.texture 
-77 unit_models/_units/japan_ishin/attachments/satsuma_hoheitai_gear_norm.texture 0 
+3 ezo 
+67 unit_models/_units/japan_shogun/attachments/karasugumi_gear.texture 
+72 unit_models/_units/japan_shogun/attachments/karasugumi_gear_norm.texture 0 
 4 merc 
-72 unit_models/_units/japan_ishin/attachments/satsuma_hoheitai_gear.texture 
-77 unit_models/_units/japan_ishin/attachments/satsuma_hoheitai_gear_norm.texture 0 
+67 unit_models/_units/japan_shogun/attachments/karasugumi_gear.texture 
+72 unit_models/_units/japan_shogun/attachments/karasugumi_gear_norm.texture 0 
 5 slave 
-72 unit_models/_units/japan_ishin/attachments/satsuma_hoheitai_gear.texture 
-77 unit_models/_units/japan_ishin/attachments/satsuma_hoheitai_gear_norm.texture 0 
+67 unit_models/_units/japan_shogun/attachments/karasugumi_gear.texture 
+72 unit_models/_units/japan_shogun/attachments/karasugumi_gear_norm.texture 0 
 4 
 4 None 
 14 MTW2_Fast_Mace 0 
