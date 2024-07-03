@@ -1407,6 +1407,44 @@ era 0            ezo
 era 1            ezo
 era 2            ezo
 
+
+type             Japan Seishi
+dictionary       Japan_Seishi      ; Japanese Seishi
+category         cavalry
+class            heavy
+voice_type       Heavy
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Seishi, 24, 0, 1
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, hardy, can_withdraw, can_formed_charge, knight
+formation        2, 4.4, 3, 6, 3, square, wedge
+stat_health      1, 0
+stat_pri         7, 9, no, 0, 0, melee, melee_blade, piercing, spear, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    no
+stat_sec         6, 4, no, 0, 0, melee, melee_blade, piercing, sword, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  6, 8, 0, metal
+;stat_armour_ex   5, 7, 0, 0, 5, 4, 4, metal
+stat_sec_armour  0, 0, leather
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, normal, trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 1200, 275, 120, 95, 1200, 2, 200
+armour_ug_levels 0
+armour_ug_models Seishi
+ownership        ezo, venice, slave
+era 0            ezo, venice
+era 1            ezo, venice
+era 2            ezo, venice
+;unit_info        10, 0, 14
+
 type             Japan Basilisk Shogun
 dictionary       Japan_Basilisk_Shogun      ; Basilisk
 category         siege

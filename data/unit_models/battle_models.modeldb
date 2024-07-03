@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 708 0 0 
+22 serialization::archive 3 0 0 0 0 709 0 0 
 5 blank 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 10 mount_pony 
 1 3 
@@ -8420,6 +8420,51 @@
 19 MTW2_Bowman_Primary 
 1 
 24 MTW2_2HSwordsman_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+6 Seishi 
+1 4 
+48 unit_models/_units/japan_shogun/seishi_lod0.mesh 121 
+48 unit_models/_units/japan_shogun/seishi_lod0.mesh 900 
+48 unit_models/_units/japan_shogun/seishi_lod0.mesh 2500 
+48 unit_models/_units/japan_shogun/seishi_lod0.mesh 6400 
+4 
+3 ezo 
+54 unit_models/_units/japan_shogun/textures/bushi.texture 
+59 unit_models/_units/japan_shogun/textures/bushi_norm.texture 
+52 unit_sprites/france_Dummy_EN_Mail_Knights_sprite.spr 
+6 venice 
+54 unit_models/_units/japan_shogun/textures/bushi.texture 
+59 unit_models/_units/japan_shogun/textures/bushi_norm.texture 
+53 unit_sprites/england_Dummy_EN_Mail_Knights_sprite.spr 
+4 merc 
+54 unit_models/_units/japan_shogun/textures/bushi.texture 
+59 unit_models/_units/japan_shogun/textures/bushi_norm.texture 
+51 unit_sprites/slave_Dummy_EN_Mail_Knights_sprite.spr 
+5 slave 
+54 unit_models/_units/japan_shogun/textures/bushi.texture 
+59 unit_models/_units/japan_shogun/textures/bushi_norm.texture 
+51 unit_sprites/slave_Dummy_EN_Mail_Knights_sprite.spr 
+4 
+3 ezo 
+62 unit_models/_units/japan_shogun/attachments/bushi_gear.texture 
+67 unit_models/_units/japan_shogun/attachments/bushi_gear_norm.texture 0 
+6 venice 
+62 unit_models/_units/japan_shogun/attachments/bushi_gear.texture 
+67 unit_models/_units/japan_shogun/attachments/bushi_gear_norm.texture 0 
+4 merc 
+62 unit_models/_units/japan_shogun/attachments/bushi_gear.texture 
+67 unit_models/_units/japan_shogun/attachments/bushi_gear_norm.texture 0 
+5 slave 
+62 unit_models/_units/japan_shogun/attachments/bushi_gear.texture 
+67 unit_models/_units/japan_shogun/attachments/bushi_gear_norm.texture 0 
+1 
+5 Horse 
+13 MTW2_HR_Spear 
+18 MTW2_HR_Non_Shield 
+1 
+21 MTW2_HR_spear_Primary 
+1 
+18 MTW2_Sword_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 Teppotai 
 1 4 
