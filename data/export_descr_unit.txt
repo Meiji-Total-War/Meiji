@@ -1096,6 +1096,40 @@ era 1            ezo
 era 2            ezo
 
 
+type             Japan Hokokutai
+dictionary       Japan_Hokokutai
+category         infantry
+class            skirmish
+voice_type       Light
+accent           English
+banner faction   main_missile
+banner holy      crusade
+soldier          Hokokutai, 64, 0, 1.0
+officer			 Satsuma_Hoheitai_Officer1
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
+formation        1.2, 1.2, 1.2, 1.2, 5, square
+stat_health      1, 0
+stat_pri         13, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri_attr    ap
+stat_sec         10, 6, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  2, 9, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      8, disciplined, highly_trained
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        3, 860, 185, 80, 60, 860, 2, 120
+armour_ug_levels 0
+armour_ug_models Hokokutai
+ownership        venice, slave
+era 0            venice
+era 1            venice
+era 2            venice
+
+
 type             Japan Yamagunitai
 dictionary       Japan_Yamagunitai
 category         infantry
