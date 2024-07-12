@@ -611,7 +611,9 @@ BANK: music_bank
 			event delay 5 
 				folder data/sounds/music
 				古澤巌-鹿鳴館SLOW.mp3	
-				シェルブールの雨傘.mp3		
+				シェルブールの雨傘.mp3	
+				日常想像力全開.mp3	
+				日常お涙頂戴.mp3		
 			end	
 			
 		state MUSIC_CAMPAIGN_LOADING
@@ -776,6 +778,8 @@ BANK: music_bank
 				folder data/sounds/music
 				古澤巌-鹿鳴館SLOW.mp3	
 				シェルブールの雨傘.mp3		
+				日常想像力全開.mp3	
+				日常お涙頂戴.mp3		
 			end	
 			
 		state MUSIC_CAMPAIGN_LOADING

@@ -1996,6 +1996,18 @@ Ancillary gerard_de_ridefort
     Effect TroopMorale  1 
     Effect Attack  2 
 
+;------------------------------------------
+Ancillary yellow_sign
+    Type Magic
+    Transferable  0
+    Image relic_islamic.tga
+    ExcludeCultures middle_eastern, mesoamerican, asian
+    Description yellow_sign_desc
+    EffectsDescription yellow_sign_effects_desc
+    Effect Piety  -5 
+    Effect Loyalty -5
+    Religious_Belief heretic  1
+
 ;===============================================================
 ;== ANCILLARY TRIGGERS START HERE ==============================
 ;===============================================================
@@ -5166,4 +5178,13 @@ Trigger gerard_de_ridefort
 
     AcquireAncillary gerard_de_ridefort chance  100 
 
+;------------------------------------------
+Trigger yellow_sign_anc_trigger
+    WhenToTest CharacterTurnEnd
+    Condition EndedInSettlement
+          and RemainingMPPercentage = 100
+          and SettlementBuildingExists >= high_temple
+          and IsGeneral
+
+    AcquireAncillary yellow_sign chance  10 
 
