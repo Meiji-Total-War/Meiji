@@ -22,7 +22,8 @@ music_type southern_european
 regions Tokyo Sendai Osaka Shikoku Hiroshima
 regions Kagoshima Aichi Sapporo Kanagawa Tsushima
 regions Hakodate Nagasaki Fukushima Aomori Kyoto
-regions Kanazawa Niigata Manila Akita
+regions Kanazawa Niigata Manila Akita Hitachi
+regions Kumamoto Sanin Nakasendo
 
 factions venice papal_states slave
 
@@ -61,7 +62,7 @@ factions milan byzantium moors poland burma malaya
 
 music_type mesoamerican
 
-regions Asahigawa Yuzhnosakhalinsk Nivkh
+regions Asahigawa Yuzhnosakhalinsk Nivkh Abashiri Shibetsu
 
 factions hungary aztecs
 
@@ -72,6 +73,7 @@ factions ezo
 
 music_type qing
 
+regions Mukden
 
 factions scotland mongols timurids
 

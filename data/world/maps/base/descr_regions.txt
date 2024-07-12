@@ -46,7 +46,7 @@ Osaka
 	223 204 32
 	none
 	5
-	1
+	4
 	religions { catholic 85 orthodox 5 sunni 0 confucian 0 buddhism 0 pagan 10 heretic 0 liberal 0 islam 0 }
 Shikoku
 	Tokushima
@@ -347,13 +347,13 @@ Aomori
 	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
 Kyoto
 	Kyoto
-	papal_states
+	venice
 	Livonian_Rebels
 	118 51 100
 	none
 	5
-	1
-	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+	2
+	religions { catholic 80 orthodox 0 sunni 0 confucian 10 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
 Kanazawa
 	Kanazawa
 	venice
@@ -1236,3 +1236,66 @@ Akita
 	5
 	3
 	religions { catholic 70 orthodox 0 sunni 0 confucian 10 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
+Mukden
+	Mukden
+	timurids
+	Livonian_Rebels
+	120 118 53
+	none
+	5
+	2
+	religions { catholic 0 orthodox 0 sunni 0 confucian 50 buddhism 25 pagan 25 heretic 0 liberal 0 islam 0 }
+Hitachi
+	Mito
+	venice
+	Livonian_Rebels
+	158 157 176
+	none
+	5
+	2
+	religions { catholic 70 orthodox 0 sunni 0 confucian 20 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
+Abashiri
+	Abashiri
+	venice
+	Native_Rebels
+	24 212 238
+	none
+	5
+	2
+	religions { catholic 10 orthodox 0 sunni 0 confucian 15 buddhism 5 pagan 70 heretic 0 liberal 0 islam 0 }
+Kumamoto
+	Kumamoto
+	venice
+	Livonian_Rebels
+	123 104 152
+	none
+	5
+	2
+	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+Sanin
+	Matsue
+	venice
+	Livonian_Rebels
+	254 107 224
+	none
+	5
+	2
+	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+Shibetsu
+	Shibetsu
+	venice
+	Native_Rebels
+	160 138 249
+	none
+	5
+	2
+	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+Nakasendo
+	Takasaki
+	venice
+	Livonian_Rebels
+	96 99 156
+	none
+	5
+	4
+	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
