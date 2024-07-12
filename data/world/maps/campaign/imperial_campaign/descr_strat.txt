@@ -372,6 +372,12 @@ traits Factionleader 1 , GoodCommander 1 , Intelligent 2 , VictorVirtue 3 , Publ
 army
 unit		NE Bodyguard				exp 1 armour 0 weapon_lvl 0
 
+character	Francis Stringer, named character, female, heir, age 20, x 190, y 12 
+traits Factionheir 1 
+ancillaries yellow_sign
+army
+unit		NE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
+
 
 
 faction	france, balanced smith
@@ -657,6 +663,10 @@ settlement
 	{
 		type hinterland_roads paved_roads
 	}
+	building
+	{
+		type port shipwright
+	}
 }
 
 settlement castle
@@ -836,6 +846,21 @@ settlement
 settlement
 {
 	level large_city
+	region Kyoto
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building large_stone_wall
+	}
+}
+
+settlement
+{
+	level large_city
 	region Kanazawa
 
 	year_founded 0
@@ -902,6 +927,92 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Hitachi
+
+	year_founded 0
+	population 1000
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level village
+	region Abashiri
+
+	year_founded 0
+	population 800
+	plan_set default_set
+	faction_creator venice
+}
+
+settlement
+{
+	level town
+	region Kumamoto
+
+	year_founded 0
+	population 1500
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Sanin
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level village
+	region Shibetsu
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator venice
+}
+
+settlement
+{
+	level town
+	region Nakasendo
+
+	year_founded 0
+	population 3000
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_pallisade
+	}
+	building
+	{
+		type hinterland_roads roads
+	}
+}
+
 character	Toshimichi Okubo, named character, male, leader, age 38, x 469, y 320, portrait ToshimichiOkubo 
 traits Factionleader 1 , Authoritarian 1 , GoodAdministrator 2 , GoodCommander 2 , GoodDiplomacy 2 , GoodEngineer 1 , GoodTaxman 1 , Handsome 1 , Xenophilia 3 
 ancillaries foreign_dignitary
@@ -919,7 +1030,7 @@ traits Factionheir 1
 army
 unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
 
-character	Tomomi Iwakura, diplomat, male, age 44, x 441, y 309, portrait TomomiIwakura 
+character	Tomomi Iwakura, diplomat, male, age 44, x 439, y 310, portrait TomomiIwakura 
 traits NaturalDiplomatSkill 2 , Secretive 1 , GoodDiplomat 2 , AgentPiety 1 
 
 character	Kiyotaka Kuroda, named character, male, age 29, x 474, y 381, portrait KiyotakaKuroda 
@@ -1308,7 +1419,7 @@ settlement
 	faction_creator russia
 	building
 	{
-		type core_building wooden_pallisade
+		type core_building wooden_wall
 	}
 	building
 	{
@@ -2078,22 +2189,7 @@ faction	papal_states,
 ai_label		papal_faction
 denari	10000
 denari_kings_purse	2000
-settlement
-{
-	level large_city
-	region Kyoto
-
-	year_founded 0
-	population 4000
-	plan_set default_set
-	faction_creator papal_states
-	building
-	{
-		type core_building large_stone_wall
-	}
-}
-
-character	Meiji Yamato, named character, male, leader, age 16, x 466, y 318, portrait Meiji 
+character	Meiji Yamato, named character, male, leader, age 16, x 467, y 316, portrait Meiji 
 traits Factionleader 1 , IAmPope 1 
 ancillaries holy_grail , veil_of_veronica , holy_lance
 army
@@ -2659,6 +2755,21 @@ settlement
 	building
 	{
 		type hinterland_roads roads
+	}
+}
+
+settlement
+{
+	level large_town
+	region Mukden
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building wooden_wall
 	}
 }
 
