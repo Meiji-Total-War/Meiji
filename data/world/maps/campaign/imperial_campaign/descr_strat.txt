@@ -367,6 +367,25 @@ settlement
 	}
 }
 
+settlement castle
+{
+	level large_city
+	region Sarnath
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator india
+	building
+	{
+		type core_castle_building citadel
+	}
+	building
+	{
+		type temple_pagan high_temple
+	}
+}
+
 character	William, named character, male, leader, age 40, x 96, y 192 
 traits Factionleader 1 , GoodCommander 1 , Intelligent 2 , VictorVirtue 3 , PublicFaith 2 , BattleDread 2 , StrategyDread 2 , ReligionStarter 1 
 army
@@ -687,10 +706,25 @@ settlement castle
 settlement
 {
 	level town
-	region Hiroshima
+	region Sanyo
 
 	year_founded 0
 	population 2200
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level town
+	region Sanin
+
+	year_founded 0
+	population 400
 	plan_set default_set
 	faction_creator venice
 	building
@@ -826,6 +860,29 @@ settlement
 
 settlement
 {
+	level large_town
+	region Dewa
+
+	year_founded 0
+	population 2500
+	plan_set default_set
+	faction_creator venice
+	building
+	{
+		type core_building wooden_wall
+	}
+	building
+	{
+		type hinterland_farms farms
+	}
+	building
+	{
+		type barracks town_guard
+	}
+}
+
+settlement
+{
 	level town
 	region Aomori
 
@@ -906,29 +963,6 @@ settlement
 
 settlement
 {
-	level large_town
-	region Akita
-
-	year_founded 0
-	population 2500
-	plan_set default_set
-	faction_creator venice
-	building
-	{
-		type core_building wooden_wall
-	}
-	building
-	{
-		type hinterland_farms farms
-	}
-	building
-	{
-		type barracks town_guard
-	}
-}
-
-settlement
-{
 	level town
 	region Hitachi
 
@@ -960,21 +994,6 @@ settlement
 
 	year_founded 0
 	population 1500
-	plan_set default_set
-	faction_creator venice
-	building
-	{
-		type core_building wooden_pallisade
-	}
-}
-
-settlement
-{
-	level town
-	region Sanin
-
-	year_founded 0
-	population 400
 	plan_set default_set
 	faction_creator venice
 	building
@@ -1234,6 +1253,50 @@ settlement
 	}
 }
 
+settlement
+{
+	level village
+	region Nakhon_Si_Thammarat
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator milan
+}
+
+settlement
+{
+	level village
+	region Nakhon_Ratchasima
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator milan
+}
+
+settlement
+{
+	level village
+	region Chiang_Mai
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator milan
+}
+
+settlement
+{
+	level village
+	region Wiang_Chan
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator milan
+}
+
 character	Co Biumi, named character, male, leader, age 20, x 176, y 116 
 traits Factionleader 1 
 army
@@ -1355,7 +1418,7 @@ settlement
 	}
 }
 
-character	Gavriel Branas, named character, male, leader, age 20, x 322, y 31 
+character	Hassan Al-Jaber, named character, male, leader, age 20, x 322, y 31 
 traits Factionleader 1 
 army
 unit		Greek Bodyguard				exp 0 armour 0 weapon_lvl 0
@@ -2156,7 +2219,7 @@ settlement
 	}
 }
 
-character	Jan Zuraw, named character, male, leader, age 20, x 141, y 30 
+character	Hisham al Mubi, named character, male, leader, age 20, x 141, y 30 
 traits Factionleader 1 
 army
 unit		NE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
@@ -2170,10 +2233,21 @@ denari_kings_purse	1000
 settlement
 {
 	level village
-	region Nivkh
+	region Yrkir
 
 	year_founded 0
 	population 750
+	plan_set default_set
+	faction_creator hungary
+}
+
+settlement
+{
+	level village
+	region Noglvo
+
+	year_founded 0
+	population 400
 	plan_set default_set
 	faction_creator hungary
 }
@@ -2773,6 +2847,74 @@ settlement
 	}
 }
 
+settlement
+{
+	level town
+	region Shanxi
+
+	year_founded 0
+	population 400
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building wooden_pallisade
+	}
+}
+
+settlement
+{
+	level city
+	region Shandong
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building stone_wall
+	}
+}
+
+settlement
+{
+	level large_town
+	region Guangxi
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building wooden_wall
+	}
+}
+
+settlement
+{
+	level city
+	region Zhejiang
+
+	year_founded 0
+	population 4000
+	plan_set default_set
+	faction_creator timurids
+	building
+	{
+		type core_building stone_wall
+	}
+	building
+	{
+		type port shipwright
+	}
+	building
+	{
+		type sea_trade merchants_wharf
+	}
+}
+
 character	Gong Aisin_Gioro, named character, male, age 36, x 304, y 359 
 army
 unit		Khan's Guard				exp 0 armour 0 weapon_lvl 0
@@ -3040,6 +3182,12 @@ settlement
 	plan_set default_set
 	faction_creator milan
 }
+
+character	sub_faction saxons, Maximillian Ermolt, named character, male, leader, age 20, x 362, y 51 
+traits Factionleader 1 , ReligionStarter 1 , LoyaltyStarter 1 
+ancillaries yellow_sign
+army
+unit		NE Bodyguard				exp 0 armour 0 weapon_lvl 0
 
 
 
