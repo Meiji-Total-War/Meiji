@@ -181,21 +181,21 @@ BANK: music_bank
 			event delay 5 
 				folder data/sounds/music
 				VivaldiFourSeasonsWinter.mp3
+				ワルキューレは汝の勇気を愛せり.mp3
 			end	
 		
 		state MUSIC_STRATMAP_WINTER
 			event delay 5 
 				folder data/sounds/music
 				VivaldiFourSeasonsWinter.mp3
+				ワルキューレは汝の勇気を愛せり.mp3
 
 			end		
 				
 		state MUSIC_CAMPAIGN_LOADING
 			event 
 				folder data/sounds/music
-				(Frontend_1)_Amen.mp3
-				(Euro_Loading_1)_Time_and_Again.mp3
-				(Euro_Loading_2)_The_Widow.mp3		
+				ワルキューレは汝の勇気を愛せり.mp3		
 			end	
 			
 		
@@ -614,6 +614,8 @@ BANK: music_bank
 				シェルブールの雨傘.mp3	
 				日常想像力全開.mp3	
 				日常お涙頂戴.mp3		
+				日常優雅なる時間からの始まり.mp3
+				ワルキューレは汝の勇気を愛せり.mp3		
 			end	
 			
 		state MUSIC_CAMPAIGN_LOADING
@@ -628,7 +630,7 @@ BANK: music_bank
 		state MUSIC_PREBATTLE_SCROLL
 			event  
 				folder data/sounds/music
-				(Euro_Camp_Battle_1)_Destiny.mp3
+				坂本龍一八重の桜alt.mp3
 			end
 			
 			
@@ -677,6 +679,7 @@ BANK: music_bank
 		state MUSIC_CAMPAIGN_VICTORY
 			event  looped
 				folder data/sounds/music
+				ワルキューレは汝の勇気を愛せり.mp3
 				
 							
 			end	
@@ -780,21 +783,20 @@ BANK: music_bank
 				シェルブールの雨傘.mp3		
 				日常想像力全開.mp3	
 				日常お涙頂戴.mp3		
+				日常優雅なる時間からの始まり.mp3		
 			end	
 			
 		state MUSIC_CAMPAIGN_LOADING
 			event 
 				folder data/sounds/music
-				(Frontend_1)_Amen.mp3
-				(Euro_Loading_1)_Time_and_Again.mp3
-				(Euro_Loading_2)_The_Widow.mp3
+				坂本龍一八重の桜alt.mp3
 			end	
 			
 		
 		state MUSIC_PREBATTLE_SCROLL
 			event  
 				folder data/sounds/music
-				(Euro_Camp_Battle_1)_Destiny.mp3
+				坂本龍一八重の桜alt.mp3
 			end
 			
 			
@@ -943,7 +945,10 @@ BANK: music_bank
 			event delay 5 
 				folder data/sounds/music
 				古澤巌-鹿鳴館SLOW.mp3	
-				シェルブールの雨傘.mp3		
+				シェルブールの雨傘.mp3	
+				日常想像力全開.mp3	
+				日常お涙頂戴.mp3		
+				日常優雅なる時間からの始まり.mp3		
 			end	
 			
 		state MUSIC_CAMPAIGN_LOADING
@@ -958,7 +963,7 @@ BANK: music_bank
 		state MUSIC_PREBATTLE_SCROLL
 			event  
 				folder data/sounds/music
-				(Euro_Camp_Battle_1)_Destiny.mp3
+				坂本龍一八重の桜alt.mp3
 			end
 			
 			
@@ -1024,7 +1029,7 @@ BANK: music_bank
 
 
 			
-;;;;;;;;;;;;;;;;;;;;; ARABIC MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;			
+;;;;;;;;;;;;;;;;;;;;; KASHGARI MUSIC ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;			
 	
 					
 	music_type middle_eastern
@@ -1049,8 +1054,7 @@ BANK: music_bank
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music
-				(Arabic_Battle_1)_Crack_your_head_with_a_Tabla.mp3
-                (Arabic_Battle_2)_Wind_Cuts.mp3
+				AbdulhamidSultanKaciyor.mp3
 			end
 
 			
@@ -1106,12 +1110,11 @@ BANK: music_bank
 		state MUSIC_STRATMAP_SUMMER
 			event delay 5 
 				folder data/sounds/music
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_01.mp3
-				(Arabic_Strat_Map_1)_Persian_Pyjamas_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_01.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
-				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
+				AbdulhamidDuygusal.mp3
+				AbdulhamidKemilAgilyor.mp3
+				AbdulhamidVuslat.mp3
+				AbdulhamidYalnizligi.mp3
+				RTWDesert.mp3
               
 			end			
 
@@ -1128,7 +1131,7 @@ BANK: music_bank
 		state MUSIC_PREBATTLE_SCROLL
 			event  
 				folder data/sounds/music
-				(Arabic_Camp_Battle_1)_Honour_Of_Sultan.mp3		
+				AbdulhamidSultanKaciyor.mp3		
 			end
 			
 			
@@ -1219,8 +1222,7 @@ BANK: music_bank
 		state MUSIC_BATTLE_BATTLE
 			event 
 				folder data/sounds/music
-				(Arabic_Battle_1)_Crack_your_head_with_a_Tabla.mp3
-                (Arabic_Battle_2)_Wind_Cuts.mp3
+				AbdulhamidSultanKaciyor.mp3
 			end
 
 			
@@ -1282,6 +1284,11 @@ BANK: music_bank
 				(Arabic_Strat_Map_2)_Sacred_Oud_02.mp3
 				(Arabic_Strat_Map_2)_Sacred_Oud_03.mp3
 				(Arabic_Strat_Map_2)_Sacred_Oud_04.mp3
+				AbdulhamidDuygusal.mp3
+				AbdulhamidKemilAgilyor.mp3
+				AbdulhamidVuslat.mp3
+				AbdulhamidYalnizligi.mp3
+				RTWDesert.mp3
               
 			end			
 
@@ -1298,7 +1305,7 @@ BANK: music_bank
 		state MUSIC_PREBATTLE_SCROLL
 			event  
 				folder data/sounds/music
-				(Arabic_Camp_Battle_1)_Honour_Of_Sultan.mp3		
+				SoulCalValentine.mp3		
 			end
 			
 			
