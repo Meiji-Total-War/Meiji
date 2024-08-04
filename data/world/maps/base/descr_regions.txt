@@ -57,11 +57,20 @@ Shikoku
 	5
 	1
 	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
-Hiroshima
+Sanyo
 	Hiroshima
 	venice
 	Livonian_Rebels
 	205 154 149
+	none
+	5
+	2
+	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+Sanin
+	Matsue
+	venice
+	Livonian_Rebels
+	254 107 224
 	none
 	5
 	2
@@ -102,8 +111,8 @@ Kanagawa
 	5
 	3
 	religions { catholic 70 orthodox 5 sunni 0 confucian 0 buddhism 0 pagan 25 heretic 0 liberal 0 islam 0 }
-Nivkh
-	Nivkh
+Yrkir
+	Yrkir
 	hungary
 	Magyar_Rebels
 	93 39 215
@@ -336,6 +345,15 @@ Fukushima
 	5
 	3
 	religions { catholic 35 orthodox 2 sunni 0 confucian 40 buddhism 20 pagan 0 heretic 3 liberal 0 islam 0 }
+Dewa
+	Akita
+	venice
+	Livonian_Rebels
+	40 224 68
+	none
+	5
+	3
+	religions { catholic 70 orthodox 0 sunni 0 confucian 10 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
 Aomori
 	Aomori
 	venice
@@ -389,7 +407,7 @@ Taipei
 	none
 	5
 	3
-	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 10 sunni 0 confucian 60 buddhism 30 pagan 0 heretic 0 liberal 0 islam 0 }
 Tainan
 	Tainan
 	timurids
@@ -406,8 +424,8 @@ Tsingtao
 	127 120 203
 	none
 	5
-	1
-	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+	3
+	religions { catholic 0 orthodox 10 sunni 0 confucian 60 buddhism 20 pagan 0 heretic 0 liberal 0 islam 10 }
 Bengal
 	Dacca
 	india
@@ -974,7 +992,7 @@ Rangoon
 	none
 	5
 	3
-	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+	religions { catholic 0 orthodox 5 sunni 10 confucian 20 buddhism 60 pagan 5 heretic 0 liberal 0 islam 0 }
 Sibolga
 	Sibolga
 	denmark
@@ -1227,15 +1245,6 @@ Hebei
 	5
 	3
 	religions { catholic 0 orthodox 0 sunni 15 confucian 75 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
-Akita
-	Akita
-	venice
-	Livonian_Rebels
-	40 224 68
-	none
-	5
-	3
-	religions { catholic 70 orthodox 0 sunni 0 confucian 10 buddhism 10 pagan 0 heretic 0 liberal 0 islam 0 }
 Mukden
 	Mukden
 	timurids
@@ -1272,15 +1281,6 @@ Kumamoto
 	5
 	2
 	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
-Sanin
-	Matsue
-	venice
-	Livonian_Rebels
-	254 107 224
-	none
-	5
-	2
-	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
 Shibetsu
 	Shibetsu
 	venice
@@ -1289,7 +1289,7 @@ Shibetsu
 	none
 	5
 	2
-	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+	religions { catholic 10 orthodox 0 sunni 0 confucian 10 buddhism 10 pagan 70 heretic 0 liberal 0 islam 0 }
 Nakasendo
 	Takasaki
 	venice
@@ -1299,3 +1299,93 @@ Nakasendo
 	5
 	4
 	religions { catholic 100 orthodox 0 sunni 0 confucian 0 buddhism 0 pagan 0 heretic 0 liberal 0 islam 0 }
+Shanxi
+	Taiyuan
+	timurids
+	Livonian_Rebels
+	218 39 52
+	none
+	5
+	2
+	religions { catholic 0 orthodox 0 sunni 10 confucian 65 buddhism 10 pagan 5 heretic 0 liberal 0 islam 0 }
+Shandong
+	Jinan
+	timurids
+	Livonian_Rebels
+	209 221 122
+	none
+	5
+	3
+	religions { catholic 0 orthodox 0 sunni 0 confucian 60 buddhism 40 pagan 0 heretic 0 liberal 0 islam 0 }
+Guangxi
+	Nanning
+	timurids
+	Livonian_Rebels
+	18 178 177
+	none
+	5
+	2
+	religions { catholic 0 orthodox 5 sunni 10 confucian 30 buddhism 55 pagan 0 heretic 0 liberal 0 islam 0 }
+Sarnath
+	Sarnath
+	india
+	Native_Rebels
+	229 124 220
+	none
+	5
+	1
+	religions { catholic 0 orthodox 0 sunni 0 confucian 0 buddhism 95 pagan 0 heretic 5 liberal 0 islam 0 }
+Zhejiang
+	Ningbo
+	timurids
+	Livonian_Rebels
+	184 128 90
+	none
+	5
+	3
+	religions { catholic 0 orthodox 5 sunni 0 confucian 60 buddhism 25 pagan 0 heretic 10 liberal 0 islam 0 }
+Nakhon_Si_Thammarat
+	Thammarat
+	milan
+	Livonian_Rebels
+	191 49 199
+	none
+	5
+	3
+	religions { catholic 0 orthodox 10 sunni 20 confucian 20 buddhism 50 pagan 0 heretic 0 liberal 0 islam 0 }
+Nakhon_Ratchasima
+	Ratchasima
+	milan
+	Livonian_Rebels
+	158 143 170
+	none
+	5
+	2
+	religions { catholic 0 orthodox 0 sunni 0 confucian 30 buddhism 70 pagan 0 heretic 0 liberal 0 islam 0 }
+Chiang_Mai
+	Chiang_Mai_
+	milan
+	Livonian_Rebels
+	61 118 178
+	none
+	5
+	1
+	religions { catholic 0 orthodox 0 sunni 0 confucian 20 buddhism 80 pagan 0 heretic 0 liberal 0 islam 0 }
+Wiang_Chan
+	Wiang
+	milan
+	Livonian_Rebels
+	94 170 227
+	none
+	5
+	1
+	religions { catholic 0 orthodox 0 sunni 0 confucian 30 buddhism 70 pagan 0 heretic 0 liberal 0 islam 0 }
+Noglvo
+	Noglvo
+	hungary
+	Native_Rebels
+	64 4 66
+	none
+	5
+	1
+	religions { catholic 5 orthodox 10 sunni 0 confucian 5 buddhism 0 pagan 80 heretic 0 liberal 0 islam 0 }

@@ -19,11 +19,11 @@ factions russia
 
 music_type southern_european
 
-regions Tokyo Sendai Osaka Shikoku Hiroshima
-regions Kagoshima Aichi Sapporo Kanagawa Tsushima
-regions Hakodate Nagasaki Fukushima Aomori Kyoto
-regions Kanazawa Niigata Manila Akita Hitachi
-regions Kumamoto Sanin Nakasendo
+regions Tokyo Sendai Osaka Shikoku Sanyo
+regions Sanin Kagoshima Aichi Sapporo Kanagawa
+regions Tsushima Hakodate Nagasaki Fukushima Dewa
+regions Aomori Kyoto Kanazawa Niigata Manila
+regions Hitachi Kumamoto Nakasendo
 
 factions venice papal_states slave
 
@@ -31,7 +31,7 @@ music_type middle_eastern
 
 regions Kashgar Lhasa Burma Ili Urumchi
 regions Nepal Dzungaria Shan Rangoon Kobdo
-regions Turpan Khotan Tibet
+regions Turpan Khotan Tibet Shanxi
 
 factions turks egypt
 
@@ -43,7 +43,8 @@ regions Tsingtao Hong_Kong Macau Urga Dalian
 regions Hanoi Shanghai Nanking Sichuan Lanzhou
 regions Yunnan Xian Linxia Xining Hunan
 regions Hubei Guangzhou Hainan Fujian Jiangxi
-regions Inner_Mongolia Guangzhouwan Henan Hebei
+regions Inner_Mongolia Guangzhouwan Henan Hebei Shandong
+regions Guangxi Zhejiang
 
 factions portugal normans china ryukyu
 
@@ -56,13 +57,14 @@ regions Sarawak Annam Penang Cambodia Siak
 regions Kedah Kelantan Terengganu Malacca Perak
 regions Sibolga Berau Sambas Bulungan North_Borneo
 regions Riau Ternate Luzon Legazpi Arakan
-regions Laos
+regions Laos Nakhon_Si_Thammarat Nakhon_Ratchasima Chiang_Mai Wiang_Chan
 
 factions milan byzantium moors poland burma malaya
 
 music_type mesoamerican
 
-regions Asahigawa Yuzhnosakhalinsk Nivkh Abashiri Shibetsu
+regions Asahigawa Yuzhnosakhalinsk Yrkir Abashiri Shibetsu
+regions Noglvo
 
 factions hungary aztecs
 
@@ -87,6 +89,6 @@ music_type south_asian
 
 regions Bengal Haiderabad Ceylon Madras Darjeeling
 regions Sikkim Bhutan Assam Chittagong Manipur
-regions Kashmir Awadh Pondicherry
+regions Kashmir Awadh Pondicherry Sarnath
 
 factions nepal india
