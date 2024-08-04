@@ -2539,7 +2539,7 @@ faction: aztecs
 		Suzuki
 		Suzumiya
 		Tachibana
-		Takahasi
+		Takahashi
 		Takamori
 		Takasugi
 		Tanaka
@@ -2801,6 +2801,7 @@ faction: saxons
 		Gottfied
 		Hans
 		Harold
+		Hastur
 		Heinrich
 		Heinricus
 		Henry
@@ -2977,220 +2978,179 @@ faction: saxons
 faction: byzantium
 
 	characters
-		Alexius
-		Alvanites
-		Anthes
-		Asemopoulos
-		Andronicus
-		Athanasios
-		Basil
-		Constantine
-		Demetrios
-		Dragos
-		Draganos
-		Eleutherios
-		Ermanes
-		Evangelos
-		Foteinos
-		Gavriel
-		Georgios
-		Imbert
-		Ioannes
-		Isaac
-		John
-		Komanos
-		Konstantinos
-		Kyriakos
-		Loumbertos
-		Manouel
-		Mavros
-		Michael
-		Modestos
-		Myristikos
-		Nikeforos
-		Niketas
-		Nikolaos
-		Panagiotes
-		Pelekanos
-		Petros
-		Prousenos
-		Romanus
-		Rossos
-		Slavos
-		Stefanos
-		Theodoros
-		Theotokios
-		Tobromeros
-		Trifyllios
-		Valsamon
-		Vasileios
-		Vlasios
-		Volkanos
-		Voulgariotes
-		Xenos
+		Abdelatif
+		Adil
+		Ahjmed
+		Ahmed
+		Alarbi
+		Aswad
+		Ayub
+		Azedine
+		Azizudeen
+		Benyounes
+		Brahim
+		Driss
+		Fakhir
+		Faraj
+		Hachim
+		Haddad
+		Hassan
+		Hicham
+		Jalloun
+		Karif
+		Khaled
+		Khayri
+		Kicham
+		Larbi
+		Lukman
+		Mahjoub
+		Masid
+		Mohamed
+		Mohsen
+		Moustafa
+		Muhammad
+		Nourreddine
+		Omar
+		Qassim
+		Rizah
+		Rushdi
+		Saeed
+		Said
+		Salan
+		Salheddine
+		Smail
+		Tahar
+		Tashfin
+		Aban
+		Abdu_llah
+		Asbat
+		Ayyub
+		Da_ud
+		Galib
+		Hamdin
+		Hisham
+		Jalaf
+		Miswar
+		Qasim
+		Salim
+		Shakir
+		Tamim
+		Ubaid
+		Umayyah
+		Yazid
+		Ziyad
+		Abu-Bakr
+		Ali
+		Ibrahim
+		Yahya
+		Yusuf
 
 	surnames
-		Abalantes
-		Agrites
-		Akapnes
-		Angelus
-		Argyrus
-		Alyates
-		Argyros
-		Axinites
-		Balantes
-		Barenos
-		Basilacius
-		Beriotes
-		Botaneiates
-		Bouches
-		Branas
-		Bringas
-		Bryennius
-		Calaphates
-		Cerularius
-		Chalkites
-		Chrysanthos
-		Comnenus
-		Dalassena
-		Dekanos
-		Diogenes
-		Drosinos
-		Ducas
-		Elesbaam
-		Exotrochos
-		Gabalas
-		Glykys
-		Hierakes
-		Iasites
-		Kaisar
-		Kaloudes
-		Kamytzes
-		Kaspax
-		Konops
-		Kyritzes
-		Lascaris
-		Limas
-		Loukites
-		Maleses
-		Maniakes
-		Metochites
-		Melissenus
-		Monomachus
-		Myron
-		Murtzuphlus
-		Nikerites
-		Olaskos
-		Palaeologus
-		Paphlagonian
-		Paxenos
-		Phocas
-		Pleures
-		Prvovencani
-		Radomiros
-		Rogerios
-		Semnos
-		Stratiocus
-		Thylakas
-		Tornikes
-		Tzimisces
-		Vatatzes
-		Zerbos
+		Abensur
+		Abrami
+		Abu Shakra
+		Akil
+		Akouayn
+		al Mubi
+		Al Sahaf
+		Alami
+		Al-Fayyoumi
+		Al-Jaber
+		Amzine
+		Arazi
+		Azzouzj
+		Ba_albaki
+		Belqola
+		Benezekri
+		Benhassi
+		Bin Haji
+		Boulami
+		Chadili
+		Chiba
+		Essaid
+		Faraj
+		Farrakhan
+		Filali
+		Hissou
+		Ismail
+		Kaouch
+		Khatabi
+		Lahlafi
+		Lahyani
+		Maazouzi
+		Mammeri
+		Matoub
+		Mellouk
+		Naybet 
+		Neqrouz
+		Nyambek
+		Ouakili
+		Ouaziz
+		Sahiri
+		Saidi-Sief
+		Skah
+		Sudani 
+		Ta_anari
+		Zitouna
+		Zuabi
 ;;bynames
-		of Trebizond
-		of Macedonia
-		of Peloponnese
-		of Cyprus
-		of Rhodes
-		of Ierissos
-		of Zichna
-		of Zavarnikeia
-		of Puoggion
-		of Loroton
-		of Velzistha
-		of Ermeleia
-		of Neakitou
-		of Pelorygion
-		of Portarea
-		of Plagena
-		of Kastrion
-		of Drymostia
-		of Lozikin
-		of Potholinos
-		of Preasnitza
-		of Kastrion
-		of Evniani
-		of Drachova
-		of Psalida
-		of Osdravikin
-		of Ezova
-		of Serres
-		of Stomion
-		of Karvaioi
-		of Mystakonon
-		of Pevista
-		of Pelorygion
-		of Adana
-		of Akrokos
-		of Alethina
-		of Athos
-		of Chimara
-		of Chios
-		of Diabolos
-		of Ephesus
-		of Helenopolis
-		of Kibotos
-		of Krisis
-		of Lazica
-		of Lampe
-		of Myra
-		of Mylos
-		of Petrola
-		of Salona
-		of Zara
+
+		al-Andalusi
+		al-Isbili
+		al-Mari
+		al-Mursi
+		al-Balansi
+		al-Jayyani
+		al-Rundi
+		al-Qurtubi
+		al-Garnati
+		al-Mayurqui
+		al-Talamanki
+		al-Tulaytuli
+		al-Dani
+		al-Ifriqi
+		al-Magribi
+		al-Tunayzi
 
 	women
-		Aikaterine
-		Anna
-		Arete
-		Argyre
-		Cheilous
-		Christina
-		Dragna
-		Eudokia
-		Foteine
-		Georgia
-		Ioanna
-		Ioannousa
-		Irene
-		Kale
-		Komana
-		Kyriakia
-		Margarito
-		Malha
-		Maria
-		Marina
-		Merzanna
-		Nikaia
-		Rossa
-		Rossana
-		Semne
-		Siligno
-		Simonis
-		Slana
-		Sofia
-		Stammatike
-		Stania
-		Theodora
-		Theofano
-		Tobranna
-		Tobritza
-		Vasilike
-		Velkonia
-		Xene
-		Zoe
-		Zoranna
-		Zougla
+		Anya
+		Bahiyya
+		Bakka
+		Banujah
+		Bouchra
+		Fathima
+		Fedada
+		Ghayda
+		Hasna
+		Hassiba
+		Husniya
+		Iza
+		Jarita
+		Kahina
+		Kulla
+		Laysa
+		Lilith
+		Malika
+		Meysun
+		Myassa
+		Najet
+		Najia
+		Nezha
+		Ni_mah
+		Noor
+		Qubilah
+		Rahshia
+		Saduf
+		Sagirah
+		Saheena
+		Shiklah
+		Sithy
+		Talalit
+		Ulayyah
+		Ummu
+		Zahra
+		Zhor
+		Zizi
 
 faction: scotland
 
@@ -3693,6 +3653,50 @@ faction: timurids
 	surnames
 ;;bynames
 		Aisin_Gioro
+		An
+		Ba
+		Bai
+		Baili
+		Ban
+		Bao
+		Bei
+		Bi
+		Bian
+		Bing
+		Bu
+		Cai
+		Cen
+		Chang
+		Chanyu
+		Chao
+		Che
+		Chen
+		Cheng
+		Chu
+		Chunyu
+		Cui
+		Dai
+		Deng
+		Di
+		Diao
+		Ding
+		Dong
+		Dongfang
+		Dongguo
+		Dou
+		Du
+		Duan
+		Duanmu
+		Fan
+		Fang
+		Fei
+		Feng
+		Fu
+		Ji
+		Jia
+		Jiang
+		Jin
+		Jing
 		of Abarquh
 		of Ahvaz
 		of Andijan
@@ -3863,7 +3867,6 @@ faction: turks
 		Suleymish
 		Sundak
 		Tatar
-		Tezcan
 		Timurbugha
 		Tutush
 		Uthman
@@ -4201,176 +4204,179 @@ faction: portugal
 faction: poland
 
 	characters
-		Barnim
-		Bezprym
-		Boguslaw
-		Boleslaw
-		Bronisad
-		Casimir
-		Chrosciszko
-		Chwalimir
-		Godzimir
-		Jagielon
-		Jan
-		Janus
-		Joachim
-		Kasper
-		Kazimierz
-		Konrad
-		Leszek
-		Mieszko
-		Msciwoi
-		Niebor
-		Niegoslaw
-		Pakoslaw
-		Pawol
-		Przebor
-		Przemysl
-		Przemyslaw
-		Radoslaw
-		Ratibor
-		Ryksa
-		Sobislaw
-		Stanislaus
-		Svyatopolk
-		Swietopelk
-		Szymon
-		Tadeusz
-		Troiden
-		Vaclav
-		Wartislaw
-		Wenceslaus
-		Wladyslaw
-		Zbigniew
-		Ziemowit
-		Zygmunt
-		Albin
-		Aleksy
-		Czeslaw
-		Marcin
-		Miron
-		Piotr
-		Ryszard
-		Szczepan
-		Tobiasz
-		Tomasz
-
+		Abdelatif
+		Adil
+		Ahjmed
+		Ahmed
+		Alarbi
+		Aswad
+		Ayub
+		Azedine
+		Azizudeen
+		Benyounes
+		Brahim
+		Driss
+		Fakhir
+		Faraj
+		Hachim
+		Haddad
+		Hassan
+		Hicham
+		Jalloun
+		Karif
+		Khaled
+		Khayri
+		Kicham
+		Larbi
+		Lukman
+		Mahjoub
+		Masid
+		Mohamed
+		Mohsen
+		Moustafa
+		Muhammad
+		Nourreddine
+		Omar
+		Qassim
+		Rizah
+		Rushdi
+		Saeed
+		Said
+		Salan
+		Salheddine
+		Smail
+		Tahar
+		Tashfin
+		Aban
+		Abdu_llah
+		Asbat
+		Ayyub
+		Da_ud
+		Galib
+		Hamdin
+		Hisham
+		Jalaf
+		Miswar
+		Qasim
+		Salim
+		Shakir
+		Tamim
+		Ubaid
+		Umayyah
+		Yazid
+		Ziyad
+		Abu-Bakr
+		Ali
+		Ibrahim
+		Yahya
+		Yusuf
 
 	surnames
-		Adamczyk
-		Borzecki
-		Banaszak
-		Brodaty
-		Buczak
-		Ciesinski
-		Czajka
-		Czersk
-		Dudzik
-		Grycki
-		Herman
-		Jagiello
-		Kazczyk
-		Krawczyk
-		Kulwiec
-		Majtyka
-		Malewicz
-		Marosz
-		Maziwiecki
-		Mazovia
-		Miazga
-		Niemoj
-		Ogitzak
-		Orlicki
-		Penc
-		Petratz
-		Pieritz
-		Plast
-		Premysl
-		Premyslid
-		Psotka
-		Puch
-		Pyrzyce
-		Rzegotka
-		Sandomierz
-		Sochaczew
-		Stasiak
-		Stawecki
-		Turek
-		Wallach
-		Wojno
-		Wos
-		Wozniak
-		Wykowski
-		Zacharek
-		Zapolya
-		Zdeb
-		Zuraw
-		Zurawski
+		Abensur
+		Abrami
+		Abu Shakra
+		Akil
+		Akouayn
+		al Mubi
+		Al Sahaf
+		Alami
+		Al-Fayyoumi
+		Al-Jaber
+		Amzine
+		Arazi
+		Azzouzj
+		Ba_albaki
+		Belqola
+		Benezekri
+		Benhassi
+		Bin Haji
+		Boulami
+		Chadili
+		Chiba
+		Essaid
+		Faraj
+		Farrakhan
+		Filali
+		Hissou
+		Ismail
+		Kaouch
+		Khatabi
+		Lahlafi
+		Lahyani
+		Maazouzi
+		Mammeri
+		Matoub
+		Mellouk
+		Naybet 
+		Neqrouz
+		Nyambek
+		Ouakili
+		Ouaziz
+		Sahiri
+		Saidi-Sief
+		Skah
+		Sudani 
+		Ta_anari
+		Zitouna
+		Zuabi
 ;;bynames
-		of Volhynia
-		of Warsaw
-		of Lodz
-		of Krakow
-		of Poznan
-		of Gdansk
-		of Szczecin
-		of Lublin
-		of Torun
-		of Bytom
-		of Rybnik
-		of Tychy
-		of Opole
-		of Plock
-		of Elblag
-		of Tarnow
-		of Chorzow
-		of Kalisz
-		of Koszalin
-		of Legnica
-		of Grudziadz
-		of Slupsk
-		of Kalisz
-		of Sieradz
-		of Rawa
-		of Sanok
-		of Chelm
-		of Lwow
-		of Halicz
-		of Belz
-		of Rowne
-		of Braclaw
-		of Gdansk
-		of Lidzbark
-		of Jansbork
-		of Krolewlec
+
+		al-Andalusi
+		al-Isbili
+		al-Mari
+		al-Mursi
+		al-Balansi
+		al-Jayyani
+		al-Rundi
+		al-Qurtubi
+		al-Garnati
+		al-Mayurqui
+		al-Talamanki
+		al-Tulaytuli
+		al-Dani
+		al-Ifriqi
+		al-Magribi
+		al-Tunayzi
 
 	women
-		Agnes
-		Agnethem
-		Anna
-		Anny
-		Barbara
-		Chesna
-		Dobrila
-		Dorotha
-		Gertruda
-		Hedwigis
-		Judith
-		Jadwiga
-		Jadwigi
-		Jadwidze
-		Jadwige
-		Lechsinska
-		Katarzina
-		Katarziny
-		Katharzina
-		Nadzieja
-		Olga
-		Rasia
-		Regina
-		Sopianka
-		Zophia
-		Agata
+		Anya
+		Bahiyya
+		Bakka
+		Banujah
+		Bouchra
+		Fathima
+		Fedada
+		Ghayda
+		Hasna
+		Hassiba
+		Husniya
+		Iza
+		Jarita
+		Kahina
+		Kulla
+		Laysa
+		Lilith
+		Malika
+		Meysun
+		Myassa
+		Najet
+		Najia
+		Nezha
+		Ni_mah
+		Noor
+		Qubilah
+		Rahshia
+		Saduf
+		Sagirah
+		Saheena
+		Shiklah
+		Sithy
+		Talalit
+		Ulayyah
+		Ummu
+		Zahra
+		Zhor
+		Zizi
 		
 	
 faction: spain
@@ -5113,7 +5119,6 @@ faction: nepal
 		of Grenada
 		of Ashir
 		of Oran
-		of Tlemcen
 		of Melilla
 		of Ceuta
 		of Fez
@@ -5727,7 +5732,7 @@ faction: ezo
 		Suzuki
 		Suzumiya
 		Tachibana
-		Takahasi
+		Takahashi
 		Takamori
 		Takasugi
 		Tanaka
@@ -5796,122 +5801,63 @@ faction: ezo
 faction: china
 
 	characters
-		Achigh
-		Aguchu
-		Ambaghai
-		Barghujin
-		Belgutei
-		Bodonchar
-		Chaghagan
-		Chagurkhai
-		Charakha
-		Dagun
-		Daidukul
 		Daoguang
-		Daritai
-		Dayir
-		Eligedei
-		Geugi
 		Ghunan
 		Gong
 		Guangxu
-		Guyag
-		Harghasun
-		Hobogetur
-		Horkhudagh
-		Illugei
-		Inalchi
-		Iturgen
-		Jajiradai
-		Jakha
-		Jangg
-		Khalja
-		Kharchu
-		Khubilai
-		Lablakha
-		Megujin
-		Menggei
-		Miran
-		Mongke
-		Nayaga
-		Nekun
-		Nikha
-		Odchigin
-		Oldaghar
-		Onggiran
-		Sacha
-		Sechequr
-		Shahrukh
-		Suyiketu
-		Temur
-		Timur
-		Tolun
 		Tongzhi
-		Tungge
-		Udutai
-		Ukhuna
-		Usun
 		Xianfeng
-		Yedi
-		Yegu
-		Yeke
 		Yicong
 		Yixuan
-		Yurukhan
 		Zailian
 		Zaiyi
 		Zaiying
 	surnames
 ;;bynames
-		Aisin_Gioro
-		of Abarquh
-		of Ahvaz
-		of Andijan
-		of Avnik
-		of Baghdad
-		of Bam
-		of Damghan
-		of Delhi
-		of Ganja
-		of Ghazna
-		of Gurgan
-		of Hamadan
-		of Herat
-		of Hilla
-		of Hurmuz
-		of Isfahan
-		of Kabul
-		of Karbala
-		of Kashan
-		of Khojend
-		of Kirman
-		of Lahore
-		of Mardin
-		of Mashhad
-		of Merv
-		of Mosul
-		of Multan
-		of Nishapur
-		of Qudunz
-		of Qum
-		of Ray
-		of Sabzavar
-		of Shiraz
-		of Shushtar
-		of Simnan
-		of Siqhnaq
-		of Talas
-		of Tashkent
-		of Tiflis
-		of Timrid
-		of Turkistan
-		of Tus
-		of Tus
-		of Utrar
-		of Urgench
-		of Yazd
-		Mulk Khanum
-		Shah
+		An
+		Ba
+		Bai
+		Baili
+		Ban
+		Bao
+		Bei
+		Bi
+		Bian
+		Bing
+		Bu
+		Cai
+		Cen
+		Chang
+		Chanyu
+		Chao
+		Che
+		Chen
+		Cheng
+		Chu
+		Chunyu
+		Cui
+		Dai
+		Deng
+		Di
+		Diao
+		Ding
+		Dong
+		Dongfang
+		Dongguo
+		Dou
+		Du
+		Duan
+		Duanmu
+		Fan
+		Fang
+		Fei
+		Feng
+		Fu
+		Ji
+		Jia
+		Jiang
+		Jin
+		Jing
 
 
 	women
@@ -6143,6 +6089,7 @@ faction: slave
 		Solomon
 		Pontius
 		Abraham
+		Hastur
 		Isaac
 		Esau
 		Moses
