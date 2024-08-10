@@ -1042,6 +1042,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Nagaoka_Hoheitai, 64, 0, 1.0
 officer			 Nagaoka_Hoheitai_Officer
+officer			 Nagaoka_Flag
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -1180,6 +1181,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Hokokutai, 64, 0, 1.0
 officer			 Satsuma_Hoheitai_Officer1
+officer			 Hokokutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -1317,6 +1319,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Karasugumi, 40, 0, 1.0
 officer			 Karasugumi_Officer
+officer			 Karasugumi_Flag
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, start_not_skirmishing, hide_anywhere
 formation        1.2, 1.2, 1.8, 1.8, 3, square
 stat_health      1, 0
@@ -1385,6 +1388,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Jinshotai, 40, 0, 1.0
 officer			 Jinshotai_Officer
+officer			 Jinshotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunmen, start_not_skirmishing, very_hardy
 formation        1.2, 1.2, 1.8, 1.8, 2, square
 stat_health      1, 0
