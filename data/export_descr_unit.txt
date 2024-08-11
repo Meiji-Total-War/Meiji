@@ -794,6 +794,8 @@ accent         French
 banner faction   main_infantry
 banner holy      crusade
 soldier          Heimin_Mob, 100, 0, 1.0
+officer			 Teppotai_Officer
+officer			 Teppotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 2.4, 2.4, 6, square
 stat_health      1, 0
@@ -905,6 +907,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Heimin_Partisans, 72, 0, 0.9
 officer			 Teppotai_Officer
+officer			 Teppotai_Flag
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, gunmen, free_upkeep_unit, mercenary_unit
 formation        1.2, 1.2, 1.8, 1.8, 5, square
 stat_health      1, 0
@@ -939,6 +942,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Teppotai, 64, 0, 1.0
 officer			 Teppotai_Officer
+officer			 Teppotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -973,6 +977,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Sampeitai, 64, 0, 1.0
 officer			 Sampeitai_Officer
+officer			 Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -1147,6 +1152,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Gakuheitai, 64, 0, 1.0
 officer			 Gakuheitai_Officer
+officer			 Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -1216,6 +1222,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Yamagunitai, 64, 0, 1.0
 officer			 Yamagunitai_Officer
+officer			 Teppotai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -1250,6 +1257,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Denshutai, 64, 0, 1.0
 officer			 Denshutai_Officer
+officer			 Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -1354,6 +1362,7 @@ banner faction   main_missile
 banner holy      crusade
 soldier          Shinsengumi, 48, 0, 1.0
 officer			 Shinsengumi_Officer
+officer			 Shogun_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, frighten_foot, frighten_mounted, start_not_skirmishing
 formation        1.2, 1.2, 1.8, 1.8, 4, square
 stat_health      1, 0
