@@ -3,42 +3,38 @@
 ;
 script
 
-;	monitor_event PreFactionTurnStart FactionIsLocal
-;		restrict_strat_radar false
-;	end_monitor
+	restrict_strat_radar false
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;			Seasons		;;;;;;;;;;;;;;;;;;;;;;;
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 
 
-;	 Seasonal Turn Script
+	declare_counter seasonal_turn
+	set_counter seasonal_turn 1
 
-;	declare_counter seasonal_turn
-;	set_counter seasonal_turn 1
+	monitor_event PreFactionTurnStart FactionIsLocal
+	if I_CompareCounter seasonal_turn == 1
+	console_command season winter
+	end_if
 
-;	monitor_event PreFactionTurnStart FactionIsLocal
-;	if I_CompareCounter seasonal_turn == 1
-;	console_command season winter
-;	end_if
+	if I_CompareCounter seasonal_turn == 2
+	console_command season summer
+	end_if
 
-;	if I_CompareCounter seasonal_turn == 2
-;	console_command season summer
-;	end_if
+	if I_CompareCounter seasonal_turn == 3
+	console_command season summer
+	end_if
 
-;	if I_CompareCounter seasonal_turn == 3
-;	console_command season summer
-;	end_if
+	if I_CompareCounter seasonal_turn == 4
+	console_command season summer
+	end_if
 
-;	if I_CompareCounter seasonal_turn == 4
-;	console_command season summer
-;	end_if
-
-;	inc_counter seasonal_turn 1
-;	if I_CompareCounter seasonal_turn == 5
-;	set_counter seasonal_turn 1
-;	end_if
-;	end_monitor
+	inc_counter seasonal_turn 1
+	if I_CompareCounter seasonal_turn == 5
+	set_counter seasonal_turn 1
+	end_if
+	end_monitor
 
 
 
@@ -49,14 +45,14 @@ script
 ;___________________________________________________________________________________________________________________________
 
 
-	monitor_event PreFactionTurnStart FactionIsLocal
-		if I_TurnNumber < 2
-		and I_IsFactionAIControlled saxons
-		and I_LocalFaction spain
-			give_everything_to_faction saxons spain false
-		end_if
-		terminate_monitor
-	end_monitor
+monitor_event PreFactionTurnStart FactionIsLocal
+	and I_IsFactionAIControlled saxons
+	if I_TurnNumber < 2
+	and I_LocalFaction spain
+	give_everything_to_faction saxons spain true
+	end_if
+terminate_monitor
+end_monitor
 
 ;___________________________________________________________________________________________________________________________
 ;
@@ -85,14 +81,14 @@ script
 ;___________________________________________________________________________________________________________________________
 
 
-	monitor_event PreFactionTurnStart FactionIsLocal
-		if I_TurnNumber < 2
-		and I_IsFactionAIControlled hre
-		and I_LocalFaction timurids
-			give_everything_to_faction hre timurids false
-		end_if
-		terminate_monitor
-	end_monitor
+monitor_event PreFactionTurnStart FactionIsLocal
+	and I_IsFactionAIControlled hre
+	if I_TurnNumber < 2
+	and I_LocalFaction timurids
+	give_everything_to_faction hre timurids true
+	end_if
+terminate_monitor
+end_monitor
 
 ;___________________________________________________________________________________________________________________________
 ;
@@ -120,5 +116,5 @@ script
 
     ; === DO NOT ADD ANYTHING BELOW THIS LINE! ===
 
-    wait_monitors
+wait_monitors
 end_script

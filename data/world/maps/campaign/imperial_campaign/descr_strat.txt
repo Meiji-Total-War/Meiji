@@ -3548,8 +3548,8 @@ faction_relationships 	venice, at_war_with 	ezo, slave
 faction_relationships 	sicily, allied_to 	timurids
 faction_relationships 	sicily, at_war_with 	slave
 faction_relationships 	milan, at_war_with 	slave
-faction_relationships 	scotland, allied_to 	timurids
-faction_relationships 	byzantium, allied_to 	spain
+faction_relationships	scotland, protectorate_of	timurids
+faction_relationships	byzantium, protectorate_of	spain
 faction_relationships 	byzantium, at_war_with 	slave
 faction_relationships 	russia, at_war_with 	slave
 faction_relationships 	moors, at_war_with 	spain, slave
@@ -3562,7 +3562,7 @@ faction_relationships 	portugal, at_war_with 	slave
 faction_relationships 	hungary, at_war_with 	slave
 faction_relationships 	papal_states, at_war_with 	slave
 faction_relationships 	aztecs, at_war_with 	slave
-faction_relationships 	mongols, allied_to 	timurids
+faction_relationships	mongols, protectorate_of	timurids
 faction_relationships 	mongols, at_war_with 	slave
 faction_relationships 	timurids, allied_to 	mongols, ryukyu, scotland, sicily
 faction_relationships 	timurids, at_war_with 	slave, turks, egypt
@@ -3571,10 +3571,14 @@ faction_relationships 	saxons, at_war_with 	slave
 faction_relationships 	slave, at_war_with 	sicily, saxons, timurids, ezo, normans, france, burma, mongols, spain, venice, hre, turks, moors, egypt, byzantium, aztecs, russia, papal_states, hungary, milan, portugal, denmark, england
 faction_relationships 	ezo, allied_to 	france
 faction_relationships 	ezo, at_war_with 	slave, venice
-faction_relationships 	ryukyu, allied_to 	timurids, venice
-faction_relationships 	nepal, allied_to 	england
+faction_relationships 	ryukyu, allied_to 	timurids
+faction_relationships	ryukyu, protectorate_of	venice
+faction_relationships	nepal, protectorate_of	england
 faction_relationships 	burma, at_war_with 	slave
-faction_relationships 	india, allied_to 	england
+faction_relationships	india, protectorate_of	england
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of regions section <<<<
+
+script
+campaign_script.txt
