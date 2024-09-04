@@ -869,6 +869,8 @@ voice_type       Heavy
 banner faction   main_infantry
 banner holy      crusade
 soldier          Battotai, 64, 0, 1.0
+officer			 Japan_IJA_Officer
+officer			 Hokokutai_Flag
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
@@ -1362,7 +1364,7 @@ accent           English
 banner faction   main_missile
 banner holy      crusade
 soldier          Keishitai_1870, 64, 0, 1.0
-officer			 Hokokutai_Officer
+officer			 Japan_IJA_Officer
 officer			 Hokokutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 1.2, 1.2, 5, square
@@ -1397,7 +1399,7 @@ accent           English
 banner faction   main_missile
 banner holy      crusade
 soldier          Shinsenryodan, 64, 0, 1.0
-officer			 Hokokutai_Officer
+officer			 Japan_IJA_Officer
 officer			 Hokokutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish, free_upkeep_unit
 formation        1.2, 1.2, 1.2, 1.2, 5, square
@@ -1432,7 +1434,7 @@ accent           English
 banner faction   main_missile
 banner holy      crusade
 soldier          Rikuguntai_1870, 64, 0, 1.0
-officer			 Hokokutai_Officer
+officer			 Japan_IJA_Officer
 officer			 Hokokutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
@@ -1467,7 +1469,7 @@ accent           English
 banner faction   main_missile
 banner holy      crusade
 soldier          Rikusentai_1870, 64, 0, 1.0
-officer			 Hokokutai_Officer
+officer			 Japan_IJA_Officer
 officer			 Hokokutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
@@ -1502,7 +1504,7 @@ accent           English
 banner faction   main_missile
 banner holy      crusade
 soldier          Goshimpei_1870, 64, 0, 1.0
-officer			 Hokokutai_Officer
+officer			 Japan_IJA_Officer
 officer			 Hokokutai_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, very_hardy, cannot_skirmish
 formation        1.2, 1.2, 1.2, 1.2, 5, square
@@ -1712,7 +1714,7 @@ accent           English
 banner faction   main_missile
 banner holy      crusade
 soldier          Tondenhei_1870, 48, 0, 1.0
-officer			 Hokokutai_Officer
+officer			 Japan_IJA_Officer
 officer			 Hokokutai_Flag
 attributes       sea_faring, hide_improved_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, start_not_skirmishing
 formation        1.2, 1.2, 1.8, 1.8, 4, square
@@ -1819,7 +1821,7 @@ accent           English
 banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          Ryukihei_1870, 24, 0, 1
-officer			 Hokokutai_Officer
+officer			 Japan_IJA_Officer_Cav
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry

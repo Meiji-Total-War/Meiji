@@ -55,7 +55,7 @@ starting_action_points	80
 faction			venice
 dictionary		15
 strat_model		southern_general
-battle_model		Northern_General
+battle_model		Japan_General
 battle_equip		gladius, chainmail shirt helmet and rectangular shield
 
 faction			sicily
@@ -110,7 +110,7 @@ battle_equip		gladius, chainmail shirt helmet and rectangular shield
 faction			ezo
 dictionary		2
 strat_model		northern_general
-battle_model		Ezo_General
+battle_model		Japan_General
 battle_equip		gladius, chainmail shirt helmet and rectangular shield
 
 faction			aztecs
@@ -249,7 +249,7 @@ starting_action_points	80
 faction			venice
 dictionary		15
 strat_model		southern_captain
-battle_model		Northern_Captain
+battle_model		Japan_General
 battle_equip		gladius, chainmail shirt helmet and rectangular shield
 
 faction			sicily
@@ -303,7 +303,7 @@ battle_equip		gladius, chainmail shirt helmet and rectangular shield
 faction			ezo
 dictionary		2
 strat_model		northern_captain
-battle_model		Ezo_General
+battle_model		Japan_General
 battle_equip		gladius, chainmail shirt helmet and rectangular shield
 
 faction			aztecs
