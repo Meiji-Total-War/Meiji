@@ -1,4 +1,4 @@
-22 serialization::archive 3 0 0 0 0 738 0 0 
+22 serialization::archive 3 0 0 0 0 742 0 0 
 5 blank 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
 10 mount_pony 
 1 3 
@@ -8594,6 +8594,42 @@
 1 
 24 MTW2_2HSwordsman_Primary 
 16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+12 Shizoku_Flag 
+1 4 
+53 unit_models/_units/japan_ishin/shizoku_flag_lod0.mesh 121 
+53 unit_models/_units/japan_ishin/shizoku_flag_lod0.mesh 900 
+53 unit_models/_units/japan_ishin/shizoku_flag_lod0.mesh 2500 
+53 unit_models/_units/japan_ishin/shizoku_flag_lod0.mesh 6400 
+3 
+6 venice 
+55 unit_models/_units/japan_ishin/textures/shizoku.texture 
+60 unit_models/_units/japan_ishin/textures/shizoku_norm.texture 
+41 unit_sprites/venice_Musketeers_sprite.spr 
+4 merc 
+55 unit_models/_units/japan_ishin/textures/shizoku.texture 
+60 unit_models/_units/japan_ishin/textures/shizoku_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+55 unit_models/_units/japan_ishin/textures/shizoku.texture 
+60 unit_models/_units/japan_ishin/textures/shizoku_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+3 
+6 venice 
+62 unit_models/_units/japan_shogun/attachments/flag_gear3.texture 
+67 unit_models/_units/japan_shogun/attachments/flag_gear3_norm.texture 0 
+4 merc 
+62 unit_models/_units/japan_shogun/attachments/flag_gear3.texture 
+67 unit_models/_units/japan_shogun/attachments/flag_gear3_norm.texture 0 
+5 slave 
+62 unit_models/_units/japan_shogun/attachments/flag_gear3.texture 
+67 unit_models/_units/japan_shogun/attachments/flag_gear3_norm.texture 0 
+1 
+4 None 
+14 MTW2_Swordsman 0 
+2 
+18 MTW2_Sword_Primary 14 fs_test_shield 
+0 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 8 Teppotai 
 1 4 
 50 unit_models/_units/japan_shogun/teppotai_lod0.mesh 121 
@@ -10549,6 +10585,57 @@
 17 MTW2_Mace_Primary 
 0 
 -1 0 0 0 0 0 0 
+21 Denshutai_Officer_Cav 
+1 4 
+63 unit_models/_units/japan_shogun/denshutai_officer_cav_lod0.mesh 121 
+63 unit_models/_units/japan_shogun/denshutai_officer_cav_lod0.mesh 900 
+63 unit_models/_units/japan_shogun/denshutai_officer_cav_lod0.mesh 2500 
+63 unit_models/_units/japan_shogun/denshutai_officer_cav_lod0.mesh 6400 
+3 
+3 ezo 
+66 unit_models/_units/japan_shogun/textures/denshutai_officer.texture 
+71 unit_models/_units/japan_shogun/textures/sampeitai_officer_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+4 merc 
+66 unit_models/_units/japan_shogun/textures/denshutai_officer.texture 
+71 unit_models/_units/japan_shogun/textures/sampeitai_officer_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+66 unit_models/_units/japan_shogun/textures/denshutai_officer.texture 
+71 unit_models/_units/japan_shogun/textures/sampeitai_officer_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+3 
+3 ezo 
+66 unit_models/_units/japan_shogun/attachments/denshutai_gear.texture 
+71 unit_models/_units/japan_shogun/attachments/denshutai_gear_norm.texture 0 
+4 merc 
+66 unit_models/_units/japan_shogun/attachments/denshutai_gear.texture 
+71 unit_models/_units/japan_shogun/attachments/denshutai_gear_norm.texture 0 
+5 slave 
+66 unit_models/_units/japan_shogun/attachments/denshutai_gear.texture 
+71 unit_models/_units/japan_shogun/attachments/denshutai_gear_norm.texture 0 
+4 
+4 None 
+14 MTW2_Fast_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 horse 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+8 elephant 
+18 MTW2_Elephant_Crew 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+5 camel 
+12 MTW2_HR_Mace 0 
+1 
+17 MTW2_Mace_Primary 
+0 
+-1 0 0 0 0 0 0 
 10 Gakuheitai 
 1 4 
 52 unit_models/_units/japan_shogun/gakuheitai_lod0.mesh 121 
@@ -11120,6 +11207,96 @@
 17 MTW2_Mace_Primary 
 0 
 -1 0 0 0 0 0 0 
+13 Ezo_Bodyguard 
+1 4 
+55 unit_models/_units/japan_shogun/ezo_bodyguard_lod0.mesh 121 
+55 unit_models/_units/japan_shogun/ezo_bodyguard_lod0.mesh 900 
+55 unit_models/_units/japan_shogun/ezo_bodyguard_lod0.mesh 2500 
+55 unit_models/_units/japan_shogun/ezo_bodyguard_lod0.mesh 6400 
+4 
+3 ezo 
+62 unit_models/_units/japan_shogun/textures/ezo_bodyguard.texture 
+67 unit_models/_units/japan_shogun/textures/ezo_bodyguard_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+6 venice 
+62 unit_models/_units/japan_shogun/textures/ezo_bodyguard.texture 
+67 unit_models/_units/japan_shogun/textures/ezo_bodyguard_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+4 merc 
+62 unit_models/_units/japan_shogun/textures/ezo_bodyguard.texture 
+67 unit_models/_units/japan_shogun/textures/ezo_bodyguard_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+62 unit_models/_units/japan_shogun/textures/ezo_bodyguard.texture 
+67 unit_models/_units/japan_shogun/textures/ezo_bodyguard_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+3 ezo 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+6 venice 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+4 merc 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+5 slave 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+1 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Sword 
+1 
+22 MTW2_HR_Pistol_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
+13 IJA_Bodyguard 
+1 4 
+54 unit_models/_units/japan_ishin/ija_bodyguard_lod0.mesh 121 
+54 unit_models/_units/japan_ishin/ija_bodyguard_lod0.mesh 900 
+54 unit_models/_units/japan_ishin/ija_bodyguard_lod0.mesh 2500 
+54 unit_models/_units/japan_ishin/ija_bodyguard_lod0.mesh 6400 
+4 
+3 ezo 
+59 unit_models/_units/japan_ishin/textures/ija_officer.texture 
+65 unit_models/_units/japan_shogun/textures/ezo_general_norm.texture 
+43 unit_sprites/france_Arquebusiers_sprite.spr 
+6 venice 
+59 unit_models/_units/japan_ishin/textures/ija_officer.texture 
+65 unit_models/_units/japan_shogun/textures/ezo_general_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+4 merc 
+59 unit_models/_units/japan_ishin/textures/ija_officer.texture 
+65 unit_models/_units/japan_shogun/textures/ezo_general_norm.texture 
+43 unit_sprites/portugal_Musketeers_sprite.spr 
+5 slave 
+59 unit_models/_units/japan_ishin/textures/ija_officer.texture 
+65 unit_models/_units/japan_shogun/textures/ezo_general_norm.texture 
+40 unit_sprites/milan_Musketeers_sprite.spr 
+4 
+3 ezo 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+6 venice 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+4 merc 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+5 slave 
+71 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear.texture 
+76 unit_models/_units/japan_ishin/attachments/rikuguntai_1870_gear_norm.texture 0 
+1 
+5 Horse 
+14 MTW2_HR_Pistol 
+13 MTW2_HR_Sword 
+1 
+22 MTW2_HR_Pistol_Primary 
+1 
+18 MTW2_Sword_Primary 
+16 -0.090000004 0 0 -0.34999999 0.80000001 0.60000002 
 17 trebizond_archers 
 1 4 
 64 unit_models/_Units/ES_Peasant_Padded/trebizond_archers_lod0.mesh 121 
