@@ -871,7 +871,8 @@ banner holy      crusade
 soldier          Battotai, 64, 0, 1.0
 officer			 Japan_IJA_Officer
 officer			 Hokokutai_Flag
-attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted
+attributes       sea_faring, hide_improved_forest, very_hardy, can_withdraw
+move_speed_mod	 1.2
 formation        1.2, 1.2, 2.4, 2.4, 4, square
 stat_health      1, 0
 stat_pri         14, 10, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
@@ -880,12 +881,12 @@ stat_pri_attr    no
 stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
 ;stat_sec_ex      0, 0, 0
 stat_sec_attr    no
-stat_pri_armour  2, 11, 0, flesh
+stat_pri_armour  2, 13, 0, flesh
 ;stat_armour_ex   5, 7, 0, 0, 5, 0, 0, flesh
 stat_sec_armour  0, 0, flesh
 stat_heat        2
 stat_ground      1, -2, 3, 2
-stat_mental      13, disciplined, highly_trained
+stat_mental      24, disciplined, highly_trained
 stat_charge_dist 15
 stat_fire_delay  0
 stat_food        60, 300
@@ -1189,8 +1190,8 @@ accent           English
 banner faction   main_missile
 banner holy      crusade
 soldier          Shizoku, 64, 0, 1.0
-officer			 Satsuma_Hoheitai_Officer1
-officer			 Satsuma_Flag
+officer			 Japan_IJA_Officer
+officer			 Shizoku_Flag
 attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, start_not_skirmishing, gunmen, hardy, cannot_skirmish, mercenary_unit
 formation        1.2, 1.2, 1.2, 1.2, 5, square
 stat_health      1, 0
@@ -1651,7 +1652,7 @@ formation        1.2, 1.2, 1.8, 1.8, 4, square
 stat_health      1, 0
 stat_pri         12, 1, musket_bullet, 120, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
 stat_pri_attr    ap
-stat_sec         13, 8, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec         14, 10, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
 stat_sec_attr    no
 stat_pri_armour  5, 12, 0, metal
 stat_sec_armour  0, 0, flesh
@@ -1740,6 +1741,78 @@ era 1            venice, ezo
 era 2            venice, ezo
 
 
+type             Japan Bodyguard Ezo
+dictionary       Japan_Bodyguard_Ezo
+category         cavalry
+class            light
+voice_type       Heavy
+accent           French
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          Ezo_Bodyguard, 8, 0, 1
+officer			 Denshutai_Officer_Cav
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry, hardy, command, general_unit
+formation        2, 4.4, 3, 6, 3, square
+stat_health      1, 0
+stat_pri         10, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri_attr    ap
+stat_sec         7, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  2, 8, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      12, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 600, 125, 80, 60, 600, 4, 100
+armour_ug_levels 0
+armour_ug_models Ezo_Bodyguard
+ownership        venice, ezo, slave
+era 0            venice, ezo
+era 1            venice, ezo
+era 2            venice, ezo
+
+
+type             Japan Bodyguard IJA
+dictionary       Japan_Bodyguard_IJA
+category         cavalry
+class            light
+voice_type       Heavy
+accent           French
+banner faction   main_cavalry
+banner holy      crusade_cavalry
+soldier          IJA_Bodyguard, 8, 0, 1
+officer			 Japan_IJA_Officer_Cav
+mount            heavy horse
+mount_effect     elephant -4, camel -4
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry, hardy, command, general_unit
+formation        2, 4.4, 3, 6, 3, square
+stat_health      1, 0
+stat_pri         10, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
+stat_pri_attr    ap
+stat_sec         7, 5, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+stat_sec_attr    no
+stat_pri_armour  2, 8, 0, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        2
+stat_ground      1, -2, 3, 2
+stat_mental      12, disciplined, highly_trained
+stat_charge_dist 45
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        2, 600, 125, 80, 60, 600, 4, 100
+armour_ug_levels 0
+armour_ug_models IJA_Bodyguard
+ownership        venice, ezo, slave
+era 0            venice, ezo
+era 1            venice, ezo
+era 2            venice, ezo
+
+
 type             Japan Revolver Kihei
 dictionary       Japan_Revolver_Kihei
 category         cavalry
@@ -1752,7 +1825,7 @@ soldier          Revolver_Cavalry, 24, 0, 1
 officer			 Sampeitai_Officer_Cav
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry, cannot_skirmish
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
 formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
 stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
@@ -1788,7 +1861,7 @@ soldier          Revolver_Cavalry_Han, 24, 0, 1
 officer			 Shotai_Officer1
 mount            heavy horse
 mount_effect     elephant -4, camel -4
-attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry, cannot_skirmish
+attributes       sea_faring, hide_forest, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
 formation        2, 4.4, 3, 6, 3, square, wedge
 stat_health      1, 0
 stat_pri         9, 3, pistol_bullet, 60, 20, missile, missile_gunpowder, piercing, none, musket_shot_set, -9000, 1
@@ -1857,7 +1930,7 @@ accent           French
 banner faction   main_cavalry
 banner holy      crusade_cavalry
 soldier          Denshutai_Cavalry, 24, 0, 1
-officer			 Denshutai_Officer
+officer			 Denshutai_Officer_Cav
 mount            heavy horse
 mount_effect     elephant -4, camel -4
 attributes       sea_faring, hide_forest, very_hardy, can_withdraw, gunpowder_unit, can_formed_charge, start_not_skirmishing, guncavalry
