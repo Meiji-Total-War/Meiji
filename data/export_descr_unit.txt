@@ -861,6 +861,123 @@ era 2            ezo, venice
 ;unit_info        12, 0, 12
 
 
+type             Japan Hijikata Toshizo
+dictionary       Japan_Hijikata_Toshizo      ; Hijikata Toshizo
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Dismounted_Feudal_Knights, 32, 0, 2.0
+officer			 Hijikata_Toshizo
+officer			 Shogun_Flag
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, command
+move_speed_mod	 1.2
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      24, 0
+stat_pri         63, 63, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  63, 63, 63, flesh
+;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        5
+stat_ground      1, -2, 3, 2
+stat_mental      24, disciplined, untrained, lock_morale
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 570, 225, 90, 70, 570, 4, 140
+armour_ug_levels 0
+armour_ug_models Hijikata_Toshizo
+ownership        ezo, venice, slave
+era 0            ezo, venice
+era 1            ezo, venice
+era 2            ezo, venice
+;unit_info        13, 0, 21
+
+
+type             Japan Kondo Isami
+dictionary       Japan_Kondo_Isami      ; Kondo Isami
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Dismounted_Feudal_Knights, 32, 0, 2.0
+officer			 Kondo_Isami
+officer			 Shogun_Flag
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, command
+move_speed_mod	 1.2
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      24, 0
+stat_pri         63, 63, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  63, 63, 63, flesh
+;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        5
+stat_ground      1, -2, 3, 2
+stat_mental      24, disciplined, untrained, lock_morale
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 570, 225, 90, 70, 570, 4, 140
+armour_ug_levels 0
+armour_ug_models Kondo_Isami
+ownership        ezo, venice, slave
+era 0            ezo, venice
+era 1            ezo, venice
+era 2            ezo, venice
+;unit_info        13, 0, 21
+
+
+type             Japan Sakamoto Ryoma
+dictionary       Japan_Sakamoto_Ryoma      ; Sakamoto Ryoma
+category         infantry
+class            heavy
+voice_type       Heavy
+banner faction   main_infantry
+banner holy      crusade
+soldier          Dismounted_Feudal_Knights, 32, 0, 2.0
+officer			 Sakamoto_Ryoma
+officer			 Jinshotai_Flag
+attributes       sea_faring, hide_forest, very_hardy, can_withdraw, frighten_foot, frighten_mounted, command
+move_speed_mod	 1.2
+formation        1.2, 1.2, 2.4, 2.4, 3, square
+stat_health      24, 0
+stat_pri         63, 63, no, 0, 0, melee, melee_blade, slashing, sword, 25, 1
+;stat_pri_ex      0, 0, 0
+stat_pri_attr    ap, bp
+stat_sec         0, 0, no, 0, 0, no, melee_simple, blunt, none, 25, 1
+;stat_sec_ex      0, 0, 0
+stat_sec_attr    no
+stat_pri_armour  63, 63, 63, flesh
+;stat_armour_ex   7, 8, 0, 0, 8, 6, 6, flesh
+stat_sec_armour  0, 0, flesh
+stat_heat        5
+stat_ground      1, -2, 3, 2
+stat_mental      24, disciplined, untrained, lock_morale
+stat_charge_dist 15
+stat_fire_delay  0
+stat_food        60, 300
+stat_cost        1, 570, 225, 90, 70, 570, 4, 140
+armour_ug_levels 0
+armour_ug_models Sakamoto_Ryoma
+ownership        ezo, venice, slave
+era 0            ezo, venice
+era 1            ezo, venice
+era 2            ezo, venice
+;unit_info        13, 0, 21
+
+
 type             Japan Battotai
 dictionary       Japan_Battotai      ; Japanese Battotai
 category         infantry
