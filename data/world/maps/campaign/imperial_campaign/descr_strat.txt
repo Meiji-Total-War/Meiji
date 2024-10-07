@@ -1052,10 +1052,53 @@ unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
 character	Tomomi Iwakura, diplomat, male, age 44, x 439, y 310, portrait TomomiIwakura 
 traits NaturalDiplomatSkill 2 , Secretive 1 , GoodDiplomat 2 , AgentPiety 1 
 
-character	Kiyotaka Kuroda, named character, male, age 29, x 474, y 381, portrait KiyotakaKuroda 
+character	Kiyotaka Kuroda, named character, male, age 29, x 475, y 382, portrait KiyotakaKuroda 
 traits Disciplinarian 2 , GoodAdministrator 3 , GoodCommander 2 , GoodFarmer 2 , GoodDiplomacy 1 , GoodBuilder 2 , LoyaltyStarter 1 , NaturalMilitarySkill 1 , ReligionStarter 1 , Scout 2 , Xenophilia 1 
 army
-unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		SE Late Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+unit		Japan Satsuma Hoheitai			exp 3 armour 0 weapon_lvl 0
+unit		Japan Satsuma Hoheitai			exp 3 armour 0 weapon_lvl 0
+unit		Japan Satsuma Hoheitai			exp 3 armour 0 weapon_lvl 0
+unit		Japan Satsuma Hoheitai			exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Kiheitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+
+character	Mora Suzuki, named character, male, age 20, x 475, y 383 
+traits LoyaltyStarter 1 , ReligionStarter 1 
+army
+unit		SE Late Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Japan Seishi				exp 3 armour 0 weapon_lvl 0
+unit		Japan Seishi				exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei Han		exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Kiheitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Teppotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Teppotai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Kachi				exp 3 armour 0 weapon_lvl 0
+unit		Japan Kachi				exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Satcho			exp 3 armour 0 weapon_lvl 0
 
 
 
@@ -3234,32 +3277,57 @@ settlement castle
 	}
 }
 
-character	Jules Brunet, named character, male, age 31, x 473, y 382, portrait JulesBrunet 
+character	Jules Brunet, named character, male, age 31, x 477, y 382, portrait JulesBrunet 
 traits Brave 3 , StrategicSkill 1 , Disciplinarian 1 , DeceiverVirtue 1 , HaleAndHearty 1 , LoyaltyStarter 1 , Scout 1 , AcademyTrained 1 
 army
-unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		SE Late Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Japan Denshutai Kihei			exp 0 armour 0 weapon_lvl 0
+unit		Japan Denshutai				exp 0 armour 0 weapon_lvl 0
 
-character	Takeaki Enomoto, named character, male, leader, age 32, x 477, y 382, portrait TakeakiEnomoto 
+character	Takeaki Enomoto, named character, male, leader, age 32, x 476, y 382, portrait TakeakiEnomoto 
 traits Factionleader 1 , GoodAdministrator 1 , GoodDiplomacy 1 , GoodDefender 1 , GoodSiegeDefender 2 , GoodEngineer 1 , Intelligent 1 , NaturalMilitarySkill 1 , ReligionStarter 1 , RhetoricSkill 1 
 ancillaries shipwright
 army
-unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		SE Late Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Japan Karasugumi			exp 3 armour 0 weapon_lvl 0
+unit		Japan Denshutai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Denshutai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Gakuheitai			exp 3 armour 0 weapon_lvl 0
+unit		Japan Gakuheitai			exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Shogun			exp 3 armour 0 weapon_lvl 0
 
-character	Taro Matsudaira, named character, male, heir, age 30, x 476, y 383, portrait TaroMatsudaira 
+character	Taro Matsudaira, named character, male, heir, age 30, x 477, y 381, portrait TaroMatsudaira 
 traits Factionheir 1 , LoyaltyStarter 1 , ReligionStarter 1 
 army
-unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		SE Late Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei			exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
 
 character	Toshizo Hijikata, named character, male, age 34, x 476, y 381, portrait ToshizoHijikata 
 traits AssassinMaster 3 , Brave 4 , CounterSpy 3 , Disciplinarian 1 , Handsome 2 , LogisticalSkill 2 , LoyaltyStarter 1 , NaturalMilitarySkill 3 , NightBattleCapable 1 , ReligionStarter 1 , SpyMaster 3 , TacticalSkill 3 , GoodAmbusher 2 , GoodArtilleryCommander 2 , GoodInfantryGeneral 2 , GoodRiskyAttacker 1 
 ancillaries spymaster
 army
-unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		SE Late Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Japan Denshutai Kihei			exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei			exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei			exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Shinsengumi			exp 3 armour 0 weapon_lvl 0
+unit		Japan Basilisk Shogun			exp 3 armour 0 weapon_lvl 0
 
-character	Keisuke Otori, named character, male, age 36, x 474, y 383, portrait KeisukeOtori 
+character	Keisuke Otori, named character, male, age 36, x 476, y 383, portrait KeisukeOtori 
 traits Anger 1 , AcademyTrained 1 , BadCommander 2 , Coward 1 , GloriousFool 1 , GoodDiplomacy 1 , InspiringSpeaker 3 , LenientJustice 1 , LoyaltyStarter 1 , ReligionStarter 1 , Xenophilia 3 
 army
-unit		SE Late Bodyguard			exp 0 armour 0 weapon_lvl 0
+unit		SE Late Bodyguard			exp 3 armour 0 weapon_lvl 0
+unit		Japan Revolver Kihei			exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
+unit		Japan Sampeitai				exp 3 armour 0 weapon_lvl 0
 
 
 
@@ -3548,8 +3616,8 @@ faction_relationships 	venice, at_war_with 	ezo, slave
 faction_relationships 	sicily, allied_to 	timurids
 faction_relationships 	sicily, at_war_with 	slave
 faction_relationships 	milan, at_war_with 	slave
-faction_relationships	scotland, protectorate_of	timurids
-faction_relationships	byzantium, protectorate_of	spain
+faction_relationships 	scotland, allied_to 	timurids
+faction_relationships 	byzantium, allied_to 	spain
 faction_relationships 	byzantium, at_war_with 	slave
 faction_relationships 	russia, at_war_with 	slave
 faction_relationships 	moors, at_war_with 	spain, slave
@@ -3562,7 +3630,7 @@ faction_relationships 	portugal, at_war_with 	slave
 faction_relationships 	hungary, at_war_with 	slave
 faction_relationships 	papal_states, at_war_with 	slave
 faction_relationships 	aztecs, at_war_with 	slave
-faction_relationships	mongols, protectorate_of	timurids
+faction_relationships 	mongols, allied_to 	timurids
 faction_relationships 	mongols, at_war_with 	slave
 faction_relationships 	timurids, allied_to 	mongols, ryukyu, scotland, sicily
 faction_relationships 	timurids, at_war_with 	slave, turks, egypt
@@ -3571,11 +3639,10 @@ faction_relationships 	saxons, at_war_with 	slave
 faction_relationships 	slave, at_war_with 	sicily, saxons, timurids, ezo, normans, france, burma, mongols, spain, venice, hre, turks, moors, egypt, byzantium, aztecs, russia, papal_states, hungary, milan, portugal, denmark, england
 faction_relationships 	ezo, allied_to 	france
 faction_relationships 	ezo, at_war_with 	slave, venice
-faction_relationships 	ryukyu, allied_to 	timurids
-faction_relationships	ryukyu, protectorate_of	venice
-faction_relationships	nepal, protectorate_of	england
+faction_relationships 	ryukyu, allied_to 	timurids, venice
+faction_relationships 	nepal, allied_to 	england
 faction_relationships 	burma, at_war_with 	slave
-faction_relationships	india, protectorate_of	england
+faction_relationships 	india, allied_to 	england
 
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ; >>>> start of regions section <<<<
